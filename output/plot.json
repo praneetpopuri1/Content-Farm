@@ -1,0 +1,231 @@
+{
+  "media_format": "Gameplay stream / Let's Play video featuring a multi-person voice call and a picture-in-picture facecam of the primary streamer.",
+  "overall_setting": {
+    "location": "Colorful, cartoonish 3D mini-golf courses (\"Sandbanks,\" \"Lone Island,\" \"Bullseye,\" \"Treasure Island\") with interactive hazards, vehicles, and weapons.",
+    "time_period": "Present day",
+    "visual_atmosphere": "Bright, vibrant, chaotic, and humorous.",
+    "social_context": "A casual, high-energy competitive session among a group of popular online streamers."
+  },
+  "key_characters": [
+    {
+      "character_id": "Squeex",
+      "name": "Squeex",
+      "role": "Main POV streamer",
+      "description": "On-camera, initially clueless about mechanics, easily flustered, but rapidly learns.",
+      "personality": "Flustered but capable of learning",
+      "goals_or_motivations": "Survive the teasing and win holes.",
+      "evidence": "Clueless about mechanics/rapidly learns",
+      "confidence": "high"
+    },
+    {
+      "character_id": "Leslie",
+      "name": "Leslie (Fuslie)",
+      "role": "Streamer and lobby host",
+      "description": "Vocal, competitive, and instigator of the sub-gifting bets.",
+      "personality": "Vocal and competitive",
+      "goals_or_motivations": "Secure wins and tease Squeex.",
+      "evidence": "Host/Instigator of sub-gifting bets",
+      "confidence": "high"
+    },
+    {
+      "character_id": "Valkyrae",
+      "name": "Valkyrae (Rae)",
+      "role": "Streamer and participant",
+      "description": "Highly competitive streamer, strong player who consistently shoots for first place.",
+      "personality": "Highly competitive",
+      "goals_or_motivations": "Consistently shoot for first place.",
+      "evidence": "Strong player consistently shooting for first place",
+      "confidence": "high"
+    },
+    {
+      "character_id": "Bronny",
+      "name": "Bronny",
+      "role": "Streamer and participant",
+      "description": "Friendly but joins in on the chaotic targeting of other players.",
+      "personality": "Friendly and chaotic",
+      "goals_or_motivations": "Play and join in targeting others.",
+      "evidence": "Joins in on the chaotic targeting of other players",
+      "confidence": "high"
+    },
+    {
+      "character_id": "QT",
+      "name": "QT (QTCinderella)",
+      "role": "Coach",
+      "description": "Inferred participant, heard giving Squeex mechanical advice from the background/chat.",
+      "personality": "Helpful",
+      "goals_or_motivations": "Provide mechanical advice.",
+      "evidence": "Heard giving Squeex mechanical advice from the background/chat",
+      "confidence": "high"
+    }
+  ],
+  "relationship_graph": [
+    {
+      "source": "The Group",
+      "target": "Squeex",
+      "relationship": "Target of jokes/sabotage",
+      "evidence": "Designated target for jokes due to his initial incompetence and suspicious account sharing history.",
+      "confidence": "high"
+    },
+    {
+      "source": "Leslie",
+      "target": "Squeex",
+      "relationship": "Competitive antagonist",
+      "evidence": "Leslie initiates sub-gifting bets and targets Squeex for teasing.",
+      "confidence": "high"
+    },
+    {
+      "source": "Bronny",
+      "target": "Squeex",
+      "relationship": "In-game saboteur",
+      "evidence": "Bronny used an in-game dueling pistol to shoot Squeex.",
+      "confidence": "high"
+    }
+  ],
+  "narrative_timeline": {
+    "overarching_plot": "Squeex is no longer the bumbling, helpless novice. He has rapidly adjusted to the chaotic physics, weapons, and vehicles of the game. He consistently challenges the lobby leader, Ludwig (\"happily married\"), for 1st place. Because Squeex has become a genuine mechanical threat, the rest of the lobby (Leslie, Valkyrae, and Bronny) shifts their focus from passive teasing to coordinated, high-aggression target-sabotage. Valkyrae emerges as Squeex's primary emotional rival, venting massive comedic rage as Squeex consistently outmaneuvers her.",
+    "themes": [
+      "Casual gaming camaraderie",
+      "fast-paced learning curves",
+      "competitive pride"
+    ],
+    "plotline": [
+      {
+        "thread": "Lobby Setup",
+        "detailed_description": "Introduction of the players, establishing the sub bet rules, and early character banter.",
+        "relation_to_overall_plot": "Sets the stakes for the session.",
+        "status": "resolved",
+        "characters_involved": [
+          "Squeex",
+          "Leslie",
+          "Valkyrae",
+          "Bronny"
+        ],
+        "start": "00:00",
+        "end": "05:09"
+      },
+      {
+        "thread": "Hole 1 (Sandbanks)",
+        "detailed_description": "Squeex's lowest point; extreme mechanical struggle and failure.",
+        "relation_to_overall_plot": "Establishes Squeex as the inept novice.",
+        "status": "resolved",
+        "characters_involved": [
+          "Squeex",
+          "Leslie",
+          "Valkyrae",
+          "Bronny"
+        ],
+        "start": "05:10",
+        "end": "08:25"
+      },
+      {
+        "thread": "Hole 2 (Lone Island)",
+        "detailed_description": "Introduction of chaotic item mechanics (weapons and traps) increasing the lobby's hostility.",
+        "relation_to_overall_plot": "Increases the difficulty and competitive pressure.",
+        "status": "resolved",
+        "characters_involved": [
+          "Squeex",
+          "Bronny"
+        ],
+        "start": "08:26",
+        "end": "11:00"
+      },
+      {
+        "thread": "Hole 3 (Bullseye)",
+        "detailed_description": "Squeex learns to aim, leveling his playstyle with the rest of the group.",
+        "relation_to_overall_plot": "Turning point in Squeex's mechanical mastery.",
+        "status": "resolved",
+        "characters_involved": [
+          "Squeex"
+        ],
+        "start": "11:01",
+        "end": "12:52"
+      },
+      {
+        "thread": "Hole 4 (Treasure Island)",
+        "detailed_description": "Squeex actively utilizes items and vehicles to successfully compete and sabotage opponents.",
+        "relation_to_overall_plot": "Squeex shifts from victim to active threat.",
+        "status": "developing",
+        "characters_involved": [
+          "Squeex",
+          "Leslie",
+          "Bronny"
+        ],
+        "start": "12:53",
+        "end": "15:58"
+      },
+      {
+        "thread": "Hole 4 Resolution (Treasure Island)",
+        "detailed_description": "Squeex finishes 2nd overall on this hole, establishing that he has learned the core driving and aiming mechanics.",
+        "relation_to_overall_plot": "Solidifies Squeex's transition from victim to competitive threat.",
+        "status": "resolved",
+        "characters_involved": [
+          "Squeex"
+        ],
+        "start": "15:00",
+        "end": "15:58"
+      },
+      {
+        "thread": "Hole 5 (Atoll)",
+        "detailed_description": "Squeex tries to use heavy weaponry (bazooka) but ends up blowing himself up alongside Valkyrae.",
+        "relation_to_overall_plot": "Highlights the chaotic, double-edged nature of the game's weapon mechanics as Squeex continues to experiment.",
+        "status": "resolved",
+        "characters_involved": [
+          "Squeex",
+          "Valkyrae"
+        ],
+        "start": "15:58",
+        "end": "19:03"
+      },
+      {
+        "thread": "Hole 6 (Hidden Lagoon) & Hole 7 (Roundabout)",
+        "detailed_description": "Squeex is targeted with ice freezes, golf carts, and pistols right off the tee by Bronny and Leslie.",
+        "relation_to_overall_plot": "Marks the point where the lobby officially unites to suppress Squeex's rising score.",
+        "status": "resolved",
+        "characters_involved": [
+          "Squeex",
+          "Bronny",
+          "Leslie"
+        ],
+        "start": "19:03",
+        "end": "24:12"
+      },
+      {
+        "thread": "Hole 8 (Overlook)",
+        "detailed_description": "Leslie and Valkyrae form a formal verbal alliance to target Squeex.",
+        "relation_to_overall_plot": "Escalates the competitive pride and rivalry, particularly between Valkyrae and Squeex.",
+        "status": "resolved",
+        "characters_involved": [
+          "Leslie",
+          "Valkyrae",
+          "Squeex"
+        ],
+        "start": "24:12",
+        "end": "26:32"
+      },
+      {
+        "thread": "Hole 9 (Donut)",
+        "detailed_description": "Squeex secures a dramatic 1st-place finish on the hole. Valkyrae breaks down in comedic frustration, labeling Squeex a hypnotic \"siren.\"",
+        "relation_to_overall_plot": "Squeex wins the first half of the competitive set, cementing his mechanical threat status and driving the lobby's comedic dynamic.",
+        "status": "resolved",
+        "characters_involved": [
+          "Squeex",
+          "Valkyrae"
+        ],
+        "start": "26:32",
+        "end": "29:19"
+      },
+      {
+        "thread": "Hole 10 (Upward)",
+        "detailed_description": "The second half of the match begins on a steep, vertical course. Both Squeex and Valkyrae immediately face slope-related setbacks.",
+        "relation_to_overall_plot": "Introduces a new, highly difficult map layout that tests Squeex's mechanical adaptation.",
+        "status": "introduced",
+        "characters_involved": [
+          "Squeex",
+          "Valkyrae"
+        ],
+        "start": "29:19",
+        "end": "30:00"
+      }
+    ]
+  }
+}
