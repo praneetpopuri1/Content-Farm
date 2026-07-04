@@ -1,0 +1,207 @@
+{
+  "media_format": "Livestream Highlight / Gameplay VOD. Features a dual-screen presentation: streamer Squeex's live webcam and facecam reaction on the left, with full-screen captured gameplay of a chaotic multiplayer mini-golf game on the right, overlaid with a scrolling Twitch chat.",
+  "overall_setting": {
+    "location": "Remote online multiplayer lobby; each creator is in their respective home streaming setup.",
+    "time_period": "Mid-June (specifically Juneteenth, as mentioned in the dialogue).",
+    "visual_atmosphere": "Bright, colorful, cartoonish 3D game aesthetic with tropical and fantasy-themed golf courses.",
+    "social_context": "Casual, highly interactive gathering of popular content creators playing a party game with live audience interaction via chat."
+  },
+  "key_characters": [
+    {
+      "character_id": "Squeex",
+      "name": "Squeex (In-game: \"Air Coots\")",
+      "role": "Primary POV streamer.",
+      "description": "adapted quickly to the physics and plays highly strategically, regularly out-putting and out-maneuvering his opponents",
+      "personality": "highly strategic, calm, and quick to adapt",
+      "goals_or_motivations": "Win rounds, avoid last place, and master the basic physics of the game.",
+      "evidence": "Primary POV streamer with webcam/facecam.",
+      "confidence": "high"
+    },
+    {
+      "character_id": "Leslie",
+      "name": "Leslie (In-game: \"happily married\" / Fuslie)",
+      "role": "Lobby host and instigator of sub bets.",
+      "description": "Playful, confident, and mock-arrogant about her skill.",
+      "personality": "Playful, confident, and mock-arrogant.",
+      "goals_or_motivations": "Assert dominance on her \"special day\" and win sub gifts.",
+      "evidence": "Lobby host and instigator of sub bets.",
+      "confidence": "high"
+    },
+    {
+      "character_id": "Valkyrae",
+      "name": "Valkyrae (In-game: \"VALKYRAE\")",
+      "role": "Competitive lobby participant.",
+      "description": "Loud, aggressive gamer energy, highly reactive to physical in-game disruptions.",
+      "personality": "Loud, aggressive gamer.",
+      "goals_or_motivations": "Outplay her friends and actively sabotage Squeex and Ludwig.",
+      "evidence": "Competitive lobby participant.",
+      "confidence": "high"
+    },
+    {
+      "character_id": "Ludwig",
+      "name": "Ludwig (In-game: \"bronny\")",
+      "role": "Banter leader and tactical player.",
+      "description": "Calm, smug, highly strategic with weapon/item pickups.",
+      "personality": "Calm, smug, highly strategic.",
+      "goals_or_motivations": "Sabotage Squeex and boast about his real-life financial affairs (taxes/brand deals) to bait the lobby.",
+      "evidence": "Banter leader and tactical player.",
+      "confidence": "high"
+    }
+  ],
+  "relationship_graph": [
+    {
+      "source": "Ludwig",
+      "target": "Squeex",
+      "relationship": "Highly sarcastic rivalry; constant needling about account sharing, streamer taxes, and gameplay failures.",
+      "evidence": "Ludwig constantly needle Squeex about account sharing, streamer taxes, and gameplay failures. Squeex reacts with comedic fury.",
+      "confidence": "high"
+    },
+    {
+      "source": "Lobby",
+      "target": "Squeex",
+      "relationship": "Collectively target Squeex as the comedic punching bag due to his struggle with basic movement.",
+      "evidence": "The lobby collectively targets Squeex due to his obvious struggle with basic movement.",
+      "confidence": "high"
+    },
+    {
+      "source": "Leslie",
+      "target": "Lobby",
+      "relationship": "Manipulative of sub betting rules.",
+      "evidence": "Leslie attempts to manipulate the lobby's sub betting rules to favor herself, causing playful pushback from Ludwig and Squeex.",
+      "confidence": "high"
+    }
+  ],
+  "narrative_timeline": {
+    "overarching_plot": "Valkyrae experiences the complete descent into extreme gamer tilt and mechanical failure, while Squeex plays very well, stays calm, and maintains a high standing.",
+    "themes": [
+      "Streamer Hubris vs. Ineptitude",
+      "Fluid Alliances",
+      "Financial Banter"
+    ],
+    "plotline": [
+      {
+        "thread": "Lobby & Bets",
+        "detailed_description": "Establishment of the competitive stakes. The group sets up the 10-sub wager and establishes Leslie as the self-appointed protagonist.",
+        "relation_to_overall_plot": "Setting up the stakes for the game.",
+        "status": "resolved",
+        "characters_involved": [
+          "Squeex",
+          "Leslie",
+          "Valkyrae",
+          "Ludwig"
+        ],
+        "start": "0",
+        "end": "308"
+      },
+      {
+        "thread": "First Hole",
+        "detailed_description": "Reality check for Squeex. The chaotic physics of \"Golf Gang\" are introduced, leaving Squeex far behind.",
+        "relation_to_overall_plot": "Introduction of the game's chaotic mechanics.",
+        "status": "resolved",
+        "characters_involved": [
+          "Squeex",
+          "Leslie",
+          "Valkyrae",
+          "Ludwig"
+        ],
+        "start": "309",
+        "end": "505"
+      },
+      {
+        "thread": "Weapon Escalation",
+        "detailed_description": "The players realize they can physically attack one another, transforming the golf match into a violent combat arena. Squeex is targeted relentlessly.",
+        "relation_to_overall_plot": "Shift from golf gameplay to combat sabotage.",
+        "status": "developing",
+        "characters_involved": [
+          "Squeex",
+          "Ludwig",
+          "Valkyrae"
+        ],
+        "start": "506",
+        "end": "779"
+      },
+      {
+        "thread": "The Sabotage Arc",
+        "detailed_description": "Squeex attempts to adapt to the game's mechanics but is strategically frozen by his rivals, cementing his status at the bottom of the scoreboard.",
+        "relation_to_overall_plot": "Climax of the targeting against Squeex.",
+        "status": "unresolved",
+        "characters_involved": [
+          "Squeex",
+          "Leslie",
+          "Ludwig"
+        ],
+        "start": "780",
+        "end": "900"
+      },
+      {
+        "thread": "The Rocket Era / Weapon Escalation",
+        "detailed_description": "Heavy explosives (bazookas) are introduced on Hole 5. Players routinely blow themselves up, proving that the arms race backfires on everyone.",
+        "relation_to_overall_plot": "Highlights how escalating physical hazards backfire on the lobby, adding to the chaotic environment.",
+        "status": "introduced",
+        "characters_involved": [
+          "Squeex",
+          "Valkyrae",
+          "Leslie",
+          "Ludwig"
+        ],
+        "start": "958",
+        "end": "1143"
+      },
+      {
+        "thread": "Psychological Threats",
+        "detailed_description": "Leslie introduces the 'bad stream list' penalty on Hole 6, raising the long-term stakes of the game beyond simple sub bets.",
+        "relation_to_overall_plot": "Aligns with Leslie maintaining chaotic energy and long-term consequences in the lobby.",
+        "status": "introduced",
+        "characters_involved": [
+          "Leslie",
+          "Ludwig"
+        ],
+        "start": "1144",
+        "end": "1293"
+      },
+      {
+        "thread": "Valkyrae\u2019s Descent",
+        "detailed_description": "Valkyrae's singular focus on sabotaging Squeex on Hole 7 leads to her dropping to a distant 4th place, shifting the competitive balance.",
+        "relation_to_overall_plot": "Represents the core narrative shift where Valkyrae's obsession with Squeex causes her mechanical and emotional failure.",
+        "status": "developing",
+        "characters_involved": [
+          "Valkyrae",
+          "Squeex"
+        ],
+        "start": "1294",
+        "end": "1450"
+      },
+      {
+        "thread": "Minefield Sabotage",
+        "detailed_description": "Ludwig and Squeex coordinate mine placements on Hole 8 to completely isolate Valkyrae, cementing her descent into total gamer rage.",
+        "relation_to_overall_plot": "Illustrates Squeex's shift to an active, defensive playstyle that exploits Valkyrae's tilt.",
+        "status": "developing",
+        "characters_involved": [
+          "Ludwig",
+          "Squeex",
+          "Valkyrae"
+        ],
+        "start": "1451",
+        "end": "1591"
+      },
+      {
+        "thread": "The Freeze-Out",
+        "detailed_description": "Squeex freezes Valkyrae at the cup on Hole 9 to steal 1st place, completing her emotional defeat and establishing Squeex as the dominant player of this segment.",
+        "relation_to_overall_plot": "Resolves the competitive arc of this segment, finalizing Valkyrae's defeat and rising Squeex in the rankings.",
+        "status": "resolved",
+        "characters_involved": [
+          "Squeex",
+          "Valkyrae"
+        ],
+        "start": "1592",
+        "end": "1800"
+      }
+    ],
+    "plot_update": [
+      {
+        "update_number": 1,
+        "update": "The narrative focus shifts from 'the lobby bullying Squeex' to an aggressive, personal feud between Squeex and Valkyrae. Valkyrae's obsessive targeting of Squeex leads to her own mechanical failures and extreme emotional 'tilt.' Squeex exploits this by adopting a smug, defensive playstyle, actively sabotaging Valkyrae to rise in the rankings while she falls to the bottom of the scoreboard. Meanwhile, Leslie uses the threat of future stream punishments to maintain chaotic energy in the lobby."
+      }
+    ]
+  }
+}

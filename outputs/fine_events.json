@@ -1,0 +1,604 @@
+{
+  "segments": [
+    {
+      "event_name": "Juneteenth discussion",
+      "start_sec": 0,
+      "end_sec": 23,
+      "paraphrased_dialogue": "My chat is saying today is your day, Leslie. No, it's Juneteenth. So Juneteenth is Leslie's day?",
+      "narrative_relevance": "Establishes comedic lobby chemistry before the match starts.",
+      "visual_description": "Streamer's facecam is active. The 3D in-game avatar explores the lobby area."
+    },
+    {
+      "event_name": "Character skin discussion",
+      "start_sec": 23,
+      "end_sec": 43,
+      "paraphrased_dialogue": "You have a skin, so you must have played this game. No, I haven't. Look at your character's hair.",
+      "narrative_relevance": "Builds a playful mystery surrounding Squeex's gaming history.",
+      "visual_description": "The avatar jumps onto a giant green play button screen in the center of the lobby."
+    },
+    {
+      "event_name": "Squeex's play hour mystery",
+      "start_sec": 43,
+      "end_sec": 64,
+      "paraphrased_dialogue": "I have hours logged on Steam, but I've genuinely never played. I know you guys played before.",
+      "narrative_relevance": "Squeex's friends tease him, suspecting he might be a secret expert.",
+      "visual_description": "The avatar runs and dives across the grassy field near several golf carts."
+    },
+    {
+      "event_name": "Account sharing confession",
+      "start_sec": 64,
+      "end_sec": 86,
+      "paraphrased_dialogue": "Maybe someone played on your account? Wait, QT played on mine. Ah, account sharing, GG.",
+      "narrative_relevance": "Resolves the mystery of Squeex's play hours.",
+      "visual_description": "Squeex hops into a white golf cart and drives around the lobby."
+    },
+    {
+      "event_name": "The golf cart flip",
+      "start_sec": 86,
+      "end_sec": 109,
+      "paraphrased_dialogue": "Let's go on an adventure. Are you online, Leslie? I was invisible online.",
+      "narrative_relevance": "Foreshadows Squeex's poor mechanical skills via driving struggles.",
+      "visual_description": "The golf cart flips upside down after colliding with a tree."
+    },
+    {
+      "event_name": "Bronny joins and sub bet introduction",
+      "start_sec": 109,
+      "end_sec": 130,
+      "paraphrased_dialogue": "Bronny is here! Okay, we have a bet on the line. 10 subs to the winner, right?",
+      "narrative_relevance": "Introduces the central stakes (sub bet) for the mini-golf match.",
+      "visual_description": "Squeex abandons the flipped vehicle and drives a new cart back to the center."
+    },
+    {
+      "event_name": "Bet rules clarification",
+      "start_sec": 130,
+      "end_sec": 150,
+      "paraphrased_dialogue": "If I win, everyone gifts me 10 subs. That doesn't make any sense. But I have to win, think about it.",
+      "narrative_relevance": "Leslie proposes heavily biased bet terms, prompting funny arguments.",
+      "visual_description": "Leslie's character stands atop the giant TV screen while Squeex watches."
+    },
+    {
+      "event_name": "Counter-proposal banter",
+      "start_sec": 150,
+      "end_sec": 171,
+      "paraphrased_dialogue": "If you don't win, you should gift to everyone who beats you. No, that costs way too much.",
+      "narrative_relevance": "The players bargain to make the competitive bet fairer.",
+      "visual_description": "Close-up of the giant lobby screen displaying Leslie's in-game character."
+    },
+    {
+      "event_name": "Leslie's game day explanation",
+      "start_sec": 171,
+      "end_sec": 192,
+      "paraphrased_dialogue": "What if we play for fun? No, don't take her day from her. It's just today is my game day.",
+      "narrative_relevance": "Continuation of comedic banter regarding Leslie's self-declared 'game day'.",
+      "visual_description": "The giant lobby screen displays a close-up of a cheerful cat character."
+    },
+    {
+      "event_name": "Bet finalized",
+      "start_sec": 192,
+      "end_sec": 213,
+      "paraphrased_dialogue": "I found the lobby. We can play for subs. I can't gift right now, my card isn't set up.",
+      "narrative_relevance": "The players commit to the sub bet before starting the match.",
+      "visual_description": "The giant screen switches to show Squeex's custom character, making him laugh."
+    },
+    {
+      "event_name": "Tax joke and movement",
+      "start_sec": 213,
+      "end_sec": 234,
+      "paraphrased_dialogue": "I just paid my estimated taxes. Was it bad? Yes, it is not friendly in New York.",
+      "narrative_relevance": "Spontaneous comedic chat about real-world finance during game setup.",
+      "visual_description": "Squeex runs his character across the field towards the hitting bays."
+    },
+    {
+      "event_name": "First practice swing",
+      "start_sec": 234,
+      "end_sec": 255,
+      "paraphrased_dialogue": "I had to pay a lot of taxes. My mouse isn't connecting, wait. There it is.",
+      "narrative_relevance": "Squeex tests his swing for the first time while facing technical issues.",
+      "visual_description": "Squeex performs a practice golf swing, sending the ball soaring."
+    },
+    {
+      "event_name": "Phone call gag",
+      "start_sec": 255,
+      "end_sec": 277,
+      "paraphrased_dialogue": "Why are you mentioning brands? One second, I'm getting an AT&T call. Yes, I love gigabit fiber.",
+      "narrative_relevance": "Squeex executes a fake sponsor call to annoy his friends.",
+      "visual_description": "Squeex runs around the course collecting rotating purple question mark items."
+    },
+    {
+      "event_name": "Game setup finalized",
+      "start_sec": 277,
+      "end_sec": 300,
+      "paraphrased_dialogue": "Let's start the match. 10 subs to the winner, and we'll rotate. Let's do 18 holes.",
+      "narrative_relevance": "Match parameters are locked in, transition to the first hole begins.",
+      "visual_description": "Squeex continues running and diving on the grass field."
+    },
+    {
+      "event_name": "Setting the Stakes",
+      "start_sec": 300,
+      "end_sec": 338,
+      "paraphrased_dialogue": "Players agree on a 10-sub gifting bet for the last-place finisher as Squeex asks for a restroom break.",
+      "narrative_relevance": "Establishes competitive stakes and a playful atmosphere before the match starts.",
+      "visual_description": "Players run around a starting field grabbing power-ups as Squeex's webcam is shown in the corner."
+    },
+    {
+      "event_name": "Sandbanks Hole 1 Begins",
+      "start_sec": 338,
+      "end_sec": 365,
+      "paraphrased_dialogue": "The group announces the first hole, Sandbanks, and starts sprinting after their golf balls.",
+      "narrative_relevance": "Transitions the streamers into active gameplay, introducing the running mechanics.",
+      "visual_description": "A panoramic flyover of the Sandbanks course followed by players teeing off and sprinting."
+    },
+    {
+      "event_name": "Water and Rough Penalties",
+      "start_sec": 365,
+      "end_sec": 388,
+      "paraphrased_dialogue": "Squeex gets penalized and asks why. Others explain that hitting the water causes a penalty.",
+      "narrative_relevance": "Highlights Squeex's initial struggle with game rules and physics.",
+      "visual_description": "Squeex repeatedly hits his ball into the rough and water, receiving red penalty markers."
+    },
+    {
+      "event_name": "Learning to Aim",
+      "start_sec": 388,
+      "end_sec": 410,
+      "paraphrased_dialogue": "A player explains how to aim as Squeex gets knocked over by another golfer.",
+      "narrative_relevance": "Shows players helping Squeex with basics while physical interference begins.",
+      "visual_description": "Squeex tries to aim his shot but is physically bumped and falls over on the course."
+    },
+    {
+      "event_name": "Weaponized Retaliation",
+      "start_sec": 410,
+      "end_sec": 438,
+      "paraphrased_dialogue": "Squeex threatens to shoot Bronny as weapons are fired in-game.",
+      "narrative_relevance": "Escalates physical conflict among the players through the use of weapons.",
+      "visual_description": "Squeex chases Bronny while wielding an elephant gun and attempting to shoot."
+    },
+    {
+      "event_name": "Airborne Explosion",
+      "start_sec": 438,
+      "end_sec": 464,
+      "paraphrased_dialogue": "Streamers scream as weapons blast characters across the screen.",
+      "narrative_relevance": "Showcases the chaotic, weapon-heavy nature of the match preventing players from scoring.",
+      "visual_description": "Squeex is shot by an opponent and flies dramatically through the air onto the beach."
+    },
+    {
+      "event_name": "Greenside Collisions",
+      "start_sec": 464,
+      "end_sec": 488,
+      "paraphrased_dialogue": "Squeex complains that another player's ball blocked his shot near the hole.",
+      "narrative_relevance": "Demonstrates the physical interference mechanics on the putting green.",
+      "visual_description": "Multiple golf balls collide near the cup as characters crowd the small green."
+    },
+    {
+      "event_name": "Clutch Hole Out",
+      "start_sec": 488,
+      "end_sec": 510,
+      "paraphrased_dialogue": "Squeex screams about his shot power, then successfully holes out in first place.",
+      "narrative_relevance": "Squeex achieves a surprising, dramatic first-place finish despite his confusion.",
+      "visual_description": "Squeex's ball drops into the cup, triggering a celebratory animation on screen."
+    },
+    {
+      "event_name": "Hole 1 Leaderboard",
+      "start_sec": 510,
+      "end_sec": 536,
+      "paraphrased_dialogue": "Valkyrae and Bronny finish as Squeex questions another player's celebration.",
+      "narrative_relevance": "Displays the final scores for Hole 1 with Squeex in the lead.",
+      "visual_description": "Remaining players hole out, and a scoreboard displays the current rankings."
+    },
+    {
+      "event_name": "Lone Island Setup",
+      "start_sec": 536,
+      "end_sec": 562,
+      "paraphrased_dialogue": "The map changes to Lone Island. Squeex claims he is completely new to the game.",
+      "narrative_relevance": "Transitions the game to the second hole, maintaining Squeex's underdog persona.",
+      "visual_description": "Flyover overview of the Lone Island map followed by the player countdown."
+    },
+    {
+      "event_name": "Immediate Sabotage",
+      "start_sec": 562,
+      "end_sec": 587,
+      "paraphrased_dialogue": "Bronny shoots Squeex right after his first drive, sparking laughter.",
+      "narrative_relevance": "Shows the quick resumption of targeting against Squeex.",
+      "visual_description": "Squeex hits his ball, runs forward, and is instantly blasted sideways by Bronny's weapon."
+    },
+    {
+      "event_name": "Drowning and Respawn",
+      "start_sec": 587,
+      "end_sec": 600,
+      "paraphrased_dialogue": "Players laugh as Squeex drowns in the ocean and has to respawn.",
+      "narrative_relevance": "Ends the segment with Squeex struggling against the environmental hazards.",
+      "visual_description": "Squeex's character falls into the sea, drowns, and is airlifted back by a drone."
+    },
+    {
+      "event_name": "Water Penalty Debacle",
+      "start_sec": 600,
+      "end_sec": 620,
+      "paraphrased_dialogue": "You drown in the water! No, water penalty!",
+      "narrative_relevance": "Squeex suffers a major mechanical failure, reinforcing his novice status.",
+      "visual_description": "A character in a black cap runs into a water hazard on a cartoon golf course."
+    },
+    {
+      "event_name": "Dueling Pistol Experiment",
+      "start_sec": 620,
+      "end_sec": 640,
+      "paraphrased_dialogue": "Are you dead ass? I saw that.",
+      "narrative_relevance": "Squeex experiments with chaotic weapons to target other players.",
+      "visual_description": "The player fires a pistol at an opponent on a sandy beach."
+    },
+    {
+      "event_name": "Aiming Frustrations",
+      "start_sec": 640,
+      "end_sec": 660,
+      "paraphrased_dialogue": "Why is it going so far? Is it going in?",
+      "narrative_relevance": "Squeex struggles with game physics and shot power.",
+      "visual_description": "The character aims a shot with a high trajectory line indicator."
+    },
+    {
+      "event_name": "Green Explosion",
+      "start_sec": 660,
+      "end_sec": 680,
+      "paraphrased_dialogue": "Oh my Lord! What are the penalties?",
+      "narrative_relevance": "Game chaos directly disrupts Squeex's progress near the hole.",
+      "visual_description": "A dark explosion knocks the character flat on the green grass."
+    },
+    {
+      "event_name": "Lobby Finishes Hole 1",
+      "start_sec": 680,
+      "end_sec": 700,
+      "paraphrased_dialogue": "Valkyrae finished second. Common enemy!",
+      "narrative_relevance": "Opponents easily finish the hole while Squeex falls behind.",
+      "visual_description": "Other players celebrate near the flagstick while Squeex watches."
+    },
+    {
+      "event_name": "Coaching by QT Cinderella",
+      "start_sec": 700,
+      "end_sec": 720,
+      "paraphrased_dialogue": "Change your angle to zero. How do I do that?",
+      "narrative_relevance": "Squeex receives key coaching to fix his mechanical mistakes.",
+      "visual_description": "Squeex listens to background advice shown on his stream facecam."
+    },
+    {
+      "event_name": "Hole 3 setup and Aim Discovery",
+      "start_sec": 720,
+      "end_sec": 740,
+      "paraphrased_dialogue": "Hold right-click to aim. Oh, I see it now.",
+      "narrative_relevance": "Squeex learns the aiming mechanic, initiating his gameplay breakthrough.",
+      "visual_description": "An overview of the 'Bullseye' island course is displayed."
+    },
+    {
+      "event_name": "Squeex's Island Drive",
+      "start_sec": 740,
+      "end_sec": 760,
+      "paraphrased_dialogue": "That was jokes. Nice shot.",
+      "narrative_relevance": "Squeex keeps pace with other players using his new aiming skills.",
+      "visual_description": "The ball flies over the water to land on a wooden island platform."
+    },
+    {
+      "event_name": "Vertical Terrain Navigation",
+      "start_sec": 760,
+      "end_sec": 780,
+      "paraphrased_dialogue": "How do you get up there? I like this game.",
+      "narrative_relevance": "Squeex gains confidence navigating the complex terrain.",
+      "visual_description": "The character runs up steep sand dunes past rocks and trees."
+    },
+    {
+      "event_name": "Landmine Retrieval",
+      "start_sec": 780,
+      "end_sec": 800,
+      "paraphrased_dialogue": "Yes! Yes! I ruined it.",
+      "narrative_relevance": "Squeex prepares his final approach to the hole.",
+      "visual_description": "The character stands near the green holding a landmine."
+    },
+    {
+      "event_name": "Short Put Struggles",
+      "start_sec": 800,
+      "end_sec": 820,
+      "paraphrased_dialogue": "Do your best! What is happening?",
+      "narrative_relevance": "Squeex still struggles with short-range putting controls.",
+      "visual_description": "The character putts repeatedly near the flag."
+    },
+    {
+      "event_name": "Hole 3 Completion and Leaderboard",
+      "start_sec": 820,
+      "end_sec": 840,
+      "paraphrased_dialogue": "I got third. Leaderboard is up.",
+      "narrative_relevance": "Squeex secures a decent finish, showing score progression.",
+      "visual_description": "The leaderboard screen displays current player match scores."
+    },
+    {
+      "event_name": "Hole 4 Treasure Island Setup",
+      "start_sec": 840,
+      "end_sec": 860,
+      "paraphrased_dialogue": "Leslie is last. No need to mention that.",
+      "narrative_relevance": "The match transitions to Hole 4, offering Squeex a fresh start.",
+      "visual_description": "The camera displays the tropical 'Treasure Island' course layout."
+    },
+    {
+      "event_name": "Bronny Sabotages Squeex",
+      "start_sec": 860,
+      "end_sec": 880,
+      "paraphrased_dialogue": "Why, Bronny?! I never forgive.",
+      "narrative_relevance": "Active targeting of Squeex begins as Bronny disrupts his drive.",
+      "visual_description": "Squeex's character gets knocked down on the fairway."
+    },
+    {
+      "event_name": "Freeze Bomb Revenge",
+      "start_sec": 880,
+      "end_sec": 900,
+      "paraphrased_dialogue": "No! Squeex froze us! I froze them!",
+      "narrative_relevance": "Squeex successfully sabotages his rivals, proving he is a major threat.",
+      "visual_description": "Two players are encased in large, blue translucent ice blocks."
+    },
+    {
+      "event_name": "Teeing Off and In-game Chaos",
+      "start_sec": 900,
+      "end_sec": 920,
+      "paraphrased_dialogue": "I never forgive or forget. Oh, Bronny got frozen! You froze yourself!",
+      "narrative_relevance": "Squeex pursues his rivals on Hole 4, using weapons to retaliate.",
+      "visual_description": "Streamer facecam on left. Gameplay shows Squeex running through a green course, blasting Bronny with a rocket driver."
+    },
+    {
+      "event_name": "Navigating Hole 4",
+      "start_sec": 920,
+      "end_sec": 940,
+      "paraphrased_dialogue": "You froze yourself like an idiot, Squeex.",
+      "narrative_relevance": "Squeex positions himself for a long shot to secure his standing.",
+      "visual_description": "Squeex aims and takes a high-power swing on the grassy hill."
+    },
+    {
+      "event_name": "Golf Cart Chase on Hole 4",
+      "start_sec": 940,
+      "end_sec": 960,
+      "paraphrased_dialogue": "I will never forget! Someone shoot him!",
+      "narrative_relevance": "The players race to the green using golf carts to gain a speed advantage.",
+      "visual_description": "Squeex drives a golf cart along the water's edge to reach his ball."
+    },
+    {
+      "event_name": "Race to the Flag on Hole 4",
+      "start_sec": 960,
+      "end_sec": 980,
+      "paraphrased_dialogue": "She is in first! No, I am not!",
+      "narrative_relevance": "Squeex learns the utility of golf carts to navigate the terrain quickly.",
+      "visual_description": "Squeex drives his golf cart to the top of the hill, bypassing other players."
+    },
+    {
+      "event_name": "Squeex Secures 2nd Place on Hole 4",
+      "start_sec": 980,
+      "end_sec": 1000,
+      "paraphrased_dialogue": "I learned the game! Squeex finished second!",
+      "narrative_relevance": "Squeex finishes 2nd on Hole 4, proving his improvement.",
+      "visual_description": "Squeex puts the ball in and celebrates his successful second-place finish."
+    },
+    {
+      "event_name": "Valkyrae Struggles on Hole 4",
+      "start_sec": 1000,
+      "end_sec": 1020,
+      "paraphrased_dialogue": "Oh no, I hit it so far!",
+      "narrative_relevance": "Valkyrae struggles, falling behind on the leaderboard while Squeex climbs.",
+      "visual_description": "Squeex watches on facecam as Valkyrae misses multiple putts."
+    },
+    {
+      "event_name": "Hole 5 Setup and Self-Sabotage",
+      "start_sec": 1020,
+      "end_sec": 1040,
+      "paraphrased_dialogue": "I like golfing in real life. I have never done it.",
+      "narrative_relevance": "Squeex attempts to blast Valkyrae off the tee but blows himself up instead.",
+      "visual_description": "Squeex fires a rocket launcher at the start of Hole 5, catching himself in the blast."
+    },
+    {
+      "event_name": "Recovering on Hole 5",
+      "start_sec": 1040,
+      "end_sec": 1060,
+      "paraphrased_dialogue": "I hurt myself, I couldn't help it. We must get the women.",
+      "narrative_relevance": "Squeex recovers from his self-inflicted blast and launches his first golf stroke.",
+      "visual_description": "Squeex takes a long shot from the sandy beach across the water."
+    },
+    {
+      "event_name": "Targeted by Bronny on Hole 5",
+      "start_sec": 1060,
+      "end_sec": 1080,
+      "paraphrased_dialogue": "Get out of here, bro! You are closer to me.",
+      "narrative_relevance": "Bronny targets Squeex with an elephant gun, slowing his progress.",
+      "visual_description": "Bronny shoots Squeex's character, causing him to react in frustration."
+    },
+    {
+      "event_name": "The Gender War Debate on Hole 5",
+      "start_sec": 1080,
+      "end_sec": 1100,
+      "paraphrased_dialogue": "Not attacking Squeex is straight-up sexism!",
+      "narrative_relevance": "The female streamers humorously accuse Bronny of sexism for targeting them instead of Squeex.",
+      "visual_description": "Squeex takes a shot from the shoreline towards the main island."
+    },
+    {
+      "event_name": "Valkyrae's Comical Threats",
+      "start_sec": 1100,
+      "end_sec": 1120,
+      "paraphrased_dialogue": "I will go to your place and strangle you! You will suffocate!",
+      "narrative_relevance": "Valkyrae grows increasingly tilted by Squeex's performance.",
+      "visual_description": "Squeex swims in the water, laughing at Valkyrae's over-the-top threats."
+    },
+    {
+      "event_name": "Golf Cart Hijinks on Hole 5",
+      "start_sec": 1120,
+      "end_sec": 1140,
+      "paraphrased_dialogue": "Wait till next week! I am making a list of your least favorite games!",
+      "narrative_relevance": "Leslie threatens to retaliate by forcing Squeex to stream games he hates.",
+      "visual_description": "Squeex drives his golf cart through the shallow water to reach the green."
+    },
+    {
+      "event_name": "Squeex Overcomes Obstacles on Hole 5",
+      "start_sec": 1140,
+      "end_sec": 1160,
+      "paraphrased_dialogue": "They wouldn't betray me! CS2 aim! Rematch!",
+      "narrative_relevance": "Squeex avoids obstacles and pushes toward the green despite sabotage.",
+      "visual_description": "Squeex is knocked down by an attack but gets back up to run forward."
+    },
+    {
+      "event_name": "Approaching the Hole 5 Green",
+      "start_sec": 1160,
+      "end_sec": 1180,
+      "paraphrased_dialogue": "I should make him stream Valorant. New movement tech!",
+      "narrative_relevance": "Squeex uses an electromagnet and spring boots to gain ground near the flag.",
+      "visual_description": "Squeex uses power-ups to propel his character towards the final hole."
+    },
+    {
+      "event_name": "Wrapping up Hole 5",
+      "start_sec": 1180,
+      "end_sec": 1200,
+      "paraphrased_dialogue": "USA won! We made the knockout stage!",
+      "narrative_relevance": "Squeex finishes 3rd, maintaining his competitive position in the lobby.",
+      "visual_description": "Squeex sinks his putt and celebrates his finish while Valkyrae struggles behind him."
+    },
+    {
+      "event_name": "Hole 4 Leaderboard and Setup",
+      "start_sec": 1200,
+      "end_sec": 1233,
+      "paraphrased_dialogue": "We made it to the knockout stage! Go USA!",
+      "narrative_relevance": "Squeex celebrates a strong finish on Hole 4, cementing his escape from the bottom spots.",
+      "visual_description": "Leaderboard scores show on-screen while Squeex reacts on his facecam."
+    },
+    {
+      "event_name": "Hidden Lagoon Intro and Tee Off",
+      "start_sec": 1233,
+      "end_sec": 1257,
+      "paraphrased_dialogue": "How is that possible? I feel like I've been doing so bad.",
+      "narrative_relevance": "The match transitions to Hole 6, prompting Squeex to plan his next strategy.",
+      "visual_description": "A cinematic overview of Hidden Lagoon transitions to Squeex lining up his first shot."
+    },
+    {
+      "event_name": "Squeex Gets Frozen on Hidden Lagoon",
+      "start_sec": 1257,
+      "end_sec": 1320,
+      "paraphrased_dialogue": "Who hit me from back? Oh, what a dodge!",
+      "narrative_relevance": "Lobby-wide targeting begins as Squeex is frozen in ice by a rival's item.",
+      "visual_description": "Squeex's character is suddenly encased in a giant block of ice on the fairway."
+    },
+    {
+      "event_name": "Squeex Navigates the Beach",
+      "start_sec": 1320,
+      "end_sec": 1342,
+      "paraphrased_dialogue": "I think I understand now.",
+      "narrative_relevance": "Squeex works to recover his positioning after the freezing penalty.",
+      "visual_description": "Squeex hits his ball over trees, landing on the sandy beach shoreline."
+    },
+    {
+      "event_name": "Approaching the Green on Hole 6",
+      "start_sec": 1342,
+      "end_sec": 1405,
+      "paraphrased_dialogue": "That was not the thing I should have done.",
+      "narrative_relevance": "Squeex moves closer to the green while trying to dodge other players.",
+      "visual_description": "The character runs along the grassy bank, picking up item mystery boxes."
+    },
+    {
+      "event_name": "Valkyrae Run Over by Golf Cart",
+      "start_sec": 1405,
+      "end_sec": 1422,
+      "paraphrased_dialogue": "Wait, how are you invisible? Oh, oh!",
+      "narrative_relevance": "In-game chaos erupts on the green as a golf cart runs over Valkyrae.",
+      "visual_description": "A player drives a golf cart directly into Valkyrae's character on the green."
+    },
+    {
+      "event_name": "Putting Duel on Hole 6",
+      "start_sec": 1422,
+      "end_sec": 1437,
+      "paraphrased_dialogue": "You're actually an opp. Oh my god, I'm so mad!",
+      "narrative_relevance": "Squeex completes the hole quickly, frustrating his competitive rivals.",
+      "visual_description": "Squeex putts his ball into the hole while Valkyrae struggles nearby."
+    },
+    {
+      "event_name": "Hole 6 Leaderboard and Hole 7 Setup",
+      "start_sec": 1437,
+      "end_sec": 1500,
+      "paraphrased_dialogue": "Can I give you a piece of advice?",
+      "narrative_relevance": "The lobby transitions from Hidden Lagoon to Hole 7.",
+      "visual_description": "Valkyrae finishes her turn, leading to the leaderboard and the Hole 7 intro card."
+    },
+    {
+      "event_name": "StarCraft Banter and Leaderboard Check",
+      "start_sec": 1500,
+      "end_sec": 1520,
+      "paraphrased_dialogue": "Valkyrae mentions fighting hard for third place. Ludwig suggests playing StarCraft, and Valkyrae notes they would all have to play.",
+      "narrative_relevance": "Establishes current scores and builds casual banter before the next hole.",
+      "visual_description": "Scoreboard is displayed showing Squeex in second place while players finish Hole 8."
+    },
+    {
+      "event_name": "Hole 9 'Donut' Transition",
+      "start_sec": 1520,
+      "end_sec": 1540,
+      "paraphrased_dialogue": "The group transitions to Hole 9. Valkyrae calls Ludwig the common enemy since he is leading.",
+      "narrative_relevance": "Introduces Hole 9 and highlights Ludwig's lead as the main competitive threat.",
+      "visual_description": "The camera pans over Hole 9 'Donut', a course with a central island."
+    },
+    {
+      "event_name": "Teeing Off on Hole 9",
+      "start_sec": 1540,
+      "end_sec": 1600,
+      "paraphrased_dialogue": "Players launch their initial shots. Someone gets flipped and complains about it.",
+      "narrative_relevance": "Beginning of the fairway progression on the new hole.",
+      "visual_description": "Characters tee off and run across the grass toward the fairway."
+    },
+    {
+      "event_name": "Squeex Freezes Valkyrae",
+      "start_sec": 1600,
+      "end_sec": 1620,
+      "paraphrased_dialogue": "Squeex targets Valkyrae with a freeze bomb. Valkyrae expresses her annoyance.",
+      "narrative_relevance": "Squeex uses in-game items strategically to hinder his chief rival.",
+      "visual_description": "Squeex throws a freeze item at Valkyrae's ball, encasing it in ice."
+    },
+    {
+      "event_name": "Valkyrae Retaliates with Pistol",
+      "start_sec": 1620,
+      "end_sec": 1640,
+      "paraphrased_dialogue": "Valkyrae shoots Squeex with a dueling pistol, laughing hysterically at the hit.",
+      "narrative_relevance": "Escalates the personal rivalry between Squeex and Valkyrae.",
+      "visual_description": "Valkyrae aims and shoots Squeex's character, sending him off-course."
+    },
+    {
+      "event_name": "Squeex Recovers and Putts",
+      "start_sec": 1640,
+      "end_sec": 1700,
+      "paraphrased_dialogue": "Squeex positions himself near the green and prepares for his final putt.",
+      "narrative_relevance": "Squeex bounces back from being shot to take the lead on the hole.",
+      "visual_description": "Squeex's character runs onto the green, aligns his putter, and hits."
+    },
+    {
+      "event_name": "Squeex Wins Hole 9",
+      "start_sec": 1700,
+      "end_sec": 1720,
+      "paraphrased_dialogue": "Squeex celebrates loudly, praising his own shot. Valkyrae groans in defeat.",
+      "narrative_relevance": "Squeex achieves a clutch first-place finish on Hole 9.",
+      "visual_description": "The ball sinks into the hole; Squeex cheers on his webcam overlay."
+    },
+    {
+      "event_name": "The Siren Accusation",
+      "start_sec": 1720,
+      "end_sec": 1740,
+      "paraphrased_dialogue": "Valkyrae calls Squeex a 'siren' and 'Medusa' who distracts the lobby with his presence.",
+      "narrative_relevance": "Valkyrae comically attributes Squeex's success to mystical distraction.",
+      "visual_description": "Remaining players complete their putts while bantering over voice chat."
+    },
+    {
+      "event_name": "Siren Banter and Score Review",
+      "start_sec": 1740,
+      "end_sec": 1760,
+      "paraphrased_dialogue": "Squeex accepts the siren comparison. The game displays updated scores.",
+      "narrative_relevance": "Concludes Hole 9 with Squeex solidifying his competitive position.",
+      "visual_description": "The leaderboard shows Squeex maintaining second place behind Ludwig."
+    },
+    {
+      "event_name": "Hole 10 'Slope' Introduction",
+      "start_sec": 1760,
+      "end_sec": 1780,
+      "paraphrased_dialogue": "Streamers react to the steep incline of Hole 10, anticipating extreme difficulty.",
+      "narrative_relevance": "Introduces a vertical physical challenge that tests the players' mechanics.",
+      "visual_description": "The camera previews a steep, vertical grassy hill representing the new hole."
+    },
+    {
+      "event_name": "The Struggle Up the Hill",
+      "start_sec": 1780,
+      "end_sec": 1800,
+      "paraphrased_dialogue": "Players complain as their balls repeatedly slide back down the steep hill.",
+      "narrative_relevance": "Immediately humbles both Squeex and Valkyrae with physics-based struggles.",
+      "visual_description": "Multiple golf balls slide down the steep incline, forcing players to retry."
+    }
+  ]
+}

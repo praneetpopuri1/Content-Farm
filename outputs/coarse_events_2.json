@@ -1,0 +1,147 @@
+{
+  "coarse_events": [
+    {
+      "event_name": "The \"Leslie's Day\" Debate",
+      "detailed_description": "Leslie mistakenly claims Juneteenth is \"her day\" for hosting, prompting hilarious roasting from Squeex and Ludwig.",
+      "status": "resolved",
+      "characters_involved": [
+        "Squeex",
+        "Leslie",
+        "Ludwig"
+      ],
+      "start": "0",
+      "end": "160"
+    },
+    {
+      "event_name": "The Sub Betting Negotiations",
+      "detailed_description": "Leslie attempts to rig the bet rules so she gains maximum subs. The group establishes a rotating 10-sub penalty for the loser.",
+      "status": "resolved",
+      "characters_involved": [
+        "Squeex",
+        "Leslie",
+        "Valkyrae",
+        "Ludwig"
+      ],
+      "start": "180",
+      "end": "270"
+    },
+    {
+      "event_name": "Sandbanks (Hole 1) Chaos",
+      "detailed_description": "Squeex plays his first round, repeatedly hitting the ball out of bounds, getting confused by physics, and screaming at his monitor.",
+      "status": "developing",
+      "characters_involved": [
+        "Squeex",
+        "Leslie",
+        "Valkyrae",
+        "Ludwig"
+      ],
+      "start": "310",
+      "end": "505"
+    },
+    {
+      "event_name": "Lone Island Sabre",
+      "detailed_description": "Players discover items. Ludwig repeatedly shoots Squeex with a gun, resulting in massive player tilt.",
+      "status": "developing",
+      "characters_involved": [
+        "Squeex",
+        "Ludwig",
+        "Valkyrae"
+      ],
+      "start": "506",
+      "end": "655"
+    },
+    {
+      "event_name": "The Ice Block Betrayal",
+      "detailed_description": "Squeex learns how to aim but is immediately frozen in an ice block by Leslie and Ludwig, destroying his chance of catching up.",
+      "status": "unresolved",
+      "characters_involved": [
+        "Squeex",
+        "Leslie",
+        "Ludwig"
+      ],
+      "start": "780",
+      "end": "900"
+    },
+    {
+      "event_name": "Squeex finishes 2nd on Hole 4 while Valkyrae overshoots",
+      "detailed_description": "Squeex successfully maneuvers his golf cart to finish 2nd on Hole 4, while Valkyrae overshoots dramatically into the water, initiating her downward competitive spiral.",
+      "status": "resolved",
+      "characters_involved": [
+        "Squeex",
+        "Valkyrae"
+      ],
+      "start": "900",
+      "end": "952"
+    },
+    {
+      "event_name": "Valkyrae accuses the lobby of sexism",
+      "detailed_description": "Valkyrae jokingly accuses the lobby of 'sexism' for not targeting Squeex, rallying Leslie and Ludwig to escalate physical attacks against him on Hole 5.",
+      "status": "resolved",
+      "characters_involved": [
+        "Valkyrae",
+        "Squeex",
+        "Leslie",
+        "Ludwig"
+      ],
+      "start": "1010",
+      "end": "1035"
+    },
+    {
+      "event_name": "Valkyrae misses putts on Hole 5",
+      "detailed_description": "Valkyrae misses multiple short putts on Hole 5, descending into vocal frustration while Squeex easily outplays her.",
+      "status": "resolved",
+      "characters_involved": [
+        "Valkyrae",
+        "Squeex"
+      ],
+      "start": "1120",
+      "end": "1143"
+    },
+    {
+      "event_name": "Ludwig freezes Squeex as Leslie threatens punishments",
+      "detailed_description": "Ludwig freezes Squeex on Hole 6, while Leslie shifts focus to psychological warfare, threatening to compile a list of Ludwig's least favorite games (e.g., Valorant, StarCraft) for future streaming punishments.",
+      "status": "resolved",
+      "characters_involved": [
+        "Ludwig",
+        "Squeex",
+        "Leslie"
+      ],
+      "start": "1180",
+      "end": "1210"
+    },
+    {
+      "event_name": "Valkyrae's failed sabotage on Hole 7",
+      "detailed_description": "Valkyrae aggressively attempts to shoot Squeex off the green on Hole 7, but misses and blows herself up, intensifying her competitive rage.",
+      "status": "resolved",
+      "characters_involved": [
+        "Valkyrae",
+        "Squeex"
+      ],
+      "start": "1350",
+      "end": "1410"
+    },
+    {
+      "event_name": "Squeex and Ludwig coordinate minefield sabotage on Hole 8",
+      "detailed_description": "Squeex and Ludwig deploy landmines to block Valkyrae on Hole 8, sending her out of bounds and triggering a severe shouting fit.",
+      "status": "resolved",
+      "characters_involved": [
+        "Squeex",
+        "Ludwig",
+        "Valkyrae"
+      ],
+      "start": "1500",
+      "end": "1530"
+    },
+    {
+      "event_name": "Squeex freezes Valkyrae to secure 1st place on Hole 9",
+      "detailed_description": "Squeex uses a freeze bomb on Valkyrae right before her final putt on Hole 9, securing 1st place while she experiences total gamer tilt.",
+      "status": "resolved",
+      "characters_involved": [
+        "Squeex",
+        "Valkyrae"
+      ],
+      "start": "1710",
+      "end": "1740"
+    }
+  ]
+}
