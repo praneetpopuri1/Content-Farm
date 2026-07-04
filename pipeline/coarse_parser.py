@@ -178,8 +178,9 @@ for i in range(1,2):
     )
     print(delta)
     persistent_info, coarse_events, new_events = apply_segment_delta(
-        persistent_info, coarse_events, delta
+        persistent_info, coarse_events, delta, i
     )
+    
     chunk_record = {
         "segment_id": f"coarse_{i:03d}",          # Python-authoritative
         "time_range": {"start_sec": start, "end_sec": end},
@@ -187,13 +188,13 @@ for i in range(1,2):
         "persistent_information": persistent_info, # full carried-forward scaffold
         "delta": delta,                            # raw delta, kept for auditing
     }
-    with open(f"../ouputs/chunk_record_c/chunk_{i}.json",
+    with open(f"../outputs/chunk_record_c/chunk_{i}.json",
               "w", encoding="utf-8") as f:
         f.write(file_json(chunk_record))
 
-with open(f"../outputs/coarse_events.json",
+with open(f"../outputs/coarse_events_2.json",
               "w", encoding="utf-8") as f:
-        f.write(file_json(coarse_events))
-with open(f"../outputs/plot.json",
+        f.write(file_json({"coarse_events": coarse_events}))
+with open(f"../outputs/plot_2.json",
               "w", encoding="utf-8") as f:
         f.write(file_json(persistent_info))

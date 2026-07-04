@@ -42,13 +42,13 @@ Analyze the video segment and extract:
 5. Keep track of all funny moments, interesting points, and consequential events
     - Describe it in a moderate amount of detail
     - give the characters involved
-    - give a start and end time (MM:SS)
+    - give a start and end time (in seconds)
 
 6. A Narrative Timeline:
    - describe the overarching plot, by describing the overall story the Author/Creator is trying to tell, the motives and purpose of the characters in this plot, and how they are accomplishing this goal
    - describe the themes of the story
    - create a plot timeline by describing each significant event that impacts the plot and describe its relation to the overall plot
-   - give a start and end time (MM:SS)
+   - give a start and end time (in seconds)
 
 Rules:
 - Do not invent names. Use "unknown_person_1", etc. if needed.
@@ -63,7 +63,7 @@ ABSOLUTE RULES:
 - Transfer EVERY fact in the memo into the JSON. Do not drop, merge, shorten, or paraphrase any detail.
 - If the memo lists N events, the JSON must contain N events. Never collapse multiple events into one.
 - Copy descriptions essentially verbatim; only lightly reword to fit a field.
-- Copy every start/end timestamp exactly as written in the memo (MM:SS).
+- Copy every start/end timestamp exactly as written in the memo (in seconds).
 - Every character mentioned in the memo must appear in key_characters.
 - Every relationship described must appear in relationship_graph.
 - Do NOT invent information that is not in the memo. Leave a field "" only if the memo truly has nothing for it.
@@ -99,12 +99,12 @@ Analyze the video segment and extract:
 1. Keep track of all funny moments, interesting points, and consequential events
     - Describe it in a moderate amount of detail
     - give the characters involved
-    - give a start and end time (MM:SS) remember the video starts at {start}
+    - give a start and end time (in seconds) remember the video starts at {start}
 
 2. A Narrative Timeline:
-   - if need update overaching plot, by updating the description of the overall story the Author/Creator is trying to tell, the motives and purpose of the characters in this plot, and how they are accomplishing this goal
+   - give a plot update, by updating the description of the overall story the Author/Creator is trying to tell, the motives and purpose of the characters in this plot, and how they are accomplishing this goal
    - create a plot timeline by describing each significant event that impacts the plot and describe its relation to the overall plot
-   - give a start and end time (MM:SS) remember the video starts at {start}
+   - give a start and end time (in seconds) remember the video starts at {start}
 
 3. Find and correct any inconsistencies inside the story information, but do not change any previous plot developments
     - give the field where there is a mistake and write what should be their instead
@@ -129,8 +129,7 @@ ABSOLUTE RULES:
 - Transfer EVERY new event in the memo into significant_events. If the memo lists N events, output N events. Never merge or drop events.
 - Transfer EVERY new plot thread into narrative_timeline.plotline. Never merge threads.
 - Copy descriptions essentially verbatim; only lightly reword to fit a field.
-- Copy every start/end timestamp EXACTLY as written in the memo (MM:SS).
-- Put text in narrative_timeline.overarching_plot ONLY if the memo actually revises the overarching plot; otherwise use "".
+- Copy every start/end timestamp EXACTLY as written in the memo (in seconds).
 - For EACH correction the memo states, emit one corrections[] entry:
     target_collection : which part of the prior JSON is wrong
         (key_characters | relationship_graph | narrative_timeline | plotline | overall_setting | media_format)
@@ -153,6 +152,39 @@ JSON DELTA SCHEMA TO FILL (match field names and nesting EXACTLY):
 {_subsequent_skeleton}
 
 FREE FORM SEGMENT-UPDATE MEMO:
+"""
+
+FINE_PROMPT = """
+You are performing fine-grained semantic comprehension of a 5-minute video scene.
+
+The goal is to build a high-resolution semantic trace for downstream video editing, retrieval, and QA.
+To do this section the video into regular intervals of approximately 20-second  or semantic boundaries
+Rules for intervals:
+- Use seconds as numbers.
+- Each part must satisfy start_sec < end_sec.
+- Parts must be sorted by start_sec.
+- Every second of the video must be covered.
+- Do not output overlapping segments.
+
+Each interval should include:
+- extract paraphrased dialogue
+- extract the narrative-relevance of this scene
+- extract a visual description scene
+- assign timestamps at approximately 20-second intervals or semantic boundaries
+
+Scene absolute time range:
+{start} - {end}
+
+Global context:
+{context}
+
+
+
+
+Rules:
+- Do not invent names. Use "unknown_person_1", etc. if needed.
+- Distinguish observed facts from inferred interpretations.
+- Prefer concise, stable, reusable facts over detailed moment-by-moment summary.
 """
 #Schemas
 
@@ -344,53 +376,7 @@ COARSE_INITIAL_FORMAT = {
 # never drift apart. Import these into 15_min_chunks.py and build the initial
 # `json_response_format` from them too, if you want to fully de-duplicate.
 # ---------------------------------------------------------------------------
-EVENT_ITEM_SCHEMA = {
-    "type": "object",
-    "properties": {
-        "event_name": {"type": "string"},
-        "detailed_description": {"type": "string"},
-        "status": {
-            "type": "string",
-            "enum": ["introduced", "developing", "unresolved", "resolved"],
-        },
-        "characters_involved": {"type": "array", "items": {"type": "string"}},
-        "start": {"type": "string"},  # MM:SS
-        "end": {"type": "string"},    # MM:SS
-    },
-    "required": [
-        "event_name",
-        "detailed_description",
-        "status",
-        "characters_involved",
-        "start",
-        "end",
-    ],
-}
 
-PLOT_THREAD_SCHEMA = {
-    "type": "object",
-    "properties": {
-        "thread": {"type": "string"},
-        "detailed_description": {"type": "string"},
-        "relation_to_overall_plot": {"type": "string"},
-        "status": {
-            "type": "string",
-            "enum": ["introduced", "developing", "unresolved", "resolved"],
-        },
-        "characters_involved": {"type": "array", "items": {"type": "string"}},
-        "start": {"type": "string"},  # MM:SS
-        "end": {"type": "string"},    # MM:SS
-    },
-    "required": [
-        "thread",
-        "detailed_description",
-        "relation_to_overall_plot",
-        "status",
-        "characters_involved",
-        "start",
-        "end",
-    ],
-}
 
 # A correction targets ONE existing item by its stable identity.
 CORRECTION_SCHEMA = {
@@ -431,6 +417,44 @@ CORRECTION_SCHEMA = {
     ],
 }
 
+FINE_FORMAT = {
+    "type": "text",
+    "mime_type": "application/json",
+    "schema": {
+        "type": "object",
+        "properties": {
+            "scene_id": {"type": "string"},
+            "scene_start_sec": {"type": "integer"},
+            "scene_end_sec": {"type": "integer"},
+            "segments": {
+                "type": "array",
+                "items": {
+                    "type": "object",
+                    "properties": {
+                        "event_name": {"type": "string"},
+                        "start_sec": {"type": "number"},
+                        "end_sec": {"type": "number"},
+                        "paraphrased_dialogue": {"type": "string"},
+                        "narrative_relevance": {"type": "string"},
+                        "visual_description": {"type": "string"}
+                    },
+                    "required": [
+                        "event_name",
+                        "start_sec",
+                        "end_sec",
+                        "paraphrased_dialogue",
+                        "narrative_relevance",
+                        "visual_description"
+                    ],
+                    "additionalProperties": False
+                }
+            }
+        },
+        "required": ["scene_id", "scene_start_sec", "scene_end_sec", "segments"],
+        "additionalProperties": False
+    }
+}
+
 COARSE_SUBSEQUENT_FORMAT = {
     "type": "text",
     "mime_type": "application/json",
@@ -468,7 +492,7 @@ COARSE_SUBSEQUENT_FORMAT = {
             "narrative_timeline": {
                         "type": "object",
                         "properties": {
-                            "overarching_plot": {"type": "string"},
+                            "plot_update": {"type": "string"},
                             "plotline": {
                                 "type": "array",
                                 "items": {
@@ -502,7 +526,7 @@ COARSE_SUBSEQUENT_FORMAT = {
                             },
                             
                         },
-                        "required": ["overarching_plot", "plotline"],
+                        "required": ["plot_update", "plotline"],
                     },
             "corrections": {
                 "type": "array",

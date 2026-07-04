@@ -65,7 +65,7 @@ def _apply_correction(persistent_info, c):
                 break
 
 
-def apply_segment_delta(persistent_info, running_events, delta):
+def apply_segment_delta(persistent_info, running_events, delta, seg_num):
     """
     persistent_info : dict  -> carried-forward persistent_information block
     running_events  : list  -> significant_events accumulated across all segments
@@ -89,8 +89,11 @@ def apply_segment_delta(persistent_info, running_events, delta):
 
     # (B) narrative updates
     upd = delta.get("narrative_timeline", {}) or {}
-    if (upd.get("overarching_plot") or "").strip():
-        nt["overarching_plot"] = upd["overarching_plot"].strip()
+    plot_update = upd.get("plot_update", "")
+    if plot_update:
+        nt.setdefault("plot_update", []).append(
+            {"update_number": seg_num, "update": plot_update}
+        )
 
     nt["plotline"].extend(upd.get("plotline", []) or [])  # append-only
 
