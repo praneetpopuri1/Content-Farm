@@ -1,0 +1,198 @@
+{
+  "general_plot_summary": "A multi-game collaborative gaming stream featuring content creators Squeex, Valkyrae, Leslie (Fuslie), and Ludwig (with coaching from QTCinderella). The session captures Squeex's narrative evolution from a mechanically incompetent novice to a highly competitive, disruptive rival. Spanning across Golf Gang, Tetr.io, SpeedRunners, Liar's Bar, typing and bomb defusal games, Jackbox, and Feather Party, the creators engage in intense friendly rivalries, tactical targeting, and sub-gifting wagers before ultimately resolving their debts and reflecting on the evening.",
+  "major_plot_events": [
+    {
+      "title": "Golf Gang Tournament & Sabotage Wars",
+      "detailed_description": "The creators kick off the stream with a high-stakes 18-hole mini-golf match. Squeex struggles initially under QT's backseat coaching but quickly adopts aggressive weaponized items (rockets, golf carts) to target Valkyrae, establishing a chaotic lobby dynamic. Leslie ultimately secures the tournament victory, prompting Squeex to settle his initial sub-gifting debts.",
+      "start": "0",
+      "end": "3330"
+    },
+    {
+      "title": "Tetr.io Competitive Duel & Valkyrae's Triumph",
+      "detailed_description": "The lobby transitions to competitive Tetr.io. While Squeex and Ludwig go head-to-head in a close scoreboard race, Valkyrae utilizes aggressive targeting and coordinated trash-talk to disrupt Squeex's focus. Squeex chokes under the pressure of end-game banter, allowing Valkyrae to secure the overall tournament victory.",
+      "start": "3335",
+      "end": "5220"
+    },
+    {
+      "title": "SpeedRunners Mechanical Adaptation",
+      "detailed_description": "The players pivot to SpeedRunners, challenging Squeex's adaptability to keyboard and mouse controls. Squeex shows early promise during warmup races but falters as soon as complex official maps are introduced, falling behind Ludwig and Valkyrae's established pacing.",
+      "start": "5220",
+      "end": "6515"
+    },
+    {
+      "title": "Liar's Bar: Deception & Psychological Warfare",
+      "detailed_description": "The creators dive into the psychological parlor games of Liar's Bar, playing Liar's Dice and Liar's Deck. Squeex employs sunglasses, physical props, and lucky Russian Roulette survivals to mask his tells. Squeex successfully eliminates his primary rival Valkyrae in a dramatic bluff, though she ultimately outlasts him in a later round to win the cards segment.",
+      "start": "6516",
+      "end": "9035"
+    },
+    {
+      "title": "Typing Battles & Team Bomb Defusal",
+      "detailed_description": "The group tests their speed in the competitive typing game Final Sentence, which Leslie dominates while Squeex is humbled by typos. They then split into teams for a head-to-head bomb defusal race in Keep Talking and Nobody Explodes. Squeex prioritizes comedy with a fake computer crash, causing the boys to lose their sub-gifting wager to the girls.",
+      "start": "9040",
+      "end": "10440"
+    },
+    {
+      "title": "Trivia Murder Party 2 Survival",
+      "detailed_description": "The lobby moves to Jackbox's Trivia Murder Party 2. After Squeex accidentally leaks the room code, they restart a secure room. The creators face lethal trivia rounds and minigames, with all of them eventually getting eliminated. Competing as ghosts, they try to block Leslie, but she successfully clears the final escape sequence to win.",
+      "start": "10440",
+      "end": "11630"
+    },
+    {
+      "title": "Feather Party & Squeex's Redemption Arc",
+      "detailed_description": "The stream concludes with Feather Party. Squeex showcases surprising mechanical competence, winning several minigames and prompting the other creators to actively target him to keep the scoreboard competitive. Squeex overcomes the coordinated sabotage to claim the tournament crown, ending the evening with a final round of sub-debt settlements and a wholesome game-ranking discussion.",
+      "start": "11631",
+      "end": "14425"
+    }
+  ],
+  "local_coarse_events": [
+    {
+      "event_name": "Valkyrae's Timeout Error",
+      "detailed_description": "Valkyrae panic-bids seven 2s as her timer runs out, leading to Ludwig calling her a liar and Valkyrae getting poisoned.",
+      "status": "resolved",
+      "characters_involved": [
+        "Valkyrae",
+        "Ludwig",
+        "Squeex",
+        "Leslie"
+      ],
+      "start": 7350,
+      "end": 7410
+    },
+    {
+      "event_name": "Squeex's Second \"Spot On\" Success",
+      "detailed_description": "Squeex pulls off another successful \"Spot On\" call on five 5s, forcing Leslie to drink poison.",
+      "status": "resolved",
+      "characters_involved": [
+        "Squeex",
+        "Leslie",
+        "Valkyrae",
+        "Ludwig"
+      ],
+      "start": 7490,
+      "end": 7555
+    },
+    {
+      "event_name": "Squeex and Valkyrae's Double Elimination",
+      "detailed_description": "Squeex fails a high-risk bluff and is poisoned. Valkyrae is subsequently eliminated, leaving Ludwig as the ultimate victor of the Liar's Dice round.",
+      "status": "resolved",
+      "characters_involved": [
+        "Squeex",
+        "Valkyrae",
+        "Ludwig",
+        "Leslie"
+      ],
+      "start": 7560,
+      "end": 7720
+    },
+    {
+      "event_name": "Pivot to Liar's Deck & Character Select Chaos",
+      "detailed_description": "The lobby transitions to the card game \"Liar's Deck\" (King's Table). Squeex accidentally selects a massive rhino character (\"Gerk\"), sparking jokes.",
+      "status": "introduced",
+      "characters_involved": [
+        "Squeex",
+        "Ludwig",
+        "Leslie",
+        "Valkyrae"
+      ],
+      "start": 7720,
+      "end": 7830
+    },
+    {
+      "event_name": "Valkyrae Calls Leslie\u2019s Bluff",
+      "detailed_description": "After a sequence of Kings claims, Leslie (playing the fox/cat) claims to place 1 King. Valkyrae confidently calls her a liar. Caught in a bluff, Leslie is forced to pull the trigger on her character. The chamber is empty, and Leslie survives, setting a tense tone for the round.",
+      "status": "resolved",
+      "characters_involved": [
+        "Valkyrae",
+        "Leslie",
+        "Squeex",
+        "Ludwig"
+      ],
+      "start": 7857,
+      "end": 7970
+    }
+  ],
+  "characters": [
+    {
+      "character_id": "Squeex",
+      "name": "Squeex",
+      "role": "Primary POV streamer",
+      "description": "Male with glasses and a mustache.",
+      "personality": "Energetic, expressive, and initially incompetent at the game.",
+      "goals_or_motivations": "Learn the game mechanics, avoid coming last, and win sub wagers while retaliating against his friends.",
+      "evidence": "In-game name: 'Air Coots'",
+      "confidence": "high",
+      "in_game_name": "Air Coots",
+      "alias": "Squeex"
+    },
+    {
+      "character_id": "Valkyrae",
+      "name": "Valkyrae",
+      "role": "Collaborator / Competitor",
+      "description": "Female voice chat participant.",
+      "personality": "Enthusiastic, aggressive with in-game weapons, and highly competitive.",
+      "goals_or_motivations": "Win the courses and sabotage Squeex and other players.",
+      "evidence": "In-game name: 'VALKYRAE'",
+      "confidence": "high",
+      "in_game_name": "VALKYRAE"
+    },
+    {
+      "character_id": "Leslie",
+      "name": "Leslie / Fuslie",
+      "role": "Lobby Host / Competitor",
+      "description": "Female voice chat participant.",
+      "personality": "Cheerful, instigator of the sub-gifting wager.",
+      "goals_or_motivations": "Win the holes and claim the sub-gifting bounty.",
+      "evidence": "In-game name: 'happily married'",
+      "confidence": "high",
+      "in_game_name": "happily married"
+    },
+    {
+      "character_id": "QT",
+      "name": "QT / QtCinderella",
+      "role": "Coach / Competitor",
+      "description": "Female voice chat participant.",
+      "personality": "inactive / absent",
+      "goals_or_motivations": "Help Squeex improve while keeping the lobby competitive.",
+      "evidence": "QT Cinderella only assists Squeex with backseat coaching and does not play in the matches; the account 'bronny' is controlled by Ludwig.",
+      "confidence": "high",
+      "in_game_name": "None (backseat coaching only)"
+    }
+  ],
+  "media_format": "Livestream gameplay with picture-in-picture facecam and multi-creator voice chat.",
+  "overall_setting": {
+    "location": "Liar's Bar interior",
+    "time_period": "Modern day.",
+    "visual_atmosphere": "Dark, gritty, suspenseful, and humorous",
+    "social_context": "Friendly, competitive multiplayer stream collaboration between prominent content creators."
+  },
+  "relationship_graph": [
+    {
+      "source": "QT",
+      "target": "Squeex",
+      "relationship": "Coach and Pupil",
+      "evidence": "QT step-by-step guides a struggling Squeex through changing club degrees and aiming, creating a funny, codependent dynamic.",
+      "confidence": "high"
+    },
+    {
+      "source": "Valkyrae",
+      "target": "Squeex",
+      "relationship": "Playful Hostility",
+      "evidence": "Valkyrae consistently target Squeex with weapons (pistols, freeze bombs), prompting loud, comical outbursts of mock anger from him.",
+      "confidence": "high"
+    },
+    {
+      "source": "Leslie",
+      "target": "Squeex",
+      "relationship": "Playful Hostility",
+      "evidence": "Leslie consistently target Squeex with weapons (pistols, freeze bombs), prompting loud, comical outbursts of mock anger from him.",
+      "confidence": "high"
+    },
+    {
+      "source": "Group",
+      "target": "Group",
+      "relationship": "Friendly Wager",
+      "evidence": "The group establishes a 10-sub gifting rule for hole winners, elevating the competitive tension.",
+      "confidence": "high"
+    }
+  ]
+}

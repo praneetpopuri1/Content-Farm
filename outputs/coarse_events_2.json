@@ -1,147 +1,1344 @@
 {
   "coarse_events": [
     {
-      "event_name": "The \"Leslie's Day\" Debate",
-      "detailed_description": "Leslie mistakenly claims Juneteenth is \"her day\" for hosting, prompting hilarious roasting from Squeex and Ludwig.",
+      "event_name": "Stream Banter",
+      "detailed_description": "The group banters about whether the stream coincides with Leslie's Day or Juneteenth.",
       "status": "resolved",
       "characters_involved": [
         "Squeex",
-        "Leslie",
-        "Ludwig"
-      ],
-      "start": "0",
-      "end": "160"
-    },
-    {
-      "event_name": "The Sub Betting Negotiations",
-      "detailed_description": "Leslie attempts to rig the bet rules so she gains maximum subs. The group establishes a rotating 10-sub penalty for the loser.",
-      "status": "resolved",
-      "characters_involved": [
-        "Squeex",
-        "Leslie",
         "Valkyrae",
-        "Ludwig"
+        "Leslie",
+        "QT"
       ],
-      "start": "180",
-      "end": "270"
+      "start": 0,
+      "end": 45
     },
     {
-      "event_name": "Sandbanks (Hole 1) Chaos",
-      "detailed_description": "Squeex plays his first round, repeatedly hitting the ball out of bounds, getting confused by physics, and screaming at his monitor.",
+      "event_name": "Golf Cart Incident",
+      "detailed_description": "Squeex attempts to drive a golf cart, immediately flips it upside down, and abandons it to run on foot.",
+      "status": "resolved",
+      "characters_involved": [
+        "Squeex"
+      ],
+      "start": 110,
+      "end": 145
+    },
+    {
+      "event_name": "Sub-Gifting Wager Negotiation",
+      "detailed_description": "Leslie pitches the sub-gifting wager rules, leading to negotiation over who pays whom if Leslie wins.",
+      "status": "developing",
+      "characters_involved": [
+        "Leslie",
+        "Squeex"
+      ],
+      "start": 200,
+      "end": 245
+    },
+    {
+      "event_name": "Mouse Technical Difficulty",
+      "detailed_description": "Squeex panics over his mouse unplugging right as the game is about to start.",
+      "status": "resolved",
+      "characters_involved": [
+        "Squeex"
+      ],
+      "start": 330,
+      "end": 360
+    },
+    {
+      "event_name": "Sandbanks Hole 1",
+      "detailed_description": "Sandbanks Hole 1 starts; Squeex immediately shoots his ball into the rough, incurring penalty strokes.",
+      "status": "developing",
+      "characters_involved": [
+        "Squeex"
+      ],
+      "start": 517,
+      "end": 555
+    },
+    {
+      "event_name": "Elephant Gun Sabotage",
+      "detailed_description": "Valkyrae shoots Squeex and QT with an Elephant Gun to stop them from advancing.",
+      "status": "developing",
+      "characters_involved": [
+        "Valkyrae",
+        "Squeex",
+        "QT"
+      ],
+      "start": 695,
+      "end": 715
+    },
+    {
+      "event_name": "Mock-Rage Finish",
+      "detailed_description": "Squeex experiences mock-rage as his ball is blocked by other players, though he manages to finish 4th.",
+      "status": "resolved",
+      "characters_involved": [
+        "Squeex"
+      ],
+      "start": 725,
+      "end": 740
+    },
+    {
+      "event_name": "Water Hazard and Duel",
+      "detailed_description": "Squeex drowns his ball in the ocean, then gets shot with a Dueling Pistol by Valkyrae.",
       "status": "developing",
       "characters_involved": [
         "Squeex",
-        "Leslie",
-        "Valkyrae",
-        "Ludwig"
+        "Valkyrae"
       ],
-      "start": "310",
-      "end": "505"
+      "start": 900,
+      "end": 900
     },
     {
-      "event_name": "Lone Island Sabre",
-      "detailed_description": "Players discover items. Ludwig repeatedly shoots Squeex with a gun, resulting in massive player tilt.",
+      "event_name": "Landmine Frustration",
+      "detailed_description": "Squeex gets blasted away by a landmine near the hole cup and screams in frustration.",
       "status": "developing",
       "characters_involved": [
-        "Squeex",
-        "Ludwig",
-        "Valkyrae"
+        "Squeex"
       ],
-      "start": "506",
-      "end": "655"
+      "start": 900,
+      "end": 900
     },
     {
-      "event_name": "The Ice Block Betrayal",
-      "detailed_description": "Squeex learns how to aim but is immediately frozen in an ice block by Leslie and Ludwig, destroying his chance of catching up.",
-      "status": "unresolved",
+      "event_name": "Freeze Bomb Success",
+      "detailed_description": "Squeex successfully freezes Leslie using a Freeze Bomb and celebrates.",
+      "status": "resolved",
       "characters_involved": [
         "Squeex",
-        "Leslie",
-        "Ludwig"
+        "Leslie"
       ],
-      "start": "780",
-      "end": "900"
+      "start": 900,
+      "end": 900
     },
     {
-      "event_name": "Squeex finishes 2nd on Hole 4 while Valkyrae overshoots",
-      "detailed_description": "Squeex successfully maneuvers his golf cart to finish 2nd on Hole 4, while Valkyrae overshoots dramatically into the water, initiating her downward competitive spiral.",
+      "event_name": "Double Freeze Revenge",
+      "detailed_description": "Squeex freezes both Valkyrae and QT in ice blocks, laughing at his revenge.",
+      "status": "resolved",
+      "characters_involved": [
+        "Squeex",
+        "Valkyrae",
+        "QT"
+      ],
+      "start": 900,
+      "end": 900
+    },
+    {
+      "event_name": "Golf Cart Hijacking",
+      "detailed_description": "Squeex hijacking a golf cart to run over his friends' balls but still struggles to put the ball in the hole.",
+      "status": "developing",
+      "characters_involved": [
+        "Squeex"
+      ],
+      "start": 900,
+      "end": 900
+    },
+    {
+      "event_name": "Squeex's Disastrous Rocket Launch",
+      "detailed_description": "Squeex obtains a Rocket Launcher right at the tee off on Hole 5 (Atoll). In a spectacular blunder, he aims poorly and fires, immediately blowing up himself along with several nearby players. This self-sabotage triggers a wave of hysterical laughter from the voice chat.",
+      "status": "resolved",
+      "characters_involved": [
+        "Squeex",
+        "Valkyrae",
+        "Leslie",
+        "Ludwig (bronny)"
+      ],
+      "start": 935,
+      "end": 960
+    },
+    {
+      "event_name": "Valkyrae\u2019s Comically Aggressive Threats",
+      "detailed_description": "After Squeex targets Valkyrae with an Elephant Gun, she responds with over-the-top, comically intense threats. She screams that she will find his house, strangle him, and suffocate him, and threatens to compile a list of his least favorite games to force him to play.",
       "status": "resolved",
       "characters_involved": [
         "Squeex",
         "Valkyrae"
       ],
-      "start": "900",
-      "end": "952"
+      "start": 1005,
+      "end": 1030
     },
     {
-      "event_name": "Valkyrae accuses the lobby of sexism",
-      "detailed_description": "Valkyrae jokingly accuses the lobby of 'sexism' for not targeting Squeex, rallying Leslie and Ludwig to escalate physical attacks against him on Hole 5.",
+      "event_name": "Vehicular Sabotage on the Green",
+      "detailed_description": "On Hole 6 (Hidden Lagoon), Squeex takes control of a golf cart and repeatedly runs over Valkyrae right as she attempts to put. Squeex laughs maniacally as Valkyrae gets thrown around, unable to figure out how he became invincible.",
+      "status": "resolved",
+      "characters_involved": [
+        "Squeex",
+        "Valkyrae"
+      ],
+      "start": 1200,
+      "end": 1225
+    },
+    {
+      "event_name": "Squeex Rescues Ludwig in the Golf Cart",
+      "detailed_description": "While driving a golf cart on Hole 7 (Roundabout), Squeex spots Ludwig\u2019s character stranded and swimming in the river. In a rare display of team coordination, Squeex drives into the water, picks Ludwig up, and chauffeur-drives him all the way to the green.",
+      "status": "resolved",
+      "characters_involved": [
+        "Squeex",
+        "Ludwig (bronny)"
+      ],
+      "start": 1392,
+      "end": 1414
+    },
+    {
+      "event_name": "Squeex's Meta-Gaming and Mockery",
+      "detailed_description": "On Hole 8 (Overlook), Squeex drops a landmine that blasts Valkyrae far off course. Squeex goes on to finish 1st and spends the rest of the match loudly laughing at and mocking Valkyrae's terrible golf putting skills as she repeatedly misses the hole.",
+      "status": "resolved",
+      "characters_involved": [
+        "Squeex",
+        "Valkyrae"
+      ],
+      "start": 1498,
+      "end": 1534
+    },
+    {
+      "event_name": "Valkyrae\u2019s Physics-Defying Landmine Finish",
+      "detailed_description": "On Hole 9 (Donut), Valkyrae freezes Squeex and Ludwig with a Freeze Bomb. After Squeex mocks her, Valkyrae takes a wild shot that detonates an on-field landmine, which perfectly launches her ball into the cup for an spectacular, accidental finish.",
       "status": "resolved",
       "characters_involved": [
         "Valkyrae",
         "Squeex",
-        "Leslie",
-        "Ludwig"
+        "Ludwig (bronny)"
       ],
-      "start": "1010",
-      "end": "1035"
+      "start": 1678,
+      "end": 1715
     },
     {
-      "event_name": "Valkyrae misses putts on Hole 5",
-      "detailed_description": "Valkyrae misses multiple short putts on Hole 5, descending into vocal frustration while Squeex easily outplays her.",
+      "event_name": "Electromagnet Failure",
+      "detailed_description": "Squeex activates an electromagnet shield thinking it will block attacks, but Valkyrae freeze-bombs him anyway right at the cup. Squeex yells in disbelief.",
+      "status": "resolved",
+      "characters_involved": [
+        "Squeex",
+        "Valkyrae"
+      ],
+      "start": 1780,
+      "end": 1815
+    },
+    {
+      "event_name": "The Cart Blockade",
+      "detailed_description": "Valkyrae drives a golf cart directly over the cup on Hole 11 to physically block opponents from finishing. Squeex gets stuck trying to putt past it.",
+      "status": "resolved",
+      "characters_involved": [
+        "Squeex",
+        "Valkyrae",
+        "Ludwig (bronny)"
+      ],
+      "start": 1900,
+      "end": 1950
+    },
+    {
+      "event_name": "Ludwig's First Victory",
+      "detailed_description": "Ludwig (bronny) surprisingly secures his first 1st-place finish of the session on Hole 12. The lobby react with shock and mock dismissiveness.",
+      "status": "resolved",
+      "characters_involved": [
+        "Ludwig (bronny)",
+        "Squeex",
+        "Valkyrae",
+        "Leslie"
+      ],
+      "start": 2115,
+      "end": 2170
+    },
+    {
+      "event_name": "Valkyrae\u2019s Kamikaze Play",
+      "detailed_description": "On the Sand Traps map, Valkyrae deliberately triggers an explosive mine, blowing herself up just to ensure Squeex is also blasted off the course.",
       "status": "resolved",
       "characters_involved": [
         "Valkyrae",
         "Squeex"
       ],
-      "start": "1120",
-      "end": "1143"
+      "start": 2480,
+      "end": 2510
     },
     {
-      "event_name": "Ludwig freezes Squeex as Leslie threatens punishments",
-      "detailed_description": "Ludwig freezes Squeex on Hole 6, while Leslie shifts focus to psychological warfare, threatening to compile a list of Ludwig's least favorite games (e.g., Valorant, StarCraft) for future streaming punishments.",
+      "event_name": "Squeex\u2019s Speedrun Domination",
+      "detailed_description": "Squeex executes a near-flawless run on Hole 15 (Taiga Woods), completing the map in 56 seconds to claim a dominant 1st place.",
       "status": "resolved",
       "characters_involved": [
+        "Squeex"
+      ],
+      "start": 2570,
+      "end": 2610
+    },
+    {
+      "event_name": "Orbital Laser Strike on Squeex",
+      "detailed_description": "Valkyrae strikes Squeex with an Orbital Laser. Squeex's shield fails to protect him, prompting comical outrage.",
+      "status": "resolved",
+      "characters_involved": [
+        "Squeex",
+        "Valkyrae"
+      ],
+      "start": 2710,
+      "end": 2740
+    },
+    {
+      "event_name": "Golf Cart Cup Blockade",
+      "detailed_description": "Valkyrae denies Squeex a golf cart ride. Squeex gets his own cart and blocks the cup to prevent others from scoring, securing first place.",
+      "status": "resolved",
+      "characters_involved": [
+        "Squeex",
+        "Valkyrae"
+      ],
+      "start": 2890,
+      "end": 3020
+    },
+    {
+      "event_name": "Massive Cliff Jump on final Base Jump hole",
+      "detailed_description": "The players execute a massive cliff jump on the final 'Base Jump' hole.",
+      "status": "resolved",
+      "characters_involved": [
+        "Squeex",
+        "Valkyrae",
+        "Leslie",
+        "Ludwig"
+      ],
+      "start": 3110,
+      "end": 3150
+    },
+    {
+      "event_name": "End of Golf Match and Leslie's Victory",
+      "detailed_description": "The golf match ends. Leslie wins the overall lobby wager, while Squeex finishes in a close second.",
+      "status": "resolved",
+      "characters_involved": [
+        "Squeex",
+        "Valkyrae",
+        "Leslie",
+        "Ludwig"
+      ],
+      "start": 3210,
+      "end": 3245
+    },
+    {
+      "event_name": "Sub-Gifting Debt Calculation and Transition to Tetr.io",
+      "detailed_description": "Back in the main menu, Leslie calculates Squeex's sub-gifting debt, and the group decides to transition to Tetr.io.",
+      "status": "resolved",
+      "characters_involved": [
+        "Squeex",
+        "Valkyrae",
+        "Leslie",
+        "Ludwig"
+      ],
+      "start": 3250,
+      "end": 3330
+    },
+    {
+      "event_name": "Tetr.io Lobby Leaks and Accidental Kick",
+      "detailed_description": "During Tetr.io lobby creation, Squeex leaks the join code and accidentally kicks Valkyrae from the lobby.",
+      "status": "resolved",
+      "characters_involved": [
+        "Squeex",
+        "Valkyrae",
+        "Leslie",
+        "Ludwig"
+      ],
+      "start": 3390,
+      "end": 3450
+    },
+    {
+      "event_name": "Tetr.io Room Assembly and Practice Round",
+      "detailed_description": "The players successfully assemble in a new Tetr.io room and launch a practice round.",
+      "status": "resolved",
+      "characters_involved": [
+        "Squeex",
+        "Valkyrae",
+        "Leslie",
+        "Ludwig"
+      ],
+      "start": 3455,
+      "end": 3480
+    },
+    {
+      "event_name": "Tetr.io Warm-up & Mechanics Tutorial",
+      "detailed_description": "Squeex, Leslie, Ludwig, and Valkyrae learn Tetr.io controls in a practice lobby. Squeex struggles with holding blocks (Shift key) while Leslie wins the trial run.",
+      "status": "resolved",
+      "characters_involved": [
+        "Squeex",
+        "Leslie",
+        "Ludwig",
+        "Valkyrae"
+      ],
+      "start": 3480,
+      "end": 3560
+    },
+    {
+      "event_name": "Technical Mishap & Lobby Recreation",
+      "detailed_description": "Ludwig accidentally forfeits and gets kicked from the lobby, prompting the group to leave and coordinate a new private room while hiding the code to prevent stream-sniping.",
+      "status": "resolved",
+      "characters_involved": [
+        "Squeex",
+        "Leslie",
+        "Ludwig",
+        "Valkyrae"
+      ],
+      "start": 3565,
+      "end": 3674
+    },
+    {
+      "event_name": "Official Round 1: Squeex Dominates",
+      "detailed_description": "The first official match begins. Squeex plays surprisingly fast, prompting a rage outburst from Valkyrae. Ludwig misclicks late in the round, handing Squeex the first victory (Squeex: 1, Ludwig: 0, Leslie: 0, Valkyrae: 0).",
+      "status": "resolved",
+      "characters_involved": [
+        "Squeex",
+        "Leslie",
+        "Ludwig",
+        "Valkyrae"
+      ],
+      "start": 3675,
+      "end": 3815
+    },
+    {
+      "event_name": "Official Round 2: Ludwig Equalizes",
+      "detailed_description": "Squeex misstacks early and is eliminated first. Ludwig defeats Leslie in the final 1v1 duel to claim his first win, tying the score (Squeex: 1, Ludwig: 1).",
+      "status": "resolved",
+      "characters_involved": [
+        "Squeex",
+        "Leslie",
+        "Ludwig",
+        "Valkyrae"
+      ],
+      "start": 3818,
+      "end": 3918
+    },
+    {
+      "event_name": "Official Round 3: Target Pressure & Squeex's Win",
+      "detailed_description": "Squeex faces targeted block attacks from his opponents but successfully defends. Leslie panics comically as her screen fills up. Squeex outlasts Ludwig to win (Squeex: 2, Ludwig: 1).",
+      "status": "resolved",
+      "characters_involved": [
+        "Squeex",
+        "Leslie",
+        "Ludwig",
+        "Valkyrae"
+      ],
+      "start": 3919,
+      "end": 4028
+    },
+    {
+      "event_name": "Official Round 4: Ludwig Catches Up",
+      "detailed_description": "Squeex is targeted heavily and knocked out. Ludwig wins another close 1v1 against Leslie, tying the scoreboard again (Squeex: 2, Ludwig: 2).",
+      "status": "resolved",
+      "characters_involved": [
+        "Squeex",
+        "Leslie",
+        "Ludwig",
+        "Valkyrae"
+      ],
+      "start": 4029,
+      "end": 4148
+    },
+    {
+      "event_name": "Official Round 5: Ludwig Takes the Lead",
+      "detailed_description": "Squeex struggles to maintain his pace and is eliminated. Ludwig wins his third round of the match, pulling ahead (Ludwig: 3, Squeex: 2).",
+      "status": "resolved",
+      "characters_involved": [
+        "Squeex",
+        "Leslie",
+        "Ludwig",
+        "Valkyrae"
+      ],
+      "start": 4149,
+      "end": 4310
+    },
+    {
+      "event_name": "Squeex Under Pressure",
+      "detailed_description": "Squeex chokes a solid lead by misplacing crucial blocks, allowing Valkyrae to secure a quick round win.",
+      "status": "resolved",
+      "characters_involved": [
+        "Squeex",
+        "Valkyrae"
+      ],
+      "start": 4350,
+      "end": 4397
+    },
+    {
+      "event_name": "Targeting Anarchy",
+      "detailed_description": "Valkyrae rallies the lobby to target Squeex. Despite a brief fightback where Squeex KOs Valkyrae, he ultimately succumbs to the coordinate targeting block pressure.",
+      "status": "resolved",
+      "characters_involved": [
+        "Squeex",
+        "Valkyrae",
+        "Leslie",
+        "Ludwig"
+      ],
+      "start": 4400,
+      "end": 4652
+    },
+    {
+      "event_name": "The Esports Distraction",
+      "detailed_description": "The lobby intensely debates a legendary CS:GO match (G2 vs Spirit) while playing. The distraction causes Squeex to make consecutive placement errors, giving Valkyrae the match point.",
+      "status": "resolved",
+      "characters_involved": [
+        "Squeex",
+        "Valkyrae",
+        "Ludwig",
+        "Leslie"
+      ],
+      "start": 4811,
+      "end": 5035
+    },
+    {
+      "event_name": "Tetr.io Climax",
+      "detailed_description": "Valkyrae defeats Leslie in the final remaining 1v1 screen to officially win the Tetr.io tournament 4-3.",
+      "status": "resolved",
+      "characters_involved": [
+        "Valkyrae",
+        "Leslie",
+        "Squeex",
+        "Ludwig"
+      ],
+      "start": 5036,
+      "end": 5142
+    },
+    {
+      "event_name": "Sub Debt Settlement",
+      "detailed_description": "The creators calculate their final wager standings. Ludwig gifts subs to Squeex to balance their debts, transitioning the lobby to the next game.",
+      "status": "resolved",
+      "characters_involved": [
+        "Squeex",
+        "Ludwig",
+        "Leslie",
+        "Valkyrae"
+      ],
+      "start": 5145,
+      "end": 5220
+    },
+    {
+      "event_name": "Game Transition and Lobby Setup",
+      "detailed_description": "The group enthusiastically decides to switch games to SpeedRunners. Squeex realizes his controller is in his living room and decides to play on mouse and keyboard.",
+      "status": "resolved",
+      "characters_involved": [
+        "Squeex",
+        "Valkyrae",
+        "Leslie",
+        "Ludwig"
+      ],
+      "start": 5220,
+      "end": 5425
+    },
+    {
+      "event_name": "Initial Practice Round",
+      "detailed_description": "The lobby enters a warmup on the 'Metro' map. Squeex surprises everyone by easily winning the first practice leg.",
+      "status": "resolved",
+      "characters_involved": [
+        "Squeex",
+        "Valkyrae",
+        "Leslie",
+        "Ludwig"
+      ],
+      "start": 5425,
+      "end": 5542
+    },
+    {
+      "event_name": "Extended Movement Practice",
+      "detailed_description": "The group continues practicing, testing out the hook, slide, and jump mechanics. Squeex, Ludwig, and Leslie trade wins during the informal warmup rounds.",
+      "status": "resolved",
+      "characters_involved": [
+        "Squeex",
+        "Valkyrae",
+        "Leslie",
+        "Ludwig"
+      ],
+      "start": 5545,
+      "end": 5919
+    },
+    {
+      "event_name": "Official Match: Round 1",
+      "detailed_description": "The first official round on the 'Theme Park' map begins. Squeex is eliminated almost instantly. Ludwig wins the round after a close battle with Valkyrae.",
+      "status": "resolved",
+      "characters_involved": [
+        "Squeex",
+        "Valkyrae",
+        "Leslie",
+        "Ludwig"
+      ],
+      "start": 5920,
+      "end": 6031
+    },
+    {
+      "event_name": "Official Match: Round 2",
+      "detailed_description": "Squeex fails immediately again in the second round, admitting he does not know the map's layout, leaving him to spectate the others.",
+      "status": "developing",
+      "characters_involved": [
+        "Squeex",
+        "Valkyrae",
+        "Leslie",
+        "Ludwig"
+      ],
+      "start": 6032,
+      "end": 6090
+    },
+    {
+      "event_name": "SpeedRunners Competitive Conclusion",
+      "detailed_description": "Squeex struggles with the hazardous elements of the Theme Park map. Valkyrae and Ludwig display strong mechanical competence, alternating round victories until the final scoreboard screen.",
+      "status": "resolved",
+      "characters_involved": [
+        "Squeex",
+        "Valkyrae",
+        "Leslie",
+        "Ludwig"
+      ],
+      "start": 6090,
+      "end": 6442
+    },
+    {
+      "event_name": "SpeedRunners Wager Settlement",
+      "detailed_description": "The lobby transitions out of the game, tallying their scores. Leslie acknowledges her defeat, confirming her sub-gifting debt to Ludwig.",
+      "status": "resolved",
+      "characters_involved": [
+        "Squeex",
+        "Valkyrae",
+        "Leslie",
+        "Ludwig"
+      ],
+      "start": 6443,
+      "end": 6515
+    },
+    {
+      "event_name": "Liar\u2019s Bar Setup and Banter",
+      "detailed_description": "The group enters a Liar\u2019s Bar lobby. Squeex adopts the bunny avatar, Leslie selects the pig, Ludwig plays as the tiger, and Valkyrae plays as the dog/fox. Squeex struggles to configure his view during the rules explanation.",
+      "status": "introduced",
+      "characters_involved": [
+        "Squeex",
+        "Valkyrae",
+        "Leslie",
+        "Ludwig"
+      ],
+      "start": 6516,
+      "end": 6946
+    },
+    {
+      "event_name": "Squeex's Spot-On Clutch",
+      "detailed_description": "In their initial Liar's Dice round, Squeex calls a highly risky \"Spot On\" on six 2s. The bid proves exact, yielding Squeex a flawless round win and forcing Valkyrae and Ludwig to drink.",
+      "status": "developing",
+      "characters_involved": [
+        "Squeex",
+        "Valkyrae",
+        "Leslie",
+        "Ludwig"
+      ],
+      "start": 6947,
+      "end": 6960
+    },
+    {
+      "event_name": "Squeex\u2019s Perfect \"Spot On\" Call",
+      "detailed_description": "Squeex correctly predicts exactly six 2s on the table, forcing both Valkyrae and Leslie to drink poison as punishment.",
+      "status": "resolved",
+      "characters_involved": [
+        "Squeex",
+        "Valkyrae",
+        "Leslie",
+        "Ludwig"
+      ],
+      "start": 6960,
+      "end": 6985
+    },
+    {
+      "event_name": "Squeex's Strategic Bluff & Valkyrae's Poisoning",
+      "detailed_description": "Squeex successfully convinces the lobby he has zero 2s when challenged, resulting in Valkyrae drinking another round of poison.",
+      "status": "resolved",
+      "characters_involved": [
+        "Squeex",
+        "Valkyrae",
+        "Ludwig",
+        "Leslie"
+      ],
+      "start": 7110,
+      "end": 7140
+    },
+    {
+      "event_name": "Ludwig's Comedic Misclick",
+      "detailed_description": "Ludwig accidentally bids seven 1s instead of calling a bluff. Squeex humorously decides to spare him rather than calling him out.",
+      "status": "resolved",
+      "characters_involved": [
+        "Ludwig",
+        "Squeex",
+        "Leslie",
+        "Valkyrae"
+      ],
+      "start": 7140,
+      "end": 7170
+    },
+    {
+      "event_name": "Valkyrae's Timeout Error",
+      "detailed_description": "Valkyrae panic-bids seven 2s as her timer runs out, leading to Ludwig calling her a liar and Valkyrae getting poisoned.",
+      "status": "resolved",
+      "characters_involved": [
+        "Valkyrae",
         "Ludwig",
         "Squeex",
         "Leslie"
       ],
-      "start": "1180",
-      "end": "1210"
+      "start": 7350,
+      "end": 7410
     },
     {
-      "event_name": "Valkyrae's failed sabotage on Hole 7",
-      "detailed_description": "Valkyrae aggressively attempts to shoot Squeex off the green on Hole 7, but misses and blows herself up, intensifying her competitive rage.",
+      "event_name": "Squeex's Second \"Spot On\" Success",
+      "detailed_description": "Squeex pulls off another successful \"Spot On\" call on five 5s, forcing Leslie to drink poison.",
+      "status": "resolved",
+      "characters_involved": [
+        "Squeex",
+        "Leslie",
+        "Valkyrae",
+        "Ludwig"
+      ],
+      "start": 7490,
+      "end": 7555
+    },
+    {
+      "event_name": "Squeex and Valkyrae's Double Elimination",
+      "detailed_description": "Squeex fails a high-risk bluff and is poisoned. Valkyrae is subsequently eliminated, leaving Ludwig as the ultimate victor of the Liar's Dice round.",
+      "status": "resolved",
+      "characters_involved": [
+        "Squeex",
+        "Valkyrae",
+        "Ludwig",
+        "Leslie"
+      ],
+      "start": 7560,
+      "end": 7720
+    },
+    {
+      "event_name": "Pivot to Liar's Deck & Character Select Chaos",
+      "detailed_description": "The lobby transitions to the card game \"Liar's Deck\" (King's Table). Squeex accidentally selects a massive rhino character (\"Gerk\"), sparking jokes.",
+      "status": "introduced",
+      "characters_involved": [
+        "Squeex",
+        "Ludwig",
+        "Leslie",
+        "Valkyrae"
+      ],
+      "start": 7720,
+      "end": 7830
+    },
+    {
+      "event_name": "Valkyrae Calls Leslie\u2019s Bluff",
+      "detailed_description": "After a sequence of Kings claims, Leslie (playing the fox/cat) claims to place 1 King. Valkyrae confidently calls her a liar. Caught in a bluff, Leslie is forced to pull the trigger on her character. The chamber is empty, and Leslie survives, setting a tense tone for the round.",
       "status": "resolved",
       "characters_involved": [
         "Valkyrae",
-        "Squeex"
+        "Leslie",
+        "Squeex",
+        "Ludwig"
       ],
-      "start": "1350",
-      "end": "1410"
+      "start": 7857,
+      "end": 7970
     },
     {
-      "event_name": "Squeex and Ludwig coordinate minefield sabotage on Hole 8",
-      "detailed_description": "Squeex and Ludwig deploy landmines to block Valkyrae on Hole 8, sending her out of bounds and triggering a severe shouting fit.",
+      "event_name": "Ludwig's First Russian Roulette Trigger Pull",
+      "detailed_description": "The table transitions to Queens. After a series of claims, Squeex accuses Ludwig (\"bronny\") of lying. Ludwig aggressively defends his claim but is forced to take the trigger-pull after being caught. Ludwig's character (the pig) pulls the trigger, but it is a blank chamber, and he survives the shot.",
+      "status": "resolved",
+      "characters_involved": [
+        "Ludwig",
+        "Squeex",
+        "Valkyrae",
+        "Leslie"
+      ],
+      "start": 7970,
+      "end": 8137
+    },
+    {
+      "event_name": "Squeex's Sunglasses Defense and Valkyrae's Elimination",
+      "detailed_description": "At the Aces table, the players accuse each other of using facecams to read expressions. Squeex hilariously puts on dark sunglasses to block his eyes. Valkyrae makes a final Ace claim, but Squeex calls her a liar. Valkyrae is caught, pulls the trigger, and her character is shot and killed, eliminating her from the match.",
+      "status": "resolved",
+      "characters_involved": [
+        "Squeex",
+        "Valkyrae",
+        "Leslie",
+        "Ludwig"
+      ],
+      "start": 8137,
+      "end": 8426
+    },
+    {
+      "event_name": "Squeex Lying and Surviving the Trigger Pull",
+      "detailed_description": "Down to three players at the Queens table, Squeex makes a risky Queen claim. Ludwig immediately calls him a liar. Squeex admits he is dead-to-rights and has to pull the trigger. Squeex's character (the rhino) pulls the trigger, but the gun clicks on an empty chamber, allowing Squeex to miraculously survive.",
       "status": "resolved",
       "characters_involved": [
         "Squeex",
         "Ludwig",
-        "Valkyrae"
+        "Leslie"
       ],
-      "start": "1500",
-      "end": "1530"
+      "start": 8426,
+      "end": 8635
     },
     {
-      "event_name": "Squeex freezes Valkyrae to secure 1st place on Hole 9",
-      "detailed_description": "Squeex uses a freeze bomb on Valkyrae right before her final putt on Hole 9, securing 1st place while she experiences total gamer tilt.",
+      "event_name": "Aces Table Psychological Stand-off",
+      "detailed_description": "The remaining three players trade rapid 1-Ace claims in a tense, fast-paced stand-off. Squeex tries to deflect Ludwig's suspicions by singing and talking, keeping the psychological warfare high as the segment concludes.",
+      "status": "developing",
+      "characters_involved": [
+        "Squeex",
+        "Ludwig",
+        "Leslie"
+      ],
+      "start": 8635,
+      "end": 8700
+    },
+    {
+      "event_name": "Squeex's Lucky Escape",
+      "detailed_description": "Squeex bluffs an Ace, gets caught by Leslie, but pulls the trigger on an empty chamber to stay alive.",
+      "status": "resolved",
+      "characters_involved": [
+        "Squeex",
+        "Leslie"
+      ],
+      "start": 8700,
+      "end": 8715
+    },
+    {
+      "event_name": "Squeex's Fake-out Survival",
+      "detailed_description": "Squeex pretends to be confused about the card rank, gets called out by Valkyrae, and incredibly survives another Russian Roulette shot.",
       "status": "resolved",
       "characters_involved": [
         "Squeex",
         "Valkyrae"
       ],
-      "start": "1710",
-      "end": "1740"
+      "start": 8815,
+      "end": 8840
+    },
+    {
+      "event_name": "Valkyrae Eliminates Squeex",
+      "detailed_description": "Valkyrae catches Squeex in a final bluff. Squeex's gun fires, eliminating him and giving Valkyrae the match win.",
+      "status": "resolved",
+      "characters_involved": [
+        "Squeex",
+        "Valkyrae"
+      ],
+      "start": 8930,
+      "end": 8945
+    },
+    {
+      "event_name": "Sub Debt Negotiations",
+      "detailed_description": "Leslie aggressively collects her sub bounty from Ludwig and Squeex. Squeex comically tries to defer his debt to Klarna.",
+      "status": "resolved",
+      "characters_involved": [
+        "Squeex",
+        "Leslie",
+        "Valkyrae",
+        "Ludwig"
+      ],
+      "start": 9000,
+      "end": 9035
+    },
+    {
+      "event_name": "Keyboard Confidence",
+      "detailed_description": "Squeex brags about his superior typing skills as the lobby transitions to \"Final Sentence.\"",
+      "status": "resolved",
+      "characters_involved": [
+        "Squeex",
+        "Ludwig",
+        "Leslie",
+        "Valkyrae"
+      ],
+      "start": 9130,
+      "end": 9145
+    },
+    {
+      "event_name": "Ludwig Dominates Warmup",
+      "detailed_description": "Ludwig wins the practice round with ease. Squeex chokes under pressure, getting instantly eliminated by the game's executioner.",
+      "status": "resolved",
+      "characters_involved": [
+        "Squeex",
+        "Ludwig"
+      ],
+      "start": 9300,
+      "end": 9335
+    },
+    {
+      "event_name": "Final Sentence Typing Battle & Leslie's Victory",
+      "detailed_description": "Squeex types frantically, shouting over his frequent mistakes. Leslie maintains high accuracy and wins, resulting in Squeex and Ludwig's elimination.",
+      "status": "resolved",
+      "characters_involved": [
+        "Squeex",
+        "Ludwig",
+        "Leslie",
+        "Valkyrae"
+      ],
+      "start": 9570,
+      "end": 9712
+    },
+    {
+      "event_name": "Keep Talking and Nobody Explodes Setup",
+      "detailed_description": "The group sets up the cooperative bomb-defusing game. They establish a boys-vs-girls team dynamic and decide on a three-bomb race.",
+      "status": "introduced",
+      "characters_involved": [
+        "Squeex",
+        "Ludwig",
+        "Leslie",
+        "Valkyrae"
+      ],
+      "start": 9730,
+      "end": 9860
+    },
+    {
+      "event_name": "Squeex's \"Computer Virus\" Troll",
+      "detailed_description": "Squeex downloads a batch file sent by Leslie to unlock game content. He comically fakes a severe PC crash, dancing to a custom soundboard track of Windows XP error messages.",
+      "status": "resolved",
+      "characters_involved": [
+        "Squeex",
+        "Leslie",
+        "Ludwig",
+        "Valkyrae"
+      ],
+      "start": 9920,
+      "end": 10030
+    },
+    {
+      "event_name": "Squeex & Ludwig's Bomb Defusal Attempt",
+      "detailed_description": "Squeex defuses while Ludwig reads the manual. Despite taking a strike on the symbols module, they successfully clear the first bomb through close vocal coordination.",
+      "status": "resolved",
+      "characters_involved": [
+        "Squeex",
+        "Ludwig"
+      ],
+      "start": 10133,
+      "end": 10334
+    },
+    {
+      "event_name": "Bomb Race Resolution & Forfeit",
+      "detailed_description": "Squeex and Ludwig learn the girls are already on their third bomb. Squeex forfeits using his PC lag as an excuse, resulting in both boys owing 5 gift subs.",
+      "status": "resolved",
+      "characters_involved": [
+        "Squeex",
+        "Ludwig",
+        "Leslie",
+        "Valkyrae"
+      ],
+      "start": 10340,
+      "end": 10440
+    },
+    {
+      "event_name": "Trivia Murder Party 2 Setup",
+      "detailed_description": "The group pivots to Jackbox Party Pack 6, specifically 'Trivia Murder Party 2'. They coordinate connecting via Discord and Jackbox.tv.",
+      "status": "resolved",
+      "characters_involved": [
+        "Squeex",
+        "Valkyrae",
+        "Leslie",
+        "Ludwig"
+      ],
+      "start": 10440,
+      "end": 10560
+    },
+    {
+      "event_name": "Lobby Code Leak & Reset",
+      "detailed_description": "Squeex accidentally unhides the room code 'WHNB' on his stream, allowing viewers to quickly hijack the lobby. Squeex admits his blunder, forcing Leslie to recreate a private game.",
+      "status": "resolved",
+      "characters_involved": [
+        "Squeex",
+        "Leslie",
+        "Valkyrae",
+        "Ludwig"
+      ],
+      "start": 10565,
+      "end": 10695
+    },
+    {
+      "event_name": "Question 1 Failure & Pegs Minigame",
+      "detailed_description": "Ludwig is the only player to answer the Rolling Stones trivia question correctly. Squeex, Valkyrae, and Leslie fail and enter the Killing Room, where Squeex is eliminated in a Pachinko-like 'Pegs' game.",
+      "status": "resolved",
+      "characters_involved": [
+        "Squeex",
+        "Valkyrae",
+        "Leslie",
+        "Ludwig"
+      ],
+      "start": 10710,
+      "end": 10785
+    },
+    {
+      "event_name": "Question 3 & Valkyrae's Password Death",
+      "detailed_description": "Valkyrae fails a Jules Verne trivia question, landing her in the Killing Room. She sets the password 'SLAP,' but the surviving players easily guess it, eliminating her.",
+      "status": "resolved",
+      "characters_involved": [
+        "Valkyrae",
+        "Squeex",
+        "Leslie",
+        "Ludwig"
+      ],
+      "start": 10871,
+      "end": 10950
+    },
+    {
+      "event_name": "Question 4 & Ludwig's Chalice Elimination",
+      "detailed_description": "Ludwig misses a trivia question about four-door cars and enters the Killing Room. Squeex and Valkyrae (playing as ghosts) successfully poison his chalices, leading to his elimination.",
+      "status": "resolved",
+      "characters_involved": [
+        "Ludwig",
+        "Squeex",
+        "Valkyrae",
+        "Leslie"
+      ],
+      "start": 10955,
+      "end": 11090
+    },
+    {
+      "event_name": "Question 5 & Leslie's Typing Defeat",
+      "detailed_description": "Leslie, the last survivor, misses a question about Kylie Jenner. In the Dictation typing test, Ludwig's ghost outscores her (38 to 34), eliminating her and wiping out all survivors.",
+      "status": "resolved",
+      "characters_involved": [
+        "Leslie",
+        "Ludwig",
+        "Squeex",
+        "Valkyrae"
+      ],
+      "start": 11172,
+      "end": 11295
+    },
+    {
+      "event_name": "Fuslie dominates remaining trivia",
+      "detailed_description": "Fuslie dominates the remaining trivia questions while Squeex and other ghosts fail to guess correctly.",
+      "status": "developing",
+      "characters_involved": [
+        "Fuslie",
+        "Squeex",
+        "Valkyrae",
+        "Ludwig (bronny)"
+      ],
+      "start": 11310,
+      "end": 11450
+    },
+    {
+      "event_name": "Fuslie's rapid-fire escape hallway navigation",
+      "detailed_description": "Fuslie successfully navigates the rapid-fire categorization escape hallway. Squeex attempts to sabotage her with incorrect advice during the baseball pitch question, but she survives and escapes anyway.",
+      "status": "developing",
+      "characters_involved": [
+        "Fuslie",
+        "Squeex",
+        "Valkyrae",
+        "Ludwig (bronny)"
+      ],
+      "start": 11450,
+      "end": 11625
+    },
+    {
+      "event_name": "Fuslie wins Trivia Murder Party 2",
+      "detailed_description": "Fuslie wins Trivia Murder Party 2 as the sole survivor, and the haunted mansion explodes.",
+      "status": "resolved",
+      "characters_involved": [
+        "Fuslie",
+        "Squeex",
+        "Valkyrae",
+        "Ludwig (bronny)"
+      ],
+      "start": 11625,
+      "end": 11730
+    },
+    {
+      "event_name": "Group transition out of Jackbox",
+      "detailed_description": "The group transitions out of Jackbox, with Ludwig jokingly misinterpreting Leslie's suggestion of \"Feather Party\" as \"Deadlock.\"",
+      "status": "resolved",
+      "characters_involved": [
+        "Leslie",
+        "Squeex",
+        "Valkyrae",
+        "Ludwig (bronny)"
+      ],
+      "start": 11730,
+      "end": 11840
+    },
+    {
+      "event_name": "Avatar customization and troubleshooting in Feather Party",
+      "detailed_description": "Players customize their avian avatars in Feather Party, while Squeex and Ludwig troubleshoot a laggy frame rate issue by adjusting display settings.",
+      "status": "resolved",
+      "characters_involved": [
+        "Squeex",
+        "Ludwig (bronny)",
+        "Leslie",
+        "Valkyrae"
+      ],
+      "start": 11840,
+      "end": 12000
+    },
+    {
+      "event_name": "Competition in Spotlight minigame",
+      "detailed_description": "The players compete in the \"Spotlight\" minigame, scrambling to stay inside a moving yellow circle. Squeex and the others quickly coordinate to target Ludwig.",
+      "status": "developing",
+      "characters_involved": [
+        "Squeex",
+        "Ludwig (bronny)",
+        "Leslie",
+        "Valkyrae"
+      ],
+      "start": 12000,
+      "end": 12180
+    },
+    {
+      "event_name": "Spotlight Showdown Conclusion",
+      "detailed_description": "The opening minigame of Feather Party finishes with high-intensity positioning. Squeex falls off the arena early, leaving Ludwig, Valkyrae, and Leslie to fight for the final seconds. Ludwig ultimately wins the round.",
+      "status": "resolved",
+      "characters_involved": [
+        "Squeex",
+        "Ludwig",
+        "Valkyrae",
+        "Leslie"
+      ],
+      "start": 12180,
+      "end": 12228
+    },
+    {
+      "event_name": "Scoreboard and Birthday Banter",
+      "detailed_description": "The lobby views the post-game scoreboard. The players joke about Ludwig\u2019s upcoming birthday, teasing him that he is turning 31 next week.",
+      "status": "resolved",
+      "characters_involved": [
+        "Squeex",
+        "Ludwig",
+        "Valkyrae",
+        "Leslie"
+      ],
+      "start": 12228,
+      "end": 12248
+    },
+    {
+      "event_name": "Pixel Smash Minigame",
+      "detailed_description": "The players enter a glass-smashing map. Squeex shows quick, effective control of his bird, shattering the most glass barriers and winning the minigame.",
+      "status": "resolved",
+      "characters_involved": [
+        "Squeex",
+        "Ludwig",
+        "Valkyrae",
+        "Leslie"
+      ],
+      "start": 12261,
+      "end": 12323
+    },
+    {
+      "event_name": "Mine Sweeper Minigame",
+      "detailed_description": "A fast-paced round where players must dodge explosive tiles by standing on opposite colors. Squeex miscalculates and gets blown up early, while Ludwig secures another victory.",
+      "status": "resolved",
+      "characters_involved": [
+        "Squeex",
+        "Ludwig",
+        "Valkyrae",
+        "Leslie"
+      ],
+      "start": 12337,
+      "end": 12385
+    },
+    {
+      "event_name": "Balloon Rush Minigame",
+      "detailed_description": "The lobby navigates a vertical platform map to pop balloons. Ludwig maintains his strong competitive form, capturing first place again.",
+      "status": "resolved",
+      "characters_involved": [
+        "Squeex",
+        "Ludwig",
+        "Valkyrae",
+        "Leslie"
+      ],
+      "start": 12416,
+      "end": 12496
+    },
+    {
+      "event_name": "Icy Showdown Minigame",
+      "detailed_description": "The birds must survive on a shrinking, slippery iceberg while avoiding sliding frozen crabs. Squeex slips off the edge and playfully rages about the slippery game physics. Valkyrae wins the round.",
+      "status": "resolved",
+      "characters_involved": [
+        "Squeex",
+        "Ludwig",
+        "Valkyrae",
+        "Leslie"
+      ],
+      "start": 12527,
+      "end": 12574
+    },
+    {
+      "event_name": "Ice Hockey Team Showdown",
+      "detailed_description": "Squeex and Leslie team up as the Blue Team against Ludwig and Valkyrae on the Red Team. Squeex delivers a masterful performance, scoring all three goals for his team (a hat trick) to secure a 3-1 win. He mockingly compares himself to Lionel Messi.",
+      "status": "resolved",
+      "characters_involved": [
+        "Squeex",
+        "Leslie",
+        "Ludwig",
+        "Valkyrae"
+      ],
+      "start": 12611,
+      "end": 12762
+    },
+    {
+      "event_name": "Feather Catch Minigame",
+      "detailed_description": "A highly chaotic round where players must collect and hold onto floating feathers while hitting opponents to steal theirs. Valkyrae wins the minigame, though Squeex holds on to his overall scoreboard lead.",
+      "status": "resolved",
+      "characters_involved": [
+        "Squeex",
+        "Ludwig",
+        "Valkyrae",
+        "Leslie"
+      ],
+      "start": 12792,
+      "end": 12888
+    },
+    {
+      "event_name": "Mini-Football Kickoff",
+      "detailed_description": "The segment transitions into a soccer-style team minigame, matching the same teams (Blue: Squeex & Leslie vs. Red: Ludwig & Valkyrae). The round is in progress as the segment concludes.",
+      "status": "developing",
+      "characters_involved": [
+        "Squeex",
+        "Leslie",
+        "Ludwig",
+        "Valkyrae"
+      ],
+      "start": 12918,
+      "end": 12960
+    },
+    {
+      "event_name": "Mini-Football Kickoff Climax",
+      "detailed_description": "Squeex and Ludwig (Blue Team) battle Leslie and Valkyrae (Red Team) in the final seconds of the soccer minigame. The Red Team wins 1\u20130. Squeex comically complains about hand cramps and claims Leslie played 17 hours offline to prepare.",
+      "status": "resolved",
+      "characters_involved": [
+        "Squeex",
+        "Ludwig",
+        "Leslie",
+        "Valkyrae"
+      ],
+      "start": 13050,
+      "end": 13075
+    },
+    {
+      "event_name": "Track Race Drifting Victory",
+      "detailed_description": "The lobby participates in a high-speed racing game (\"Track Race\"). Squeex demonstrates excellent drifting mechanics despite crashing early with Ludwig and Valkyrae. He finishes in first place, expanding his scoreboard lead and loudly bragging to Valkyrae.",
+      "status": "resolved",
+      "characters_involved": [
+        "Squeex",
+        "Valkyrae",
+        "Leslie",
+        "Ludwig"
+      ],
+      "start": 13094,
+      "end": 13316
+    },
+    {
+      "event_name": "Count Master Counting Failure",
+      "detailed_description": "The group plays \"Count Master,\" which requires standing on the tile corresponding to the correct number of items. Squeex struggles with basic tracking, loses his footing, and falls through a trapdoor. Leslie outlasts the group to secure the win.",
+      "status": "resolved",
+      "characters_involved": [
+        "Squeex",
+        "Leslie",
+        "Valkyrae",
+        "Ludwig"
+      ],
+      "start": 13236,
+      "end": 13308
+    },
+    {
+      "event_name": "Falling Blocks Keyboard Strat & Triumph",
+      "detailed_description": "Squeex pretends his keyboard is malfunctioning to lower the group's guard. The lobby immediately exposes his lie and attempts to push him off. Squeex manages to survive on the falling icy platforms, outlasting everyone to win first place.",
+      "status": "resolved",
+      "characters_involved": [
+        "Squeex",
+        "Valkyrae",
+        "Leslie",
+        "Ludwig"
+      ],
+      "start": 13328,
+      "end": 13413
+    },
+    {
+      "event_name": "Golden Crab Herding Dominance",
+      "detailed_description": "Squeex completely dominates the \"Golden Crab\" minigame by herding crabs into his scoring pen. Valkyrae attempts to block Squeex defensively but fails. Squeex claims first place and solidifies his overall lead.",
+      "status": "resolved",
+      "characters_involved": [
+        "Squeex",
+        "Valkyrae",
+        "Leslie",
+        "Ludwig"
+      ],
+      "start": 13432,
+      "end": 13540
+    },
+    {
+      "event_name": "Shaky Tiles Targeting and Valkyrae Win",
+      "detailed_description": "Out of options to stop Squeex's overall lead, the lobby actively coordinates to target him (\"Let's kill him\"). Squeex is knocked off the shaky tile board early. Valkyrae manages to win the round, keeping the leaderboard competitive.",
+      "status": "resolved",
+      "characters_involved": [
+        "Squeex",
+        "Valkyrae",
+        "Leslie",
+        "Ludwig"
+      ],
+      "start": 13559,
+      "end": 13635
+    },
+    {
+      "event_name": "Ball Fight Bad Bounce",
+      "detailed_description": "In \"Ball Fight,\" Squeex suffers a bad bounce and is eliminated immediately. Leslie takes first place, narrowing the point gap with Squeex.",
+      "status": "resolved",
+      "characters_involved": [
+        "Squeex",
+        "Leslie",
+        "Valkyrae",
+        "Ludwig"
+      ],
+      "start": 13654,
+      "end": 13696
+    },
+    {
+      "event_name": "Tick-Tok Terror Setup",
+      "detailed_description": "The players prepare for \"Tick-Tok Terror,\" a bomb-passing game, reading the rules right before the video stream concludes.",
+      "status": "introduced",
+      "characters_involved": [
+        "Squeex",
+        "Ludwig",
+        "Leslie",
+        "Valkyrae"
+      ],
+      "start": 13712,
+      "end": 13723
+    },
+    {
+      "event_name": "Feather Party Mini-Golf Climax",
+      "detailed_description": "Squeex (playing as \"Air Coots\") secures a clutch final shot to win the mini-golf round, cementing his overall match victory in Feather Party.",
+      "status": "resolved",
+      "characters_involved": [
+        "Squeex",
+        "Valkyrae",
+        "Leslie",
+        "Ludwig"
+      ],
+      "start": 13920,
+      "end": 14045
+    },
+    {
+      "event_name": "The Debt Derivative Debate",
+      "detailed_description": "The lobby descends into a hilarious financial argument when Leslie tries to pass off her debt to Squeex through Valkyrae. Squeex passionately objects to this \"debt delegation\" before finally giving in.",
+      "status": "resolved",
+      "characters_involved": [
+        "Squeex",
+        "Leslie",
+        "Valkyrae",
+        "Ludwig"
+      ],
+      "start": 14045,
+      "end": 14230
+    },
+    {
+      "event_name": "The Starving Streamer Bit",
+      "detailed_description": "Ludwig and Leslie joke that Squeex is a failing \"new streamer\" who cannot afford food, leading Squeex to comically play along and pretend to cry.",
+      "status": "resolved",
+      "characters_involved": [
+        "Squeex",
+        "Ludwig",
+        "Leslie"
+      ],
+      "start": 14230,
+      "end": 14290
+    },
+    {
+      "event_name": "Fuslie's 100 Gifted Subs Celebration",
+      "detailed_description": "Leslie receives a massive 100 gifted sub donation on stream, distracting the group from their debt arguments while Squeex calculates his remaining tab.",
+      "status": "resolved",
+      "characters_involved": [
+        "Leslie",
+        "Squeex"
+      ],
+      "start": 14292,
+      "end": 14345
+    },
+    {
+      "event_name": "Stream Wind-Down & Game Rankings",
+      "detailed_description": "The creators wrap up their collaborative stream by reviewing and ranking their favorite games played during the session, with Golf and Liar's Bar emerging as top choices.",
+      "status": "resolved",
+      "characters_involved": [
+        "Squeex",
+        "Ludwig",
+        "Valkyrae",
+        "Leslie"
+      ],
+      "start": 14346,
+      "end": 14425
     }
   ]
 }

@@ -16,3 +16,39 @@
 *.ts
 *.mts
 *.m2ts
+
+# Audio files
+*.mp3
+*.wav
+*.m4a
+*.aac
+*.flac
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Secrets / local config
+.env
+.env.*
+*.pem
+.claude/settings.local.json
+
+# Caches
+pipeline/.gemini_file_cache.json
+
+# macOS
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/

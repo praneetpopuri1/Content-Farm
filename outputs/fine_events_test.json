@@ -1,0 +1,265 @@
+{
+  "segments": [
+    {
+      "event_name": "Chatting about Leslie's Day",
+      "start_sec": 0,
+      "end_sec": 20,
+      "engagment": 6.5,
+      "paraphrased_dialogue": "My chat says it's your day today. Wait, you're right, it's my day to set everything up!",
+      "narrative_relevance": "Establishes the friendly, banter-filled lobby environment before the game.",
+      "visual_description": "Streamer facecam on the left; in-game avatars stand on a cartoon golf course."
+    },
+    {
+      "event_name": "Juneteenth Clarification",
+      "start_sec": 20,
+      "end_sec": 40,
+      "engagment": 6.5,
+      "paraphrased_dialogue": "It's Juneteenth today, but I'm not claiming that as my day specifically.",
+      "narrative_relevance": "Continues the playful teasing among the streamers.",
+      "visual_description": "The player avatar runs around testing jumping and diving mechanics."
+    },
+    {
+      "event_name": "Finding a Skin",
+      "start_sec": 40,
+      "end_sec": 60,
+      "engagment": 7,
+      "paraphrased_dialogue": "Wait, you already have a custom skin. Have you played this game before?",
+      "narrative_relevance": "Questions Squeex's prior experience with the game.",
+      "visual_description": "Players move near a giant scoreboard showcasing current player models."
+    },
+    {
+      "event_name": "The Mystery of Played Hours",
+      "start_sec": 60,
+      "end_sec": 80,
+      "engagment": 7,
+      "paraphrased_dialogue": "Steam says I have two hours on this, but I swear I have never played.",
+      "narrative_relevance": "Adds light mystery and comedic denial from Squeex regarding his game history.",
+      "visual_description": "The avatar jumps around the vibrant green driving range."
+    },
+    {
+      "event_name": "Steam Account Sharing Accusations",
+      "start_sec": 80,
+      "end_sec": 100,
+      "engagment": 7.5,
+      "paraphrased_dialogue": "Are you sharing your Steam account? Yes, wait, no! Don't let Steam support hear this.",
+      "narrative_relevance": "Streamers mock Squeex's accidental admission of account sharing.",
+      "visual_description": "Squeex's avatar approaches a row of golf carts."
+    },
+    {
+      "event_name": "Squeex's First Golf Cart Drive",
+      "start_sec": 100,
+      "end_sec": 120,
+      "engagment": 7.5,
+      "paraphrased_dialogue": "Let's take this cart for a ride. Wait, how do I drive this?",
+      "narrative_relevance": "Squeex tests vehicles, highlighting his poor mechanical skills.",
+      "visual_description": "Squeex's character boards a golf cart and begins driving wildly."
+    },
+    {
+      "event_name": "Flipping the Golf Cart",
+      "start_sec": 120,
+      "end_sec": 140,
+      "engagment": 8.5,
+      "paraphrased_dialogue": "Uh oh, I flipped it. How do I un-flip this cart?",
+      "narrative_relevance": "A comedic fail that foreshadows Squeex's early mechanical struggles.",
+      "visual_description": "The cart hits an obstacle and flips completely upside down."
+    },
+    {
+      "event_name": "Getting Unstuck",
+      "start_sec": 140,
+      "end_sec": 160,
+      "engagment": 7,
+      "paraphrased_dialogue": "I'm just going to leave that there and run back. Bronny is online now.",
+      "narrative_relevance": "Squeex abandons the flipped cart and joins the rest of the lobby.",
+      "visual_description": "The avatar runs through forest trees back toward the starting area."
+    },
+    {
+      "event_name": "Lobby Convergence",
+      "start_sec": 160,
+      "end_sec": 180,
+      "engagment": 7,
+      "paraphrased_dialogue": "Is everyone in the lobby? Let's check our settings.",
+      "narrative_relevance": "Prepares the streamers to begin the actual match.",
+      "visual_description": "The avatar runs past a giant red mushroom on the golf course."
+    },
+    {
+      "event_name": "The Sub Bet Proposal",
+      "start_sec": 180,
+      "end_sec": 200,
+      "engagment": 8,
+      "paraphrased_dialogue": "I know this isn't competitive, but let's put ten subs on the line.",
+      "narrative_relevance": "Leslie introduces stakes to the game, creating tension.",
+      "visual_description": "The avatar drives a new golf cart back into the main hub area."
+    },
+    {
+      "event_name": "Explaining the Bet",
+      "start_sec": 200,
+      "end_sec": 220,
+      "engagment": 8,
+      "paraphrased_dialogue": "So I gift ten subs to the winner, but if I win, everyone gifts me.",
+      "narrative_relevance": "Shows Leslie establishing competitive rules that favor her.",
+      "visual_description": "Multiple golf carts gather in the central driving range area."
+    },
+    {
+      "event_name": "Negotiating the Bet Terms",
+      "start_sec": 220,
+      "end_sec": 240,
+      "engagment": 7.5,
+      "paraphrased_dialogue": "That makes no sense! You should gift everyone if you lose.",
+      "narrative_relevance": "Squeex challenges Leslie's unfair bet proposal.",
+      "visual_description": "The camera displays a close-up of a smiling character avatar on a giant screen."
+    },
+    {
+      "event_name": "Juneteenth Banter Returns",
+      "start_sec": 240,
+      "end_sec": 260,
+      "engagment": 7.5,
+      "paraphrased_dialogue": "Don't take Juneteenth away from Leslie, let her have her bet.",
+      "narrative_relevance": "Maintains the group's comedic banter before teeing off.",
+      "visual_description": "The avatar runs up to a giant camera prop on the course."
+    },
+    {
+      "event_name": "Preparing to Tee Off",
+      "start_sec": 260,
+      "end_sec": 280,
+      "engagment": 7.5,
+      "paraphrased_dialogue": "Okay, we will rotate the bet. Who is hosting the game?",
+      "narrative_relevance": "The streamers finalize the bet rules and start the session.",
+      "visual_description": "Players line up near the interactive scoreboard screen."
+    },
+    {
+      "event_name": "Setting Up the Match Parameters",
+      "start_sec": 280,
+      "end_sec": 300,
+      "engagment": 7,
+      "paraphrased_dialogue": "Let's play 18 holes. Is that too long for everyone?",
+      "narrative_relevance": "Establishes the length of the upcoming high-stakes match.",
+      "visual_description": "Squeex's character tests a golf swing on the grassy field."
+    },
+    {
+      "event_name": "Lobby Discussion and Rules",
+      "start_sec": 300,
+      "end_sec": 320,
+      "engagment": 5.5,
+      "paraphrased_dialogue": "Streamers decide to play 18 holes; Squeex asks how to play.",
+      "narrative_relevance": "Establishes Squeex's complete lack of experience as the match begins.",
+      "visual_description": "Squeex runs around the golf course lobby, collecting purple items."
+    },
+    {
+      "event_name": "The Sub Bet Agreement",
+      "start_sec": 320,
+      "end_sec": 345,
+      "engagment": 6.0,
+      "paraphrased_dialogue": "The group agrees on a sub bet where last place pays the winner.",
+      "narrative_relevance": "Sets up the high stakes of the game with the sub bet.",
+      "visual_description": "Close-up on Squeex as he transitions to the Sandbanks map screen."
+    },
+    {
+      "event_name": "Hole 1 Tee Off",
+      "start_sec": 345,
+      "end_sec": 365,
+      "engagment": 7.0,
+      "paraphrased_dialogue": "Squeex hits his first shot and immediately gets a penalty.",
+      "narrative_relevance": "Introduces Squeex's mechanical struggles on the first hole.",
+      "visual_description": "Teeing off on Hole 1, Squeex hits the ball high into the air."
+    },
+    {
+      "event_name": "Out of Bounds Penalties",
+      "start_sec": 365,
+      "end_sec": 385,
+      "engagment": 7.0,
+      "paraphrased_dialogue": "Squeex asks why he got a penalty, learning about water hazards.",
+      "narrative_relevance": "Highlights Squeex's failure to understand out-of-bounds rules.",
+      "visual_description": "Squeex chases the ball on the green, suffering multiple penalty strokes."
+    },
+    {
+      "event_name": "Seeking Aim Advice",
+      "start_sec": 385,
+      "end_sec": 405,
+      "engagment": 6.5,
+      "paraphrased_dialogue": "Squeex asks if there's a trajectory preview; Leslie says yes.",
+      "narrative_relevance": "Shows Squeex seeking aiming advice, foreshadowing his later breakthrough.",
+      "visual_description": "Squeex aims and hits the ball toward a distant island."
+    },
+    {
+      "event_name": "Player Collision Chaos",
+      "start_sec": 405,
+      "end_sec": 425,
+      "engagment": 7.5,
+      "paraphrased_dialogue": "Squeex complains about being hit by other players.",
+      "narrative_relevance": "Illustrates the early player-versus-player physical targeting.",
+      "visual_description": "Squeex gets knocked over by another player near the water."
+    },
+    {
+      "event_name": "Navigating the Fairway",
+      "start_sec": 425,
+      "end_sec": 445,
+      "engagment": 6.0,
+      "paraphrased_dialogue": "Other players boast about their shots while Squeex struggles.",
+      "narrative_relevance": "Highlights Squeex falling behind the rest of the lobby.",
+      "visual_description": "Character running along a narrow grassy coast following other players."
+    },
+    {
+      "event_name": "First Act of Sabotage",
+      "start_sec": 445,
+      "end_sec": 465,
+      "engagment": 8.5,
+      "paraphrased_dialogue": "Squeex targets Valkyrae with a weapon, causing her to scream.",
+      "narrative_relevance": "Marks Squeex's first major act of deliberate in-game sabotage.",
+      "visual_description": "Squeex aims a rifle at Valkyrae and fires, launching her character."
+    },
+    {
+      "event_name": "Frantic Green Scramble",
+      "start_sec": 465,
+      "end_sec": 485,
+      "engagment": 8.0,
+      "paraphrased_dialogue": "The group shouts over the chaotic shooting near the hole.",
+      "narrative_relevance": "Increases the comedic chaos as players fight near the goal.",
+      "visual_description": "Players scramble near the flag, swinging frantically at their balls."
+    },
+    {
+      "event_name": "Club Selection Struggle",
+      "start_sec": 485,
+      "end_sec": 505,
+      "engagment": 7.5,
+      "paraphrased_dialogue": "Squeex complains about high shots; others tell him to change clubs.",
+      "narrative_relevance": "Highlights Squeex's struggle with selecting correct golf clubs.",
+      "visual_description": "Squeex's high shot flies off-course while others sink their putts."
+    },
+    {
+      "event_name": "Putting Frustration",
+      "start_sec": 505,
+      "end_sec": 525,
+      "engagment": 7.0,
+      "paraphrased_dialogue": "Squeex struggles to use the putter near the hole.",
+      "narrative_relevance": "Demonstrates Squeex's frustration trying to complete the first hole.",
+      "visual_description": "Squeex repeatedly misses short putts near the cup."
+    },
+    {
+      "event_name": "Hole 1 Leaderboard",
+      "start_sec": 525,
+      "end_sec": 550,
+      "engagment": 6.5,
+      "paraphrased_dialogue": "Squeex finishes the hole and realizes he is in last place.",
+      "narrative_relevance": "Solidifies Squeex's position at the bottom of the scoreboard.",
+      "visual_description": "Squeex sinks the ball and the leaderboard displays."
+    },
+    {
+      "event_name": "Hole 2 Tee Off",
+      "start_sec": 550,
+      "end_sec": 575,
+      "engagment": 6.8,
+      "paraphrased_dialogue": "Hole 2 starts on Lone Island; Squeex claims he is new.",
+      "narrative_relevance": "Begins Hole 2 with Squeex still claiming complete novice status.",
+      "visual_description": "Hole 2 countdown begins and players take their first swings."
+    },
+    {
+      "event_name": "Drowning in Water Hazard",
+      "start_sec": 575,
+      "end_sec": 600,
+      "engagment": 7.2,
+      "paraphrased_dialogue": "Squeex asks why he drowned after falling into the water.",
+      "narrative_relevance": "Shows Squeex's continuing environmental and physical struggles.",
+      "visual_description": "Squeex's character drowns in the water and respawns via helicopter."
+    }
+  ]
+}

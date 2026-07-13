@@ -7,6 +7,7 @@ import json
 
 import subprocess
 import prompts_and_schema
+import numpy as np
 client = genai.Client()
 # wanted output
 # gen info :
@@ -28,6 +29,65 @@ def get_video_duration(file_path):
     info = json.loads(result.stdout)
     total_seconds = float(info["format"]["duration"])
     return total_seconds
+
+def make_engagement_more_extreme(
+    scores,
+    out_min=0,
+    out_max=10,
+    gamma=0.65,
+    target_mean=5.0,
+    round_digits=2
+):
+    """
+    Converts compressed VLM engagement scores into a more extreme 0-10 scale.
+
+    scores: list of raw VLM scores, usually 0-10
+    gamma < 1 makes scores more extreme
+    gamma = 1 gives normal percentile spreading
+    gamma > 1 makes scores less extreme
+    target_mean=5.0 centers the average at 5
+    """
+
+    scores = np.array(scores, dtype=float)
+
+    if len(scores) == 0:
+        return []
+
+    if len(scores) == 1:
+        return [target_mean]
+
+    # Rank scores from lowest to highest
+    order = np.argsort(scores)
+    ranks = np.empty_like(order, dtype=float)
+    ranks[order] = np.arange(len(scores))
+
+    # Convert ranks to percentile in [0, 1]
+    p = ranks / (len(scores) - 1)
+
+    # Push values away from the center
+    centered = 2 * p - 1  # [-1, 1]
+    extreme = np.sign(centered) * (np.abs(centered) ** gamma)
+    p_extreme = (extreme + 1) / 2
+
+    # Map to 0-10
+    remapped = out_min + p_extreme * (out_max - out_min)
+
+    # Shift so average is target_mean after clipping
+    low_shift = out_min - out_max
+    high_shift = out_max - out_min
+
+    for _ in range(50):
+        mid_shift = (low_shift + high_shift) / 2
+        shifted = np.clip(remapped + mid_shift, out_min, out_max)
+
+        if shifted.mean() < target_mean:
+            low_shift = mid_shift
+        else:
+            high_shift = mid_shift
+
+    final = np.clip(remapped + high_shift, out_min, out_max)
+
+    return [round(float(x), round_digits) for x in final]
 
 original_video = "../inputs/Squeex_raw.webm"
 video_duration = get_video_duration(original_video)
@@ -60,6 +120,13 @@ for i in range(len(index["fine_events"])):
     event["event_id"] = f"event-{id:04d}"
     event["start"] = event.pop("start_sec")
     event["end"] = event.pop("end_sec")
+
+# Remap engagement over ALL fine events together so percentiles are relative
+# to the whole video, not a single chunk. Skips events missing the score.
+scored_events = [e for e in index["fine_events"] if e.get("engagment") is not None]
+remapped = make_engagement_more_extreme([e["engagment"] for e in scored_events])
+for event, score in zip(scored_events, remapped):
+    event["engagment"] = score
 index["narrative_timeline"] = plotline["narrative_timeline"]
 for i in range(len(index["narrative_timeline"]["plotline"])):
     event = index["narrative_timeline"]["plotline"][i]
