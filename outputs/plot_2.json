@@ -1,206 +1,1316 @@
 {
-  "media_format": "Livestream Highlight / Gameplay VOD. Features a dual-screen presentation: streamer Squeex's live webcam and facecam reaction on the left, with full-screen captured gameplay of a chaotic multiplayer mini-golf game on the right, overlaid with a scrolling Twitch chat.",
+  "media_format": "Livestream gameplay with picture-in-picture facecam and multi-creator voice chat.",
   "overall_setting": {
-    "location": "Remote online multiplayer lobby; each creator is in their respective home streaming setup.",
-    "time_period": "Mid-June (specifically Juneteenth, as mentioned in the dialogue).",
-    "visual_atmosphere": "Bright, colorful, cartoonish 3D game aesthetic with tropical and fantasy-themed golf courses.",
-    "social_context": "Casual, highly interactive gathering of popular content creators playing a party game with live audience interaction via chat."
+    "location": "Liar's Bar interior",
+    "time_period": "Modern day.",
+    "visual_atmosphere": "Dark, gritty, suspenseful, and humorous",
+    "social_context": "Friendly, competitive multiplayer stream collaboration between prominent content creators."
   },
   "key_characters": [
     {
       "character_id": "Squeex",
-      "name": "Squeex (In-game: \"Air Coots\")",
-      "role": "Primary POV streamer.",
-      "description": "adapted quickly to the physics and plays highly strategically, regularly out-putting and out-maneuvering his opponents",
-      "personality": "highly strategic, calm, and quick to adapt",
-      "goals_or_motivations": "Win rounds, avoid last place, and master the basic physics of the game.",
-      "evidence": "Primary POV streamer with webcam/facecam.",
-      "confidence": "high"
-    },
-    {
-      "character_id": "Leslie",
-      "name": "Leslie (In-game: \"happily married\" / Fuslie)",
-      "role": "Lobby host and instigator of sub bets.",
-      "description": "Playful, confident, and mock-arrogant about her skill.",
-      "personality": "Playful, confident, and mock-arrogant.",
-      "goals_or_motivations": "Assert dominance on her \"special day\" and win sub gifts.",
-      "evidence": "Lobby host and instigator of sub bets.",
-      "confidence": "high"
+      "name": "Squeex",
+      "role": "Primary POV streamer",
+      "description": "Male with glasses and a mustache.",
+      "personality": "Energetic, expressive, and initially incompetent at the game.",
+      "goals_or_motivations": "Learn the game mechanics, avoid coming last, and win sub wagers while retaliating against his friends.",
+      "evidence": "In-game name: 'Air Coots'",
+      "confidence": "high",
+      "in_game_name": "Air Coots",
+      "alias": "Squeex"
     },
     {
       "character_id": "Valkyrae",
-      "name": "Valkyrae (In-game: \"VALKYRAE\")",
-      "role": "Competitive lobby participant.",
-      "description": "Loud, aggressive gamer energy, highly reactive to physical in-game disruptions.",
-      "personality": "Loud, aggressive gamer.",
-      "goals_or_motivations": "Outplay her friends and actively sabotage Squeex and Ludwig.",
-      "evidence": "Competitive lobby participant.",
-      "confidence": "high"
+      "name": "Valkyrae",
+      "role": "Collaborator / Competitor",
+      "description": "Female voice chat participant.",
+      "personality": "Enthusiastic, aggressive with in-game weapons, and highly competitive.",
+      "goals_or_motivations": "Win the courses and sabotage Squeex and other players.",
+      "evidence": "In-game name: 'VALKYRAE'",
+      "confidence": "high",
+      "in_game_name": "VALKYRAE"
     },
     {
-      "character_id": "Ludwig",
-      "name": "Ludwig (In-game: \"bronny\")",
-      "role": "Banter leader and tactical player.",
-      "description": "Calm, smug, highly strategic with weapon/item pickups.",
-      "personality": "Calm, smug, highly strategic.",
-      "goals_or_motivations": "Sabotage Squeex and boast about his real-life financial affairs (taxes/brand deals) to bait the lobby.",
-      "evidence": "Banter leader and tactical player.",
-      "confidence": "high"
+      "character_id": "Leslie",
+      "name": "Leslie / Fuslie",
+      "role": "Lobby Host / Competitor",
+      "description": "Female voice chat participant.",
+      "personality": "Cheerful, instigator of the sub-gifting wager.",
+      "goals_or_motivations": "Win the holes and claim the sub-gifting bounty.",
+      "evidence": "In-game name: 'happily married'",
+      "confidence": "high",
+      "in_game_name": "happily married"
+    },
+    {
+      "character_id": "QT",
+      "name": "QT / QtCinderella",
+      "role": "Coach / Competitor",
+      "description": "Female voice chat participant.",
+      "personality": "inactive / absent",
+      "goals_or_motivations": "Help Squeex improve while keeping the lobby competitive.",
+      "evidence": "QT Cinderella only assists Squeex with backseat coaching and does not play in the matches; the account 'bronny' is controlled by Ludwig.",
+      "confidence": "high",
+      "in_game_name": "None (backseat coaching only)"
     }
   ],
   "relationship_graph": [
     {
-      "source": "Ludwig",
+      "source": "QT",
       "target": "Squeex",
-      "relationship": "Highly sarcastic rivalry; constant needling about account sharing, streamer taxes, and gameplay failures.",
-      "evidence": "Ludwig constantly needle Squeex about account sharing, streamer taxes, and gameplay failures. Squeex reacts with comedic fury.",
+      "relationship": "Coach and Pupil",
+      "evidence": "QT step-by-step guides a struggling Squeex through changing club degrees and aiming, creating a funny, codependent dynamic.",
       "confidence": "high"
     },
     {
-      "source": "Lobby",
+      "source": "Valkyrae",
       "target": "Squeex",
-      "relationship": "Collectively target Squeex as the comedic punching bag due to his struggle with basic movement.",
-      "evidence": "The lobby collectively targets Squeex due to his obvious struggle with basic movement.",
+      "relationship": "Playful Hostility",
+      "evidence": "Valkyrae consistently target Squeex with weapons (pistols, freeze bombs), prompting loud, comical outbursts of mock anger from him.",
       "confidence": "high"
     },
     {
       "source": "Leslie",
-      "target": "Lobby",
-      "relationship": "Manipulative of sub betting rules.",
-      "evidence": "Leslie attempts to manipulate the lobby's sub betting rules to favor herself, causing playful pushback from Ludwig and Squeex.",
+      "target": "Squeex",
+      "relationship": "Playful Hostility",
+      "evidence": "Leslie consistently target Squeex with weapons (pistols, freeze bombs), prompting loud, comical outbursts of mock anger from him.",
+      "confidence": "high"
+    },
+    {
+      "source": "Group",
+      "target": "Group",
+      "relationship": "Friendly Wager",
+      "evidence": "The group establishes a 10-sub gifting rule for hole winners, elevating the competitive tension.",
       "confidence": "high"
     }
   ],
   "narrative_timeline": {
-    "overarching_plot": "Valkyrae experiences the complete descent into extreme gamer tilt and mechanical failure, while Squeex plays very well, stays calm, and maintains a high standing.",
+    "overarching_plot": "The entire multi-game tournament stream (including Tetr.io, SpeedRunners, Liar's Bar, Jackbox, and Feather Party), charting Squeex's progression from a mechanical liability to a versatile competitor.",
     "themes": [
-      "Streamer Hubris vs. Ineptitude",
-      "Fluid Alliances",
-      "Financial Banter"
+      "Trial by Fire",
+      "Streamer Camaraderie"
     ],
     "plotline": [
       {
-        "thread": "Lobby & Bets",
-        "detailed_description": "Establishment of the competitive stakes. The group sets up the 10-sub wager and establishes Leslie as the self-appointed protagonist.",
-        "relation_to_overall_plot": "Setting up the stakes for the game.",
+        "thread": "Lobby Wager Setup",
+        "detailed_description": "The group establishes the rules, wagers, and course lengths while Squeex struggles with the practice controls.",
+        "relation_to_overall_plot": "Establishes the primary goal and motivation for the session.",
         "status": "resolved",
         "characters_involved": [
           "Squeex",
           "Leslie",
           "Valkyrae",
-          "Ludwig"
+          "QT"
         ],
-        "start": "0",
-        "end": "308"
+        "start": 0,
+        "end": 330
       },
       {
-        "thread": "First Hole",
-        "detailed_description": "Reality check for Squeex. The chaotic physics of \"Golf Gang\" are introduced, leaving Squeex far behind.",
-        "relation_to_overall_plot": "Introduction of the game's chaotic mechanics.",
+        "thread": "Technical Prep",
+        "detailed_description": "Final calibrations and a decision to play an 18-hole classic format.",
+        "relation_to_overall_plot": "Transition into gameplay.",
         "status": "resolved",
         "characters_involved": [
           "Squeex",
           "Leslie",
           "Valkyrae",
-          "Ludwig"
+          "QT"
         ],
-        "start": "309",
-        "end": "505"
+        "start": 331,
+        "end": 516
       },
       {
-        "thread": "Weapon Escalation",
-        "detailed_description": "The players realize they can physically attack one another, transforming the golf match into a violent combat arena. Squeex is targeted relentlessly.",
-        "relation_to_overall_plot": "Shift from golf gameplay to combat sabotage.",
+        "thread": "First Hole - Sandbanks Chaos",
+        "detailed_description": "Squeex experiences extreme difficulty, facing constant penalties and weapon fire from his competitors.",
+        "relation_to_overall_plot": "Shows Squeex's initial incompetence and role as the target.",
         "status": "developing",
         "characters_involved": [
           "Squeex",
-          "Ludwig",
-          "Valkyrae"
+          "Valkyrae",
+          "Leslie",
+          "QT"
         ],
-        "start": "506",
-        "end": "779"
+        "start": 517,
+        "end": 825
       },
       {
-        "thread": "The Sabotage Arc",
-        "detailed_description": "Squeex attempts to adapt to the game's mechanics but is strategically frozen by his rivals, cementing his status at the bottom of the scoreboard.",
-        "relation_to_overall_plot": "Climax of the targeting against Squeex.",
-        "status": "unresolved",
+        "thread": "Second Hole - Coach Intervention",
+        "detailed_description": "QT steps in to teach Squeex how to adjust club angles, helping him achieve a slightly better standing.",
+        "relation_to_overall_plot": "Initiates the character growth arc for Squeex.",
+        "status": "developing",
         "characters_involved": [
           "Squeex",
-          "Leslie",
-          "Ludwig"
+          "QT"
         ],
-        "start": "780",
-        "end": "900"
+        "start": 826,
+        "end": 900
       },
       {
-        "thread": "The Rocket Era / Weapon Escalation",
-        "detailed_description": "Heavy explosives (bazookas) are introduced on Hole 5. Players routinely blow themselves up, proving that the arms race backfires on everyone.",
-        "relation_to_overall_plot": "Highlights how escalating physical hazards backfire on the lobby, adding to the chaotic environment.",
-        "status": "introduced",
+        "thread": "Fourth Hole - Retaliation",
+        "detailed_description": "Armed with items like freeze bombs, Squeex begins successfully sabotaging his opponents, turning the matches into absolute comedic anarchy.",
+        "relation_to_overall_plot": "Completion of Squeex's arc from liability to disruptive force.",
+        "status": "developing",
         "characters_involved": [
           "Squeex",
           "Valkyrae",
           "Leslie",
-          "Ludwig"
+          "QT"
         ],
-        "start": "958",
-        "end": "1143"
+        "start": "870",
+        "end": "915"
       },
       {
-        "thread": "Psychological Threats",
-        "detailed_description": "Leslie introduces the 'bad stream list' penalty on Hole 6, raising the long-term stakes of the game beyond simple sub bets.",
-        "relation_to_overall_plot": "Aligns with Leslie maintaining chaotic energy and long-term consequences in the lobby.",
-        "status": "introduced",
+        "thread": "Atoll Anarchy (Hole 5)",
+        "detailed_description": "This marks the first time Squeex actively begins using heavy weapons like rocket launchers and elephant guns. While it results in several self-inflicted failures, it establishes his intent to sabotage his competitors, specifically triggering Valkyrae's rage.",
+        "relation_to_overall_plot": "This marks the first time Squeex actively begins using heavy weapons like rocket launchers and elephant guns. While it results in several self-inflicted failures, it establishes his intent to sabotage his competitors, specifically triggering Valkyrae's rage.",
+        "status": "resolved",
         "characters_involved": [
-          "Leslie",
-          "Ludwig"
+          "Squeex",
+          "Valkyrae"
         ],
-        "start": "1144",
-        "end": "1293"
+        "start": 928,
+        "end": 1110
       },
       {
-        "thread": "Valkyrae\u2019s Descent",
-        "detailed_description": "Valkyrae's singular focus on sabotaging Squeex on Hole 7 leads to her dropping to a distant 4th place, shifting the competitive balance.",
-        "relation_to_overall_plot": "Represents the core narrative shift where Valkyrae's obsession with Squeex causes her mechanical and emotional failure.",
+        "thread": "Hidden Lagoon Cart Battles (Hole 6)",
+        "detailed_description": "Squeex begins utilizing vehicles (golf carts) as active mobile weapons to run down his opponents on the green, establishing his transition from a passive victim of the lobby to a disruptive threat.",
+        "relation_to_overall_plot": "Squeex begins utilizing vehicles (golf carts) as active mobile weapons to run down his opponents on the green, establishing his transition from a passive victim of the lobby to a disruptive threat.",
+        "status": "resolved",
+        "characters_involved": [
+          "Squeex",
+          "Valkyrae"
+        ],
+        "start": 1114,
+        "end": 1260
+      },
+      {
+        "thread": "Roundabout Recovery and Ride-Along (Hole 7)",
+        "detailed_description": "Shows Squeex's growing familiarity with alternative mechanics as he rescues a stranded Ludwig in his cart, while showing the persistent, target-focused retaliation from Valkyrae who aggressively hunts Squeex down at the tee-off.",
+        "relation_to_overall_plot": "Shows Squeex's growing familiarity with alternative mechanics as he rescues a stranded Ludwig in his cart, while showing the persistent, target-focused retaliation from Valkyrae who aggressively hunts Squeex down at the tee-off.",
+        "status": "resolved",
+        "characters_involved": [
+          "Squeex",
+          "Ludwig (bronny)",
+          "Valkyrae"
+        ],
+        "start": 1265,
+        "end": 1415
+      },
+      {
+        "thread": "Overlook Domination (Hole 8)",
+        "detailed_description": "Squeex secures a dominant 1st place finish, proving his mechanically competent phase is solidifying. His focus shifts to trash-talking Valkyrae as she struggles to complete basic putts.",
+        "relation_to_overall_plot": "Squeex secures a dominant 1st place finish, proving his mechanically competent phase is solidifying. His focus shifts to trash-talking Valkyrae as she struggles to complete basic putts.",
+        "status": "resolved",
+        "characters_involved": [
+          "Squeex",
+          "Valkyrae"
+        ],
+        "start": 1422,
+        "end": 1555
+      },
+      {
+        "thread": "Donut Shootout and Lucky Trickshot (Hole 9)",
+        "detailed_description": "Represents the climax of the Squeex vs. Valkyrae rivalry in this segment. The shootout is frantic, involving freeze bombs and close-range combat, ending with a spectacular physics-based landmine launch that propels Valkyrae to a comically lucky finish.",
+        "relation_to_overall_plot": "Represents the climax of the Squeex vs. Valkyrae rivalry in this segment. The shootout is frantic, involving freeze bombs and close-range combat, ending with a spectacular physics-based landmine launch that propels Valkyrae to a comically lucky finish.",
+        "status": "resolved",
+        "characters_involved": [
+          "Squeex",
+          "Valkyrae",
+          "Ludwig (bronny)"
+        ],
+        "start": 1562,
+        "end": 1725
+      },
+      {
+        "thread": "The Electromagnetic Grief",
+        "detailed_description": "Squeex attempts to use an electromagnet shield defensively, but Valkyrae easily bypasses it to freeze-bomb him.",
+        "relation_to_overall_plot": "Illustrates Squeex's continued failure to understand defensive item physics as Valkyrae easily bypasses his shield.",
+        "status": "developing",
+        "characters_involved": [
+          "Squeex",
+          "Valkyrae"
+        ],
+        "start": 1740,
+        "end": 1835
+      },
+      {
+        "thread": "Hole 11 Cart Griefing",
+        "detailed_description": "Valkyrae blocks Hole 11 using a golf cart to prevent opponents from scoring, driving up the level of lobby hostility.",
+        "relation_to_overall_plot": "Valkyrae escalates the lobby's toxicity by using vehicles as physical environmental hazards, establishing a meta-shift toward pure sabotage.",
+        "status": "developing",
+        "characters_involved": [
+          "Squeex",
+          "Valkyrae",
+          "Ludwig (bronny)"
+        ],
+        "start": 1840,
+        "end": 2010
+      },
+      {
+        "thread": "Ludwig's Oasis Comeback",
+        "detailed_description": "Ludwig secures his first victory on Hole 12, beginning his climb up from the bottom of the scoreboard.",
+        "relation_to_overall_plot": "Ludwig breaks his losing streak, proving that Squeex is no longer the sole improving player in the lobby.",
+        "status": "developing",
+        "characters_involved": [
+          "Ludwig (bronny)",
+          "Squeex",
+          "Valkyrae",
+          "Leslie"
+        ],
+        "start": 2015,
+        "end": 2210
+      },
+      {
+        "thread": "Sand Trap Mutual Destruction",
+        "detailed_description": "Valkyrae sacrifices her own placement by setting off explosive mines to blow both herself and Squeex off the course.",
+        "relation_to_overall_plot": "Valkyrae's self-destructive playstyles show that her focus has shifted entirely from winning the wager to preventing Squeex from succeeding.",
         "status": "developing",
         "characters_involved": [
           "Valkyrae",
           "Squeex"
         ],
-        "start": "1294",
-        "end": "1450"
+        "start": 2211,
+        "end": 2515
       },
       {
-        "thread": "Minefield Sabotage",
-        "detailed_description": "Ludwig and Squeex coordinate mine placements on Hole 8 to completely isolate Valkyrae, cementing her descent into total gamer rage.",
-        "relation_to_overall_plot": "Illustrates Squeex's shift to an active, defensive playstyle that exploits Valkyrae's tilt.",
+        "thread": "Taiga Woods Mastery",
+        "detailed_description": "Squeex executes a near-perfect speedrun on Taiga Woods to assert his mechanical skills and take an undisputed first-place finish.",
+        "relation_to_overall_plot": "Squeex solidifies his mechanical redemption arc by pulling off a high-speed, undisputed first-place finish.",
+        "status": "resolved",
+        "characters_involved": [
+          "Squeex"
+        ],
+        "start": 2516,
+        "end": 2610
+      },
+      {
+        "thread": "Squeex survives Valkyrae's targeted items on Hole 16",
+        "detailed_description": "Squeex survives Valkyrae's targeted items on Hole 16, maintaining his competitive position.",
+        "relation_to_overall_plot": "Demonstrates Squeex's improved survival ability against lobby attacks.",
         "status": "developing",
         "characters_involved": [
+          "Squeex",
+          "Valkyrae"
+        ],
+        "start": 2610,
+        "end": 2820
+      },
+      {
+        "thread": "Squeex's golf cart blockade on Hole 17",
+        "detailed_description": "Squeex uses a golf cart as a physical blockade on Hole 17 to secure first place.",
+        "relation_to_overall_plot": "Highlights Squeex's transition to fully adopting hostile lobby tactics.",
+        "status": "developing",
+        "characters_involved": [
+          "Squeex",
+          "Valkyrae"
+        ],
+        "start": 2835,
+        "end": 3080
+      },
+      {
+        "thread": "Final vertical hole and golf wager resolution",
+        "detailed_description": "The lobby competes on the final vertical hole, resolving the golf wager with Leslie taking the win.",
+        "relation_to_overall_plot": "Concludes the primary game tournament block.",
+        "status": "resolved",
+        "characters_involved": [
+          "Squeex",
+          "Valkyrae",
+          "Leslie",
+          "Ludwig"
+        ],
+        "start": 3110,
+        "end": 3245
+      },
+      {
+        "thread": "Squeex's sub-gifting debt settlement",
+        "detailed_description": "Squeex settles his sub-gifting debts, and the group coordinates their next game.",
+        "relation_to_overall_plot": "Acts as a narrative bridge between the golf tournament and the next game segment.",
+        "status": "developing",
+        "characters_involved": [
+          "Squeex",
+          "Valkyrae",
+          "Leslie",
+          "Ludwig"
+        ],
+        "start": 3250,
+        "end": 3330
+      },
+      {
+        "thread": "Tetr.io lobby creation and setup",
+        "detailed_description": "The group sets up a Tetr.io lobby, navigating technical issues, accidental bans, and leaked room codes.",
+        "relation_to_overall_plot": "Introduces the mechanical learning curve and setup phase for the new game.",
+        "status": "introduced",
+        "characters_involved": [
+          "Squeex",
+          "Valkyrae",
+          "Leslie",
+          "Ludwig"
+        ],
+        "start": 3335,
+        "end": 3480
+      },
+      {
+        "thread": "Tetr.io Warmup Arc",
+        "detailed_description": "Players learn basic keybinds. Establishes the new mechanical baseline for the stream.",
+        "relation_to_overall_plot": "Establishes the gameplay mechanics and control setups as they switch to Tetr.io.",
+        "status": "resolved",
+        "characters_involved": [
+          "Squeex",
+          "Leslie",
+          "Ludwig",
+          "Valkyrae"
+        ],
+        "start": 3480,
+        "end": 3560
+      },
+      {
+        "thread": "Lobby Coordination Pivot",
+        "detailed_description": "Ludwig accidentally leaves, forcing Leslie to recreate a secure private lobby.",
+        "relation_to_overall_plot": "Interrupts the play flow momentarily to solve a lobby-hosting issue.",
+        "status": "resolved",
+        "characters_involved": [
+          "Squeex",
+          "Leslie",
+          "Ludwig",
+          "Valkyrae"
+        ],
+        "start": 3565,
+        "end": 3674
+      },
+      {
+        "thread": "Official Tetr.io Match: Round 1",
+        "detailed_description": "Squeex wins the opening round, establishing himself as an unexpected mechanical threat.",
+        "relation_to_overall_plot": "Sets the competitive stage with Squeex taking the lead.",
+        "status": "resolved",
+        "characters_involved": [
+          "Squeex",
+          "Leslie",
+          "Ludwig",
+          "Valkyrae"
+        ],
+        "start": 3675,
+        "end": 3815
+      },
+      {
+        "thread": "Official Tetr.io Match: Round 2",
+        "detailed_description": "Ludwig wins round two, turning the game into a direct duel between himself and Squeex.",
+        "relation_to_overall_plot": "Evens the stakes and highlights Ludwig as the main competitor to Squeex.",
+        "status": "resolved",
+        "characters_involved": [
+          "Squeex",
+          "Leslie",
+          "Ludwig",
+          "Valkyrae"
+        ],
+        "start": 3818,
+        "end": 3918
+      },
+      {
+        "thread": "Official Tetr.io Match: Round 3",
+        "detailed_description": "Squeex wins despite heavy target pressure, taking a 2-1 lead.",
+        "relation_to_overall_plot": "Demonstrates Squeex's capability to survive coordinated targeting attacks.",
+        "status": "resolved",
+        "characters_involved": [
+          "Squeex",
+          "Leslie",
+          "Ludwig",
+          "Valkyrae"
+        ],
+        "start": 3919,
+        "end": 4028
+      },
+      {
+        "thread": "Official Tetr.io Match: Round 4",
+        "detailed_description": "Ludwig wins round four, evening the series at 2-2.",
+        "relation_to_overall_plot": "Keeps the narrative tension high by tying the series once more.",
+        "status": "resolved",
+        "characters_involved": [
+          "Squeex",
+          "Leslie",
+          "Ludwig",
+          "Valkyrae"
+        ],
+        "start": 4029,
+        "end": 4148
+      },
+      {
+        "thread": "Official Tetr.io Match: Round 5",
+        "detailed_description": "Ludwig wins round five, pulling ahead 3-2.",
+        "relation_to_overall_plot": "Establishes Ludwig's leadership in points as the matchup intensifies.",
+        "status": "resolved",
+        "characters_involved": [
+          "Squeex",
+          "Leslie",
+          "Ludwig",
+          "Valkyrae"
+        ],
+        "start": 4149,
+        "end": 4310
+      },
+      {
+        "thread": "Valkyrae\u2019s Tetr.io Surge",
+        "detailed_description": "Valkyrae establishes herself as Squeex's primary threat through lobby coordination and tactical targeting during Tetr.io play.",
+        "relation_to_overall_plot": "Establishes Valkyrae as Squeex's primary threat through lobby coordination and tactical targeting.",
+        "status": "resolved",
+        "characters_involved": [
+          "Valkyrae",
+          "Squeex"
+        ],
+        "start": 4350,
+        "end": 4652
+      },
+      {
+        "thread": "Squeex's CS:GO Choke",
+        "detailed_description": "Squeex suffers from mechanical vulnerability and chokes when distracted by voice-chat banter about a CS:GO match.",
+        "relation_to_overall_plot": "Highlights Squeex's mechanical vulnerability when distracted by voice-chat banter.",
+        "status": "resolved",
+        "characters_involved": [
+          "Squeex"
+        ],
+        "start": 4811,
+        "end": 5035
+      },
+      {
+        "thread": "Tetr.io Tournament Resolution",
+        "detailed_description": "Concludes the Tetr.io block of the stream with Valkyrae taking the crown.",
+        "relation_to_overall_plot": "Concludes the Tetr.io block of the stream with Valkyrae taking the crown.",
+        "status": "resolved",
+        "characters_involved": [
+          "Valkyrae",
+          "Leslie",
+          "Squeex",
+          "Ludwig"
+        ],
+        "start": 5036,
+        "end": 5142
+      },
+      {
+        "thread": "Financial Settlement",
+        "detailed_description": "Resolves the financial stakes of the gaming block and serves as a transition to the next phase of the stream.",
+        "relation_to_overall_plot": "Resolves the financial stakes of the gaming block and serves as a transition to the next phase of the stream.",
+        "status": "resolved",
+        "characters_involved": [
+          "Squeex",
+          "Ludwig",
+          "Leslie",
+          "Valkyrae"
+        ],
+        "start": 5145,
+        "end": 5220
+      },
+      {
+        "thread": "The Pivot to SpeedRunners",
+        "detailed_description": "The players exit the previous block and set up a new lobby in SpeedRunners, navigating input configurations.",
+        "relation_to_overall_plot": "Establishes the shift in gameplay focus to SpeedRunners.",
+        "status": "resolved",
+        "characters_involved": [
+          "Squeex",
+          "Valkyrae",
+          "Leslie",
+          "Ludwig"
+        ],
+        "start": 5220,
+        "end": 5425
+      },
+      {
+        "thread": "SpeedRunners Training Arc",
+        "detailed_description": "The group runs multiple warmup races on a basic map to learn grappling, jumping, and momentum mechanics. Squeex shows quick competence.",
+        "relation_to_overall_plot": "Highlights Squeex's initial high performance and mechanical adaptation before official matches.",
+        "status": "resolved",
+        "characters_involved": [
+          "Squeex",
+          "Valkyrae",
+          "Leslie",
+          "Ludwig"
+        ],
+        "start": 5425,
+        "end": 5919
+      },
+      {
+        "thread": "Theme Park Competitive Debut",
+        "detailed_description": "Squeex struggles on the complex 'Theme Park' map during the first official match rounds, getting eliminated early as Ludwig takes the initial point.",
+        "relation_to_overall_plot": "Initiates the competitive phase where initial confidence is challenged by complex map layouts.",
+        "status": "developing",
+        "characters_involved": [
+          "Squeex",
+          "Valkyrae",
+          "Leslie",
+          "Ludwig"
+        ],
+        "start": 5920,
+        "end": 6090
+      },
+      {
+        "thread": "Theme Park Competitive Debut (Continued)",
+        "detailed_description": "Concludes Squeex's SpeedRunners learning curve. His mechanical inconsistencies prevent him from overcoming Ludwig's and Valkyrae's established pacing.",
+        "relation_to_overall_plot": "Concludes Squeex's SpeedRunners learning curve. His mechanical inconsistencies prevent him from overcoming Ludwig's and Valkyrae's established pacing.",
+        "status": "resolved",
+        "characters_involved": [
+          "Squeex",
+          "Valkyrae",
+          "Leslie",
+          "Ludwig"
+        ],
+        "start": 6090,
+        "end": 6442
+      },
+      {
+        "thread": "SpeedRunners Wager Resolution",
+        "detailed_description": "Concludes the platforming competitive block. Solidifies the financial sub-gifting dynamics within the lobby, transitioning the group to the next game.",
+        "relation_to_overall_plot": "Solidifies the financial sub-gifting dynamics within the lobby, transitioning the group to the next game.",
+        "status": "resolved",
+        "characters_involved": [
+          "Squeex",
+          "Valkyrae",
+          "Leslie",
+          "Ludwig"
+        ],
+        "start": 6443,
+        "end": 6515
+      },
+      {
+        "thread": "Liar\u2019s Bar Pivot and Character Selection",
+        "detailed_description": "Establishes the new game mechanics and character roles. Squeex's comedic inability to control his camera previews his chaotic playing style.",
+        "relation_to_overall_plot": "Establishes the new game mechanics and character roles. Squeex's comedic inability to control his camera previews his chaotic playing style.",
+        "status": "introduced",
+        "characters_involved": [
+          "Squeex",
+          "Valkyrae",
+          "Leslie",
+          "Ludwig"
+        ],
+        "start": 6516,
+        "end": 6946
+      },
+      {
+        "thread": "Initial Liar\u2019s Dice Mechanics Check",
+        "detailed_description": "Showcases Squeex's quick adaptation to strategic bluffing, establishing him as a threat via a perfect spot-on prediction.",
+        "relation_to_overall_plot": "Showcases Squeex's quick adaptation to strategic bluffing, establishing him as a threat via a perfect spot-on prediction.",
+        "status": "developing",
+        "characters_involved": [
+          "Squeex",
+          "Valkyrae",
+          "Leslie",
+          "Ludwig"
+        ],
+        "start": 6947,
+        "end": 6960
+      },
+      {
+        "thread": "Strategic Dice Duels",
+        "detailed_description": "Squeex establishes mechanical and psychological competence in the lobby, turning the tables on his competitors.",
+        "relation_to_overall_plot": "Squeex establishes mechanical and psychological competence in the lobby, turning the tables on his competitors.",
+        "status": "developing",
+        "characters_involved": [
+          "Squeex",
+          "Valkyrae",
+          "Leslie",
+          "Ludwig"
+        ],
+        "start": 6960,
+        "end": 7330
+      },
+      {
+        "thread": "Lobby Attrition and Downfall",
+        "detailed_description": "Tension peaks as player mistakes pile up, leading to Valkyrae's targeting and Squeex's second miraculous prediction.",
+        "relation_to_overall_plot": "Tension peaks as player mistakes pile up, leading to Valkyrae's targeting and Squeex's second miraculous prediction.",
+        "status": "developing",
+        "characters_involved": [
+          "Squeex",
+          "Valkyrae",
+          "Leslie",
+          "Ludwig"
+        ],
+        "start": 7330,
+        "end": 7555
+      },
+      {
+        "thread": "Liar's Dice Climax",
+        "detailed_description": "The dramatic conclusion of the first game block, ending in Squeex's elimination and a victory for Ludwig.",
+        "relation_to_overall_plot": "The dramatic conclusion of the first game block, ending in Squeex's elimination and a victory for Ludwig.",
+        "status": "resolved",
+        "characters_involved": [
+          "Squeex",
+          "Valkyrae",
+          "Leslie",
+          "Ludwig"
+        ],
+        "start": 7555,
+        "end": 7720
+      },
+      {
+        "thread": "The Card Table Transition",
+        "detailed_description": "Establishes the setup and character selection for the next game phase, \"Liar's Deck.\"",
+        "relation_to_overall_plot": "Establishes the setup and character selection for the next game phase, \"Liar's Deck.\"",
+        "status": "introduced",
+        "characters_involved": [
+          "Squeex",
+          "Valkyrae",
+          "Leslie",
+          "Ludwig"
+        ],
+        "start": 7720,
+        "end": 7830
+      },
+      {
+        "thread": "King's Table Bluffing Round",
+        "detailed_description": "The players run through a baseline round focused on King claims to establish gameplay mechanics.",
+        "relation_to_overall_plot": "Establishes the mechanical baseline of 'Liar's Deck' for the lobby and showcases Valkyrae's sharp observational skills in catching Leslie's bluff.",
+        "status": "resolved",
+        "characters_involved": [
+          "Valkyrae",
+          "Leslie",
+          "Squeex",
+          "Ludwig"
+        ],
+        "start": 7830,
+        "end": 7970
+      },
+      {
+        "thread": "Queen's Table Facecam Accusations",
+        "detailed_description": "The table transitions to Queens and players accuse each other of reading webcam feeds to catch lies.",
+        "relation_to_overall_plot": "Highlights the meta-gameplay of streamers using real-world video feeds to catch in-game liars, ending with Squeex calling out Ludwig, who barely survives the bullet.",
+        "status": "resolved",
+        "characters_involved": [
+          "Squeex",
+          "Ludwig",
+          "Valkyrae",
+          "Leslie"
+        ],
+        "start": 7970,
+        "end": 8137
+      },
+      {
+        "thread": "Valkyrae's High-Stakes Elimination",
+        "detailed_description": "Valkyrae is caught in a bluff by Squeex and eliminated from the game after taking a fatal shot.",
+        "relation_to_overall_plot": "A major turning point in the match; Squeex defeats his primary rival, Valkyrae, by successfully reading her play, shifting the lobby dynamic to a three-way duel.",
+        "status": "resolved",
+        "characters_involved": [
+          "Valkyrae",
+          "Squeex",
+          "Leslie",
+          "Ludwig"
+        ],
+        "start": 8137,
+        "end": 8426,
+        "description": "Valkyrae was never eliminated at that stage; she survived and ultimately won the \"Liar's Deck\" game in Segment 11 by eliminating Squeex."
+      },
+      {
+        "thread": "Squeex's Miraculous Empty Chamber Survival",
+        "detailed_description": "Squeex is caught in a major lie but manages to pull the trigger on an empty chamber and survive.",
+        "relation_to_overall_plot": "Highlights Squeex's chaotic, high-risk playstyle as he successfully bluffs, gets caught by Ludwig, but beats the lethal odds of the Russian Roulette mechanic.",
+        "status": "resolved",
+        "characters_involved": [
+          "Squeex",
+          "Ludwig",
+          "Leslie"
+        ],
+        "start": 8426,
+        "end": 8635
+      },
+      {
+        "thread": "The Three-Way Stand-Off",
+        "detailed_description": "The remaining three players run through rapid-fire card claims under high psychological pressure.",
+        "relation_to_overall_plot": "Shows the remaining trio (Squeex, Ludwig, and Leslie) entering an intense, fast-paced bluffing cycle with diminished deck cards, maximizing the risk of another elimination.",
+        "status": "developing",
+        "characters_involved": [
+          "Squeex",
+          "Ludwig",
+          "Leslie"
+        ],
+        "start": 8635,
+        "end": 8700
+      },
+      {
+        "thread": "Liar's Deck Climax & Debt Settling",
+        "detailed_description": "Valkyrae eliminates Squeex to win the card game. The group holds a chaotic negotiation over sub-gifting debts.",
+        "relation_to_overall_plot": "Concludes the Liar's Bar gaming tournament.",
+        "status": "resolved",
+        "characters_involved": [
+          "Valkyrae",
+          "Squeex",
+          "Leslie",
+          "Ludwig"
+        ],
+        "start": 8700,
+        "end": 9035
+      },
+      {
+        "thread": "Final Sentence Transition",
+        "detailed_description": "The lobby boots up \"Final Sentence,\" configures lobby settings, and handles typing test preparations.",
+        "relation_to_overall_plot": "Introduces the mechanical baseline of the new typing game.",
+        "status": "developing",
+        "characters_involved": [
+          "Squeex",
+          "Ludwig",
+          "Leslie",
+          "Valkyrae"
+        ],
+        "start": 9040,
+        "end": 9230
+      },
+      {
+        "thread": "Final Sentence Warmup",
+        "detailed_description": "The players run a practice round. Ludwig wins easily while Squeex struggles with mistakes.",
+        "relation_to_overall_plot": "Highlights Squeex's vulnerability despite his high initial confidence.",
+        "status": "resolved",
+        "characters_involved": [
+          "Ludwig",
+          "Squeex"
+        ],
+        "start": 9235,
+        "end": 9355
+      },
+      {
+        "thread": "Official Typing Match Kickoff",
+        "detailed_description": "The match started with capitalization rules disabled (\"CAPITALization Matters: NO\").",
+        "relation_to_overall_plot": "Establishes the core competitive stakes for the typing segment.",
+        "status": "developing",
+        "characters_involved": [
+          "Squeex",
+          "Ludwig",
+          "Leslie",
+          "Valkyrae"
+        ],
+        "start": 9356,
+        "end": 9570
+      },
+      {
+        "thread": "Final Sentence Typing Game Resolution",
+        "detailed_description": "Leslie wins the typing round with perfect accuracy while Squeex is eliminated due to excessive typos.",
+        "relation_to_overall_plot": "Concludes the typing segment, clearing previous lobby debts.",
+        "status": "resolved",
+        "characters_involved": [
+          "Squeex",
+          "Ludwig",
+          "Leslie",
+          "Valkyrae"
+        ],
+        "start": 9570,
+        "end": 9712
+      },
+      {
+        "thread": "Keep Talking and Nobody Explodes Team Setup",
+        "detailed_description": "The players organize into opposing teams and configure rules for a head-to-head bomb defusal race.",
+        "relation_to_overall_plot": "Introduces the cooperative, communication-focused phase of the stream.",
+        "status": "introduced",
+        "characters_involved": [
+          "Squeex",
+          "Ludwig",
+          "Leslie",
+          "Valkyrae"
+        ],
+        "start": 9730,
+        "end": 9860
+      },
+      {
+        "thread": "Squeex's Fake System Crash",
+        "detailed_description": "Squeex stages a funny bit, pretending Leslie's file gave his computer a virus.",
+        "relation_to_overall_plot": "Highlights Squeex's focus on entertainment over purely sweat-based competition.",
+        "status": "resolved",
+        "characters_involved": [
+          "Squeex",
+          "Leslie"
+        ],
+        "start": 9920,
+        "end": 10030
+      },
+      {
+        "thread": "Bomb 1.3 Defusal Duel",
+        "detailed_description": "Squeex and Ludwig tackle complex modules like wires, symbols, and a timed button-hold.",
+        "relation_to_overall_plot": "Highlights Squeex's and Ludwig's real-time communication under pressure.",
+        "status": "developing",
+        "characters_involved": [
+          "Squeex",
+          "Ludwig"
+        ],
+        "start": 10133,
+        "end": 10334
+      },
+      {
+        "thread": "Bomb Defusal Resolution & Wager Settlement",
+        "detailed_description": "Squeex forfeits due to the girls' immense lead, prompting the settlement of a 5-sub wager.",
+        "relation_to_overall_plot": "Resolves the bomb-defusal segment, transitioning the group toward the next game.",
+        "status": "resolved",
+        "characters_involved": [
+          "Squeex",
+          "Ludwig",
+          "Leslie",
+          "Valkyrae"
+        ],
+        "start": 10340,
+        "end": 10440
+      },
+      {
+        "thread": "Trivia Murder Party 2 Lobby Coordination",
+        "detailed_description": "The group pivots to Jackbox Party Pack 6, specifically 'Trivia Murder Party 2', coordinating connecting via Discord and Jackbox.tv.",
+        "relation_to_overall_plot": "Transitions the stream from cooperative defusal to dark trivia battle royale.",
+        "status": "resolved",
+        "characters_involved": [
+          "Squeex",
+          "Leslie",
+          "Valkyrae",
+          "Ludwig"
+        ],
+        "start": 10440,
+        "end": 10560
+      },
+      {
+        "thread": "Lobby Leak and Reset",
+        "detailed_description": "Squeex accidentally unhides the room code 'WHNB' on his stream, allowing viewers to quickly hijack the lobby, forcing a game recreation.",
+        "relation_to_overall_plot": "Creates a minor security speedbump resolved by establishing a new private lobby (code DKRC).",
+        "status": "resolved",
+        "characters_involved": [
+          "Squeex",
+          "Leslie",
+          "Valkyrae",
+          "Ludwig"
+        ],
+        "start": 10565,
+        "end": 10695
+      },
+      {
+        "thread": "The Fall of Squeex",
+        "detailed_description": "Squeex is sent to the Killing Room after a trivia failure and gets eliminated in the Pachinko-like Pegs minigame.",
+        "relation_to_overall_plot": "Squeex becomes the first casualty of the game due to a trivia error and bad luck in the Pegs minigame.",
+        "status": "resolved",
+        "characters_involved": [
+          "Squeex",
+          "Leslie",
+          "Valkyrae",
+          "Ludwig"
+        ],
+        "start": 10710,
+        "end": 10785
+      },
+      {
+        "thread": "Valkyrae's Password Elimination",
+        "detailed_description": "Valkyrae fails a Jules Verne trivia question, enters the Killing Room, and is eliminated when other players guess her password.",
+        "relation_to_overall_plot": "Valkyrae is eliminated after her opponents guess her password, leaving only Leslie and Ludwig alive.",
+        "status": "resolved",
+        "characters_involved": [
+          "Valkyrae",
+          "Leslie",
+          "Squeex",
+          "Ludwig"
+        ],
+        "start": 10871,
+        "end": 10950
+      },
+      {
+        "thread": "Ludwig's Poisoning",
+        "detailed_description": "Ludwig fails a trivia question, enters the Killing Room, and gets poisoned by the ghosts of Squeex and Valkyrae.",
+        "relation_to_overall_plot": "Squeex and Valkyrae weaponize their ghost status to poison Ludwig's chalice, eliminating him.",
+        "status": "resolved",
+        "characters_involved": [
+          "Ludwig",
+          "Squeex",
+          "Valkyrae",
+          "Leslie"
+        ],
+        "start": 10955,
+        "end": 11090
+      },
+      {
+        "thread": "The Ghost Takeover",
+        "detailed_description": "Leslie survived the typing round, remained fully alive, and successfully played the escape sequence to win the game in the current segment.",
+        "relation_to_overall_plot": "Leslie is eliminated by Ludwig's ghost in a dictation typing test, resulting in a lobby of entirely deceased players.",
+        "status": "resolved",
+        "characters_involved": [
+          "Leslie",
           "Ludwig",
           "Squeex",
           "Valkyrae"
         ],
-        "start": "1451",
-        "end": "1591"
+        "start": 11172,
+        "end": 11295
       },
       {
-        "thread": "The Freeze-Out",
-        "detailed_description": "Squeex freezes Valkyrae at the cup on Hole 9 to steal 1st place, completing her emotional defeat and establishing Squeex as the dominant player of this segment.",
-        "relation_to_overall_plot": "Resolves the competitive arc of this segment, finalizing Valkyrae's defeat and rising Squeex in the rankings.",
+        "thread": "Trivia Murder Party Final Escape",
+        "detailed_description": "Fuslie clears the final trivia hurdle and successfully escapes the mansion to win.",
+        "relation_to_overall_plot": "Concludes the Jackbox gaming block.",
+        "status": "resolved",
+        "characters_involved": [
+          "Fuslie",
+          "Squeex",
+          "Valkyrae",
+          "Ludwig (bronny)"
+        ],
+        "start": 11310,
+        "end": 11630
+      },
+      {
+        "thread": "Feather Party Pivot",
+        "detailed_description": "The group exits Jackbox and chooses Feather Party as their final multiplayer game of the stream.",
+        "relation_to_overall_plot": "Acts as a bridge between game types.",
+        "status": "resolved",
+        "characters_involved": [
+          "Leslie",
+          "Squeex",
+          "Valkyrae",
+          "Ludwig (bronny)"
+        ],
+        "start": 11631,
+        "end": 11840
+      },
+      {
+        "thread": "Lobby Setup and Calibration",
+        "detailed_description": "The players customize their birds and adjust graphic configurations to optimize frame rate.",
+        "relation_to_overall_plot": "Establishes the setup phase for the new game.",
         "status": "resolved",
         "characters_involved": [
           "Squeex",
+          "Ludwig (bronny)",
+          "Leslie",
           "Valkyrae"
         ],
-        "start": "1592",
-        "end": "1800"
+        "start": 11841,
+        "end": 12000
+      },
+      {
+        "thread": "Spotlight Showdown",
+        "detailed_description": "The first minigame begins, introducing physics-based arena coordination and targeting strategies.",
+        "relation_to_overall_plot": "Starts the competitive match play of Feather Party.",
+        "status": "developing",
+        "characters_involved": [
+          "Squeex",
+          "Ludwig (bronny)",
+          "Leslie",
+          "Valkyrae"
+        ],
+        "start": 12001,
+        "end": "12228"
+      },
+      {
+        "thread": "Spotlight Showdown (Resolution)",
+        "detailed_description": "The first minigame of Feather Party concludes with Ludwig securing the initial victory.",
+        "relation_to_overall_plot": "Establishes Ludwig as Squeex's primary mechanical rival for the final game block.",
+        "status": "resolved",
+        "characters_involved": [
+          "Squeex",
+          "Ludwig",
+          "Valkyrae",
+          "Leslie"
+        ],
+        "start": 12180,
+        "end": 12228
+      },
+      {
+        "thread": "Pixel Smash",
+        "detailed_description": "Squeex executes a highly successful glass-shattering run to take first place.",
+        "relation_to_overall_plot": "Highlights Squeex's surprising competency in the early stages of the new game block.",
+        "status": "resolved",
+        "characters_involved": [
+          "Squeex",
+          "Ludwig",
+          "Valkyrae",
+          "Leslie"
+        ],
+        "start": 12261,
+        "end": 12323
+      },
+      {
+        "thread": "Mine Sweeper",
+        "detailed_description": "Squeex suffers a rapid elimination due to tile misplacement, allowing Ludwig to take the win.",
+        "relation_to_overall_plot": "Shows Squeex's vulnerability to panic under fast-paced tile puzzles.",
+        "status": "resolved",
+        "characters_involved": [
+          "Squeex",
+          "Ludwig",
+          "Valkyrae",
+          "Leslie"
+        ],
+        "start": 12337,
+        "end": 12385
+      },
+      {
+        "thread": "Balloon Rush",
+        "detailed_description": "Ludwig dominates a vertical platforming map to pop the most balloons.",
+        "relation_to_overall_plot": "Keeps the leaderboard highly competitive between Squeex and Ludwig.",
+        "status": "resolved",
+        "characters_involved": [
+          "Squeex",
+          "Ludwig",
+          "Valkyrae",
+          "Leslie"
+        ],
+        "start": 12416,
+        "end": 12496
+      },
+      {
+        "thread": "Icy Showdown",
+        "detailed_description": "Valkyrae outlasts the lobby on a slippery sinking iceberg while Squeex struggles with the physics.",
+        "relation_to_overall_plot": "Illustrates Squeex's classic comedic frustration with slippery physics engines.",
+        "status": "resolved",
+        "characters_involved": [
+          "Squeex",
+          "Ludwig",
+          "Valkyrae",
+          "Leslie"
+        ],
+        "start": 12527,
+        "end": 12574
+      },
+      {
+        "thread": "Ice Hockey Showdown",
+        "detailed_description": "Squeex carries Leslie to a team victory by scoring all three goals of the match.",
+        "relation_to_overall_plot": "Solidifies Squeex's mechanical confidence, elevating his status to the primary target of the lobby.",
+        "status": "resolved",
+        "characters_involved": [
+          "Squeex",
+          "Leslie",
+          "Ludwig",
+          "Valkyrae"
+        ],
+        "start": 12611,
+        "end": 12762
+      },
+      {
+        "thread": "Feather Catch Chaos",
+        "detailed_description": "Valkyrae wins a chaotic free-for-all feather collection round, though Squeex retains his overall scoreboard lead.",
+        "relation_to_overall_plot": "Displays the lobby's shifting focus toward targeting Squeex to prevent him from running away with the overall win.",
+        "status": "resolved",
+        "characters_involved": [
+          "Squeex",
+          "Ludwig",
+          "Valkyrae",
+          "Leslie"
+        ],
+        "start": 12792,
+        "end": 12888
+      },
+      {
+        "thread": "Mini-Football Kickoff",
+        "detailed_description": "matching the Squeex/Ludwig duo against Leslie/Valkyrae.",
+        "relation_to_overall_plot": "Sets up the final team rivalry dynamic of the segment.",
+        "status": "developing",
+        "characters_involved": [
+          "Squeex",
+          "Ludwig",
+          "Valkyrae",
+          "Leslie"
+        ],
+        "start": 12918,
+        "end": 12960
+      },
+      {
+        "thread": "Mini-Football Kickoff Resolution",
+        "detailed_description": "Squeex and Ludwig lose the soccer match to the women, establishing the initial scoreboard baseline.",
+        "relation_to_overall_plot": "Establishes the initial scoreboard baseline of the tournament.",
+        "status": "resolved",
+        "characters_involved": [
+          "Squeex",
+          "Ludwig",
+          "Leslie",
+          "Valkyrae"
+        ],
+        "start": 13050,
+        "end": 13075
+      },
+      {
+        "thread": "Track Race",
+        "detailed_description": "Squeex wins, establishing his high mechanical speed run capabilities in racing.",
+        "relation_to_overall_plot": "Squeex wins and expands his scoreboard lead, starting his dominant run.",
+        "status": "resolved",
+        "characters_involved": [
+          "Squeex",
+          "Valkyrae",
+          "Leslie",
+          "Ludwig"
+        ],
+        "start": 13094,
+        "end": 13316
+      },
+      {
+        "thread": "Count Master",
+        "detailed_description": "Squeex falls early due to poor puzzle tracking, allowing Leslie to win and challenge Squeex's lead.",
+        "relation_to_overall_plot": "Leslie wins, showing Squeex can be challenged when he fails puzzle-based games.",
+        "status": "resolved",
+        "characters_involved": [
+          "Squeex",
+          "Leslie",
+          "Valkyrae",
+          "Ludwig"
+        ],
+        "start": 13236,
+        "end": 13308
+      },
+      {
+        "thread": "Falling Blocks",
+        "detailed_description": "Squeex fakes a keyboard failure, outlasts the lobby, and claims first place, increasing lobby salt.",
+        "relation_to_overall_plot": "Squeex's win via deception increases tension and salt in the lobby.",
+        "status": "resolved",
+        "characters_involved": [
+          "Squeex",
+          "Valkyrae",
+          "Leslie",
+          "Ludwig"
+        ],
+        "start": 13328,
+        "end": 13413
+      },
+      {
+        "thread": "Golden Crab",
+        "detailed_description": "Squeex herded crabs successfully to win, putting him significantly ahead.",
+        "relation_to_overall_plot": "Puts Squeex significantly ahead, prompting the lobby to target him.",
+        "status": "resolved",
+        "characters_involved": [
+          "Squeex",
+          "Valkyrae",
+          "Leslie",
+          "Ludwig"
+        ],
+        "start": 13432,
+        "end": 13540
+      },
+      {
+        "thread": "Shaky Tiles",
+        "detailed_description": "Coordinated lobby targeting successfully eliminates Squeex early, allowing Valkyrae to secure a round victory.",
+        "relation_to_overall_plot": "Highlights the meta-shift of the lobby targeting Squeex to keep the leaderboard competitive.",
+        "status": "resolved",
+        "characters_involved": [
+          "Squeex",
+          "Valkyrae",
+          "Leslie",
+          "Ludwig"
+        ],
+        "start": 13559,
+        "end": 13635
+      },
+      {
+        "thread": "Ball Fight",
+        "detailed_description": "Squeex is immediately eliminated by a bad bounce, and Leslie's victory narrows the overall points gap.",
+        "relation_to_overall_plot": "Squeex's elimination narrows the points gap and humbles his lead.",
+        "status": "resolved",
+        "characters_involved": [
+          "Squeex",
+          "Leslie",
+          "Valkyrae",
+          "Ludwig"
+        ],
+        "start": 13654,
+        "end": 13696
+      },
+      {
+        "thread": "Feather Party Mini-Golf Setup",
+        "detailed_description": "Setup of the bomb-defusal passing game before the clip ends.",
+        "relation_to_overall_plot": "Prepares the players for the next minigame right before the video stream concludes.",
+        "status": "introduced",
+        "characters_involved": [
+          "Squeex",
+          "Ludwig",
+          "Leslie",
+          "Valkyrae"
+        ],
+        "start": 13712,
+        "end": 13723
+      },
+      {
+        "thread": "Feather Party Tournament Climax",
+        "detailed_description": "Squeex wins the final mini-golf course, securing his status as the overall Feather Party champion.",
+        "relation_to_overall_plot": "Concludes the competitive gameplay portion of the livestream.",
+        "status": "resolved",
+        "characters_involved": [
+          "Squeex",
+          "Valkyrae",
+          "Leslie",
+          "Ludwig"
+        ],
+        "start": 13920,
+        "end": 14045
+      },
+      {
+        "thread": "The Great Debt Settlement",
+        "detailed_description": "The group recalculates their complex web of sub-gifting debts from previous wagers, leading Squeex to pay off his remaining balance.",
+        "relation_to_overall_plot": "Resolves the secondary financial stakes established throughout the stream.",
+        "status": "resolved",
+        "characters_involved": [
+          "Squeex",
+          "Leslie",
+          "Valkyrae",
+          "Ludwig"
+        ],
+        "start": 14045,
+        "end": 14230
+      },
+      {
+        "thread": "The Ultimate Game Review",
+        "detailed_description": "The lobby ranks their favorite games of the evening before bidding farewell to their audiences.",
+        "relation_to_overall_plot": "Acts as the narrative resolution and wind-down for the entire 4-hour session.",
+        "status": "resolved",
+        "characters_involved": [
+          "Squeex",
+          "Ludwig",
+          "Valkyrae",
+          "Leslie"
+        ],
+        "start": 14346,
+        "end": 14425
       }
     ],
     "plot_update": [
       {
         "update_number": 1,
-        "update": "The narrative focus shifts from 'the lobby bullying Squeex' to an aggressive, personal feud between Squeex and Valkyrae. Valkyrae's obsessive targeting of Squeex leads to her own mechanical failures and extreme emotional 'tilt.' Squeex exploits this by adopting a smug, defensive playstyle, actively sabotaging Valkyrae to rise in the rankings while she falls to the bottom of the scoreboard. Meanwhile, Leslie uses the threat of future stream punishments to maintain chaotic energy in the lobby."
+        "update": "The overall narrative arc continues to track Squeex's development from a completely clueless novice to a highly disruptive force. In this segment, the dynamic shifts from Squeex merely trying to learn how to survive to Squeex engaging in a heated, highly personal rivalry with Valkyrae. Utilizing vehicles and direct-fire weapons, Squeex actively prevents his friends from scoring while climbing to a respectable 2nd place on the overall lobby scoreboard. Leslie maintains a steady lead, while Ludwig (bronny) and Squeex balance their rivalry with occasional comedic teamwork."
+      },
+      {
+        "update_number": 2,
+        "update": "The competitive dynamic shifts from casual learning to active, hostile sabotage. Leslie maintains her overall scoreboard lead, but the primary narrative focus centers on the escalating, highly personal griefing war between Squeex and Valkyrae. Players actively employ golf carts and heavy weapons as physical blockades rather than scoring tools. Concurrently, Ludwig (bronny) transitions from the bottom of the scoreboard to a spoiler threat by securing his first round victory."
+      },
+      {
+        "update_number": 3,
+        "update": "The Golf Gang tournament concludes with Leslie claiming the overall victory and Squeex finishing second. Squeex pays off part of his sub debt via a deduction from Leslie. The lobby then transitions to competitive Tetr.io, shifting the narrative focus to a classic puzzle-game matchup."
+      },
+      {
+        "update_number": 4,
+        "update": "The lobby transitions from Golf Gang to competitive Tetr.io. After an initial learning curve and a minor technical lobby error, a fierce rivalry emerges between Squeex and Ludwig. While Leslie and Valkyrae struggle to match the speed of the leaders and rely on targeting tactics, Squeex and Ludwig go head-to-head in a close scoreboard race."
+      },
+      {
+        "update_number": 5,
+        "update": "The competitive focus remains on Tetr.io, but the central rivalry shifts from Squeex vs Ludwig to Squeex vs Valkyrae. Valkyrae utilizes aggressive target-calling to disrupt Squeex\u2019s momentum. Under high end-game pressure and esports-related banter, Squeex chokes his leads, allowing Valkyrae to secure a 4-3 tournament victory. The segment wraps with the group calculating and settling their sub-gifting debts."
+      },
+      {
+        "update_number": 6,
+        "update": "The stream's focus shifts as the lobby transitions to SpeedRunners. Squeex, forced to adapt to mouse and keyboard controls, aims to maintain his competitive edge. While he performs exceptionally well during the casual warmups, the introduction of unfamiliar official maps immediately stalls his momentum."
+      },
+      {
+        "update_number": 7,
+        "update": "The stream shifts from fast-paced platforming mechanics to psychological deception and risk-taking. Squeex transitions from his struggles in SpeedRunners to displaying immediate high-risk strategic dominance in Liar's Bar. His primary objective shifts from managing movement physics to utilizing bluffing mechanics to outmaneuver his opponents."
+      },
+      {
+        "update_number": 8,
+        "update": "The players immerse themselves in the high-stakes deception of Liar's Bar. Squeex displays surprise competence with highly accurate \"Spot On\" calls, though his chaotic playstyle eventually catches up to him. The lobby maintains a friendly but intensely competitive atmosphere, eventually resolving the dice match in Ludwig's favor. The group smoothly transitions to \"Liar's Deck\" (cards) to test their bluffing skills in a new format."
+      },
+      {
+        "update_number": 9,
+        "update": "The overarching narrative shifts away from the mechanical challenges of the physics-based games into pure psychological warfare, bluffing, and risk management in \"Liar's Bar.\" The core objective of the creators is to read their friends' facial expressions, call out deceptive claims, and avoid the lethal Russian Roulette mechanic. Squeex utilizes physical props (sunglasses) and voice deflection to mask his tells, surviving a critical trigger pull. Valkyrae's aggressive targeting style backfires when Squeex catches her in a lie, leading to her dramatic elimination. Leslie and Ludwig continue to play as spoiler threats, keeping Squeex on high alert as the match narrows down to the final three players."
+      },
+      {
+        "update_number": 10,
+        "update": "The psychological battle of Liar's Bar concludes with Valkyrae winning the card tournament. Following a brief argument over sub-gifting debts, the lobby pivots to Final Sentence, a competitive typing battle royale. Squeex boasts about his typing speed but is quickly humbled by Ludwig in a warmup round, setting up a competitive dynamic for the official matches."
+      },
+      {
+        "update_number": 11,
+        "update": "The competitive focus shifts from individual typing challenges to team-based coordination in Keep Talking and Nobody Explodes. Divided into gender-based teams, Squeex prioritizes comedy by staging a mock computer crash before executing a chaotic defusal run with Ludwig. Technical delays and comedic stalling cause the boys to fall behind, allowing Leslie and Valkyrae to secure a swift victory and claim their sub-gifting wager."
+      },
+      {
+        "update_number": 12,
+        "update": "The stream shifts from bomb defusal coordination to dark-humored psychological trivia in 'Trivia Murder Party 2' (Jackbox 6). Squeex's initial blunder leaks the lobby, but they recover. The competitive focus turns to a battle of survival, with players dropping one by one via trivia failures and lethal minigames. By the end of the segment, all four players are eliminated and forced to compete as ghosts."
+      },
+      {
+        "update_number": 13,
+        "update": "Fuslie secures the ultimate victory in Trivia Murder Party 2 by outsmarting her ghostly friends. The group then transitions to \"Feather Party,\" customizing colorful bird avatars. The competitive dynamic shifts from trivia survival to physics-based minigame griefing, where the players immediately focus on targeting high-performers like Ludwig."
+      },
+      {
+        "update_number": 14,
+        "update": "The competitive narrative transitions deep into Feather Party. Squeex, who historically struggles during the learning phases of physics-heavy games, quickly establishes a competitive presence on the lobby leaderboard. Rather than trailing behind, Squeex maintains a tight lead over his primary rival Ludwig (bronny). Valkyrae and Leslie maintain solid pressure with sporadic minigame wins. The mechanical highlight of this segment is Squeex's absolute dominance in the team Ice Hockey minigame, where he carries his team by scoring a hat trick."
+      },
+      {
+        "update_number": 15,
+        "update": "The competitive narrative transitions deeper into the Feather Party tournament block. Squeex, who historically struggles during the learning phases of physics-heavy games, maintains a surprisingly tight grip on first place. This triggers a meta-shift in the lobby: rather than playing to win individual games, the other creators (Valkyrae, Leslie, and Ludwig) begin to actively coordinate and target Squeex (\"Let's kill him\") to prevent a runaway victory. Despite Squeex's antics\u2014such as lying about a broken keyboard\u2014this targeted lobbying humbles him in the latter half of the segment, narrowing the leaderboard gap as Leslie and Valkyrae close in."
+      },
+      {
+        "update_number": 16,
+        "update": "The multi-game collaborative stream draws to a close. Squeex, who began the session as a completely incompetent novice, completes his redemption arc by dominating the Feather Party tournament. The remaining time shifts away from mechanical play to social meta-commentary, as the group negotiates and settles their sub-gifting debts. The stream ends on a wholesome note with a collective review of the night's games, highlighting the creators' camaraderie."
       }
     ]
   }

@@ -1,0 +1,233 @@
+{
+  "general_plot_summary": "A multi-game collaborative gaming stream featuring content creators Squeex, Valkyrae, Leslie (Fuslie), and Ludwig (with coaching from QTCinderella). The session captures Squeex's narrative evolution from a mechanically incompetent novice to a highly competitive, disruptive rival. Spanning across Golf Gang, Tetr.io, SpeedRunners, Liar's Bar, typing and bomb defusal games, Jackbox, and Feather Party, the creators engage in intense friendly rivalries, tactical targeting, and sub-gifting wagers before ultimately resolving their debts and reflecting on the evening.",
+  "major_plot_events": [
+    {
+      "title": "Golf Gang Tournament & Sabotage Wars",
+      "detailed_description": "The creators kick off the stream with a high-stakes 18-hole mini-golf match. Squeex struggles initially under QT's backseat coaching but quickly adopts aggressive weaponized items (rockets, golf carts) to target Valkyrae, establishing a chaotic lobby dynamic. Leslie ultimately secures the tournament victory, prompting Squeex to settle his initial sub-gifting debts.",
+      "start": "0",
+      "end": "3330"
+    },
+    {
+      "title": "Tetr.io Competitive Duel & Valkyrae's Triumph",
+      "detailed_description": "The lobby transitions to competitive Tetr.io. While Squeex and Ludwig go head-to-head in a close scoreboard race, Valkyrae utilizes aggressive targeting and coordinated trash-talk to disrupt Squeex's focus. Squeex chokes under the pressure of end-game banter, allowing Valkyrae to secure the overall tournament victory.",
+      "start": "3335",
+      "end": "5220"
+    },
+    {
+      "title": "SpeedRunners Mechanical Adaptation",
+      "detailed_description": "The players pivot to SpeedRunners, challenging Squeex's adaptability to keyboard and mouse controls. Squeex shows early promise during warmup races but falters as soon as complex official maps are introduced, falling behind Ludwig and Valkyrae's established pacing.",
+      "start": "5220",
+      "end": "6515"
+    },
+    {
+      "title": "Liar's Bar: Deception & Psychological Warfare",
+      "detailed_description": "The creators dive into the psychological parlor games of Liar's Bar, playing Liar's Dice and Liar's Deck. Squeex employs sunglasses, physical props, and lucky Russian Roulette survivals to mask his tells. Squeex successfully eliminates his primary rival Valkyrae in a dramatic bluff, though she ultimately outlasts him in a later round to win the cards segment.",
+      "start": "6516",
+      "end": "9035"
+    },
+    {
+      "title": "Typing Battles & Team Bomb Defusal",
+      "detailed_description": "The group tests their speed in the competitive typing game Final Sentence, which Leslie dominates while Squeex is humbled by typos. They then split into teams for a head-to-head bomb defusal race in Keep Talking and Nobody Explodes. Squeex prioritizes comedy with a fake computer crash, causing the boys to lose their sub-gifting wager to the girls.",
+      "start": "9040",
+      "end": "10440"
+    },
+    {
+      "title": "Trivia Murder Party 2 Survival",
+      "detailed_description": "The lobby moves to Jackbox's Trivia Murder Party 2. After Squeex accidentally leaks the room code, they restart a secure room. The creators face lethal trivia rounds and minigames, with all of them eventually getting eliminated. Competing as ghosts, they try to block Leslie, but she successfully clears the final escape sequence to win.",
+      "start": "10440",
+      "end": "11630"
+    },
+    {
+      "title": "Feather Party & Squeex's Redemption Arc",
+      "detailed_description": "The stream concludes with Feather Party. Squeex showcases surprising mechanical competence, winning several minigames and prompting the other creators to actively target him to keep the scoreboard competitive. Squeex overcomes the coordinated sabotage to claim the tournament crown, ending the evening with a final round of sub-debt settlements and a wholesome game-ranking discussion.",
+      "start": "11631",
+      "end": "14425"
+    }
+  ],
+  "local_coarse_events": [
+    {
+      "event_name": "Orbital Laser Strike on Squeex",
+      "detailed_description": "Valkyrae strikes Squeex with an Orbital Laser. Squeex's shield fails to protect him, prompting comical outrage.",
+      "status": "resolved",
+      "characters_involved": [
+        "Squeex",
+        "Valkyrae"
+      ],
+      "start": 2710,
+      "end": 2740
+    },
+    {
+      "event_name": "Golf Cart Cup Blockade",
+      "detailed_description": "Valkyrae denies Squeex a golf cart ride. Squeex gets his own cart and blocks the cup to prevent others from scoring, securing first place.",
+      "status": "resolved",
+      "characters_involved": [
+        "Squeex",
+        "Valkyrae"
+      ],
+      "start": 2890,
+      "end": 3020
+    },
+    {
+      "event_name": "Massive Cliff Jump on final Base Jump hole",
+      "detailed_description": "The players execute a massive cliff jump on the final 'Base Jump' hole.",
+      "status": "resolved",
+      "characters_involved": [
+        "Squeex",
+        "Valkyrae",
+        "Leslie",
+        "Ludwig"
+      ],
+      "start": 3110,
+      "end": 3150
+    },
+    {
+      "event_name": "End of Golf Match and Leslie's Victory",
+      "detailed_description": "The golf match ends. Leslie wins the overall lobby wager, while Squeex finishes in a close second.",
+      "status": "resolved",
+      "characters_involved": [
+        "Squeex",
+        "Valkyrae",
+        "Leslie",
+        "Ludwig"
+      ],
+      "start": 3210,
+      "end": 3245
+    },
+    {
+      "event_name": "Sub-Gifting Debt Calculation and Transition to Tetr.io",
+      "detailed_description": "Back in the main menu, Leslie calculates Squeex's sub-gifting debt, and the group decides to transition to Tetr.io.",
+      "status": "resolved",
+      "characters_involved": [
+        "Squeex",
+        "Valkyrae",
+        "Leslie",
+        "Ludwig"
+      ],
+      "start": 3250,
+      "end": 3330
+    },
+    {
+      "event_name": "Tetr.io Lobby Leaks and Accidental Kick",
+      "detailed_description": "During Tetr.io lobby creation, Squeex leaks the join code and accidentally kicks Valkyrae from the lobby.",
+      "status": "resolved",
+      "characters_involved": [
+        "Squeex",
+        "Valkyrae",
+        "Leslie",
+        "Ludwig"
+      ],
+      "start": 3390,
+      "end": 3450
+    },
+    {
+      "event_name": "Tetr.io Room Assembly and Practice Round",
+      "detailed_description": "The players successfully assemble in a new Tetr.io room and launch a practice round.",
+      "status": "resolved",
+      "characters_involved": [
+        "Squeex",
+        "Valkyrae",
+        "Leslie",
+        "Ludwig"
+      ],
+      "start": 3455,
+      "end": 3480
+    },
+    {
+      "event_name": "Tetr.io Warm-up & Mechanics Tutorial",
+      "detailed_description": "Squeex, Leslie, Ludwig, and Valkyrae learn Tetr.io controls in a practice lobby. Squeex struggles with holding blocks (Shift key) while Leslie wins the trial run.",
+      "status": "resolved",
+      "characters_involved": [
+        "Squeex",
+        "Leslie",
+        "Ludwig",
+        "Valkyrae"
+      ],
+      "start": 3480,
+      "end": 3560
+    }
+  ],
+  "characters": [
+    {
+      "character_id": "Squeex",
+      "name": "Squeex",
+      "role": "Primary POV streamer",
+      "description": "Male with glasses and a mustache.",
+      "personality": "Energetic, expressive, and initially incompetent at the game.",
+      "goals_or_motivations": "Learn the game mechanics, avoid coming last, and win sub wagers while retaliating against his friends.",
+      "evidence": "In-game name: 'Air Coots'",
+      "confidence": "high",
+      "in_game_name": "Air Coots",
+      "alias": "Squeex"
+    },
+    {
+      "character_id": "Valkyrae",
+      "name": "Valkyrae",
+      "role": "Collaborator / Competitor",
+      "description": "Female voice chat participant.",
+      "personality": "Enthusiastic, aggressive with in-game weapons, and highly competitive.",
+      "goals_or_motivations": "Win the courses and sabotage Squeex and other players.",
+      "evidence": "In-game name: 'VALKYRAE'",
+      "confidence": "high",
+      "in_game_name": "VALKYRAE"
+    },
+    {
+      "character_id": "Leslie",
+      "name": "Leslie / Fuslie",
+      "role": "Lobby Host / Competitor",
+      "description": "Female voice chat participant.",
+      "personality": "Cheerful, instigator of the sub-gifting wager.",
+      "goals_or_motivations": "Win the holes and claim the sub-gifting bounty.",
+      "evidence": "In-game name: 'happily married'",
+      "confidence": "high",
+      "in_game_name": "happily married"
+    },
+    {
+      "character_id": "QT",
+      "name": "QT / QtCinderella",
+      "role": "Coach / Competitor",
+      "description": "Female voice chat participant.",
+      "personality": "inactive / absent",
+      "goals_or_motivations": "Help Squeex improve while keeping the lobby competitive.",
+      "evidence": "QT Cinderella only assists Squeex with backseat coaching and does not play in the matches; the account 'bronny' is controlled by Ludwig.",
+      "confidence": "high",
+      "in_game_name": "None (backseat coaching only)"
+    }
+  ],
+  "media_format": "Livestream gameplay with picture-in-picture facecam and multi-creator voice chat.",
+  "overall_setting": {
+    "location": "Liar's Bar interior",
+    "time_period": "Modern day.",
+    "visual_atmosphere": "Dark, gritty, suspenseful, and humorous",
+    "social_context": "Friendly, competitive multiplayer stream collaboration between prominent content creators."
+  },
+  "relationship_graph": [
+    {
+      "source": "QT",
+      "target": "Squeex",
+      "relationship": "Coach and Pupil",
+      "evidence": "QT step-by-step guides a struggling Squeex through changing club degrees and aiming, creating a funny, codependent dynamic.",
+      "confidence": "high"
+    },
+    {
+      "source": "Valkyrae",
+      "target": "Squeex",
+      "relationship": "Playful Hostility",
+      "evidence": "Valkyrae consistently target Squeex with weapons (pistols, freeze bombs), prompting loud, comical outbursts of mock anger from him.",
+      "confidence": "high"
+    },
+    {
+      "source": "Leslie",
+      "target": "Squeex",
+      "relationship": "Playful Hostility",
+      "evidence": "Leslie consistently target Squeex with weapons (pistols, freeze bombs), prompting loud, comical outbursts of mock anger from him.",
+      "confidence": "high"
+    },
+    {
+      "source": "Group",
+      "target": "Group",
+      "relationship": "Friendly Wager",
+      "evidence": "The group establishes a 10-sub gifting rule for hole winners, elevating the competitive tension.",
+      "confidence": "high"
+    }
+  ]
+}

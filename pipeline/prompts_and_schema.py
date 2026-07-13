@@ -42,7 +42,7 @@ Analyze the video segment and extract:
 5. Keep track of all funny moments, interesting points, and consequential events
     - Describe it in a moderate amount of detail
     - give the characters involved
-    - give a start and end time (in seconds)
+    - give a start and end time as a plain integer number of seconds from the start of the video (e.g. 808). NEVER use MM:SS clock format, units like "808s", or words
 
 6. A Narrative Timeline:
    - describe the overarching plot, by describing the overall story the Author/Creator is trying to tell, the motives and purpose of the characters in this plot, and how they are accomplishing this goal
@@ -63,7 +63,7 @@ ABSOLUTE RULES:
 - Transfer EVERY fact in the memo into the JSON. Do not drop, merge, shorten, or paraphrase any detail.
 - If the memo lists N events, the JSON must contain N events. Never collapse multiple events into one.
 - Copy descriptions essentially verbatim; only lightly reword to fit a field.
-- Copy every start/end timestamp exactly as written in the memo (in seconds).
+- Write every start/end timestamp as a plain integer number of seconds. Convert clock formats ("13:28" -> 808) and strip units ("1800s" -> 1800). Never put words, ranges, or explanations in a timestamp field.
 - Every character mentioned in the memo must appear in key_characters.
 - Every relationship described must appear in relationship_graph.
 - Do NOT invent information that is not in the memo. Leave a field "" only if the memo truly has nothing for it.
@@ -99,7 +99,7 @@ Analyze the video segment and extract:
 1. Keep track of all funny moments, interesting points, and consequential events
     - Describe it in a moderate amount of detail
     - give the characters involved
-    - give a start and end time (in seconds) remember the video starts at {start}
+    - give a start and end time as a plain integer number of seconds on the FULL video timeline: this segment runs from second {start} to second {end}, so every timestamp must be a bare number in that range. NEVER use MM:SS clock format, units like "900s", or words
 
 2. A Narrative Timeline:
    - give a plot update, by updating the description of the overall story the Author/Creator is trying to tell, the motives and purpose of the characters in this plot, and how they are accomplishing this goal
@@ -111,6 +111,7 @@ Analyze the video segment and extract:
 
 
 Rules:
+- The video file may contain roughly 30 extra seconds of footage past second {end}. Ignore everything after second {end}; it belongs to the next segment and will be analyzed there.
 - Do not invent names. Use "unknown_person_1", etc. if needed.
 - Distinguish observed facts from inferred interpretations.
 - Prefer concise, stable, reusable facts over detailed moment-by-moment summary.""" 
@@ -129,7 +130,7 @@ ABSOLUTE RULES:
 - Transfer EVERY new event in the memo into significant_events. If the memo lists N events, output N events. Never merge or drop events.
 - Transfer EVERY new plot thread into narrative_timeline.plotline. Never merge threads.
 - Copy descriptions essentially verbatim; only lightly reword to fit a field.
-- Copy every start/end timestamp EXACTLY as written in the memo (in seconds).
+- Write every start/end timestamp as a plain integer number of seconds. Convert clock formats ("13:28" -> 808) and strip units ("1800s" -> 1800). If the memo has no usable number for a timestamp, use the segment's start or end second instead. Never put words, ranges, or explanations in a timestamp field.
 - For EACH correction the memo states, emit one corrections[] entry:
     target_collection : which part of the prior JSON is wrong
         (key_characters | relationship_graph | narrative_timeline | plotline | overall_setting | media_format)
@@ -160,16 +161,18 @@ You are performing fine-grained semantic comprehension of a 5-minute video scene
 The goal is to build a high-resolution semantic trace for downstream video editing, retrieval, and QA.
 To do this section the video into regular intervals of approximately 20-second  or semantic boundaries
 Rules for intervals:
-- Use seconds as numbers.
+- Every start_sec/end_sec must be a plain number of seconds on the FULL video timeline: this scene runs from second {start} to second {end}, so every timestamp must be a number in that range. NEVER use MM:SS clock format, units, or words.
+- The video file may contain roughly 30 extra seconds of footage past second {end}. Ignore everything after second {end}; it belongs to the next scene and will be analyzed there.
 - Each part must satisfy start_sec < end_sec.
 - Parts must be sorted by start_sec.
-- Every second of the video must be covered.
+- Every second from {start} to {end} must be covered.
 - Do not output overlapping segments.
 
 Each interval should include:
 - extract paraphrased dialogue
 - extract the narrative-relevance of this scene
 - extract a visual description scene
+- how engaging this section as a float from 0-10
 - assign timestamps at approximately 20-second intervals or semantic boundaries
 
 Scene absolute time range:
@@ -225,8 +228,8 @@ COARSE_INITIAL_FORMAT = {
                             "type": "array",
                             "items": {"type": "string"},
                         },
-                        "start": {"type": "string"},  # ADDED
-                        "end": {"type": "string"},     # ADDED
+                        "start": {"type": "integer"},  # ADDED
+                        "end": {"type": "integer"},     # ADDED
                     },
                     "required": [
                         "event_name",
@@ -333,8 +336,8 @@ COARSE_INITIAL_FORMAT = {
                                             "type": "array",
                                             "items": {"type": "string"},
                                         },
-                                        "start": {"type": "string"},  # ADDED
-                                        "end": {"type": "string"},     # ADDED
+                                        "start": {"type": "integer"},  # ADDED
+                                        "end": {"type": "integer"},     # ADDED
                                     },
                                     "required": [
                                         "thread",
@@ -434,6 +437,7 @@ FINE_FORMAT = {
                         "event_name": {"type": "string"},
                         "start_sec": {"type": "number"},
                         "end_sec": {"type": "number"},
+                        "engagment": {"type": "number"},
                         "paraphrased_dialogue": {"type": "string"},
                         "narrative_relevance": {"type": "string"},
                         "visual_description": {"type": "string"}
@@ -442,6 +446,7 @@ FINE_FORMAT = {
                         "event_name",
                         "start_sec",
                         "end_sec",
+                        "engagment",
                         "paraphrased_dialogue",
                         "narrative_relevance",
                         "visual_description"
@@ -476,8 +481,8 @@ COARSE_SUBSEQUENT_FORMAT = {
                             "type": "array",
                             "items": {"type": "string"},
                         },
-                        "start": {"type": "string"},  # ADDED
-                        "end": {"type": "string"},     # ADDED
+                        "start": {"type": "integer"},  # ADDED
+                        "end": {"type": "integer"},     # ADDED
                     },
                     "required": [
                         "event_name",
@@ -509,8 +514,8 @@ COARSE_SUBSEQUENT_FORMAT = {
                                             "type": "array",
                                             "items": {"type": "string"},
                                         },
-                                        "start": {"type": "string"},  # ADDED
-                                        "end": {"type": "string"},     # ADDED
+                                        "start": {"type": "integer"},  # ADDED
+                                        "end": {"type": "integer"},     # ADDED
                                     },
 
                                     "required": [
@@ -540,3 +545,140 @@ COARSE_SUBSEQUENT_FORMAT = {
         ],
     },
 }
+
+# ----------------------------------------------------------------------------
+# PLANNING AGENT (paper section 3.4.1, "Planning and Narration")
+# Two-stage like the coarse pipeline: a freeform reasoning memo first, then a
+# transcriber prompt that structures the memo into a storyboard for the
+# downstream narration and retrieval agents.
+# ----------------------------------------------------------------------------
+PLANNING_PROMPT = """You are a high-level video-edit planning agent for a long-form video editing system.
+Your job is to plan a single high-quality YouTube video cut down from a {video_duration} (HH:MM:SS format) source video.
+
+You will be given an editing brief describing the video to produce, plus the source video's
+narrative index: its plot summary, narrative timeline, key characters, and significant
+events with timestamps.
+
+Task:
+Produce a freeform planning memo, not JSON.
+
+You have three objectives to reason about:
+1. Interpret the brief: what tone does the video call for (comedic, dramatic, nostalgic, hype)?
+   From whose perspective should the story be told? What scope of the source does it cover
+   (which arcs, characters, or time ranges), and what should be left out?
+2. Decide the narrative framing: the finished video must hold attention on YouTube. It should
+   open with a hook that sells the video in the first seconds, build momentum with tight
+   pacing, cut anything that does not earn its screen time, and land on a satisfying payoff.
+   The framing may differ from the source's original telling.
+3. Decompose the video into an ordered storyboard of segments (thematic or chronological)
+   that together fulfill the brief.
+
+For the interpretation, state:
+- the tone, the narrative perspective, and the scope (what is included and excluded, and why)
+
+For EACH storyboard segment, state:
+- a short title and its narrative function (hook, exposition, rising_action, climax,
+  resolution, montage, or transition)
+- what this segment should convey, how it serves the brief, and why it keeps viewers watching
+- which plot threads or events from the index it should draw from, using their exact
+  names from the index
+- the source time range(s) to pull footage from, as plain integer seconds on the full
+  video timeline (e.g. 808). NEVER use MM:SS clock format, units like "808s", or words
+- a target duration for the segment in seconds
+
+Rules:
+- Ground every segment in events that actually appear in the index. Do not invent moments.
+- Copy event and thread names verbatim from the index so downstream retrieval can match them.
+- Prefer fewer, stronger segments over exhaustive coverage; the storyboard must read as one
+  coherent narrative, not a list of clips.
+- Favor the source's highest-engagement moments, but only where they serve the story.
+- Distinguish what the footage shows from what the narration will need to explain.
+
+EDITING BRIEF:
+{editing_brief}
+
+NARRATIVE INDEX:
+{context}
+"""
+
+PLANNING_FORMAT = {
+    "type": "text",
+    "mime_type": "application/json",
+    "schema": {
+        "type": "object",
+        "properties": {
+            "request_interpretation": {
+                "type": "object",
+                "properties": {
+                    "tone": {"type": "string"},
+                    "perspective": {"type": "string"},
+                    "scope": {"type": "string"},
+                    "framing": {"type": "string"},
+                },
+                "required": ["tone", "perspective", "scope", "framing"],
+            },
+            "storyboard": {
+                "type": "array",
+                "items": {
+                    "type": "object",
+                    "properties": {
+                        "segment_number": {"type": "integer"},
+                        "title": {"type": "string"},
+                        "narrative_function": {
+                            "type": "string",
+                            "enum": [
+                                "hook", "exposition", "rising_action",
+                                "climax", "resolution", "montage", "transition",
+                            ],
+                        },
+                        "description": {"type": "string"},
+                        "source_events": {
+                            "type": "array",
+                            "items": {"type": "string"},
+                        },
+                        "source_time_ranges": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "start": {"type": "integer"},
+                                    "end": {"type": "integer"},
+                                },
+                                "required": ["start", "end"],
+                            },
+                        },
+                        "target_duration_sec": {"type": "integer"},
+                    },
+                    "required": [
+                        "segment_number",
+                        "title",
+                        "narrative_function",
+                        "description",
+                        "source_events",
+                        "source_time_ranges",
+                        "target_duration_sec",
+                    ],
+                },
+            },
+        },
+        "required": ["request_interpretation", "storyboard"],
+    },
+}
+
+PLANNING_ALLIGNMENT_PROMPT = """
+You convert a free-form edit-planning memo into a JSON storyboard. You are a TRANSCRIBER, not a summarizer.
+
+ABSOLUTE RULES:
+- Transfer EVERY storyboard segment in the memo into storyboard[]. If the memo lists N segments, output N segments, in the same order. Never merge or drop segments.
+- Copy titles, descriptions, and event/thread names essentially verbatim; only lightly reword to fit a field.
+- Write every start/end timestamp as a plain integer number of seconds. Convert clock formats ("13:28" -> 808) and strip units ("1800s" -> 1800). Never put words, ranges, or explanations in a timestamp field.
+- narrative_function must be exactly one of: hook, exposition, rising_action, climax, resolution, montage, transition. Pick the closest match to what the memo says.
+- Fill request_interpretation from the memo's interpretation of tone, perspective, scope, and framing.
+- Do NOT invent information that is not in the memo. Leave a field "" or an array [] only if the memo truly has nothing for it.
+- Output ONLY valid JSON matching the schema below. No prose, no markdown fences.
+
+JSON SCHEMA TO FILL (match field names and nesting EXACTLY):
+{planning_skeleton}
+
+FREE FORM PLANNING MEMO:
+"""

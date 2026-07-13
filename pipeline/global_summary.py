@@ -9,6 +9,7 @@ import math
 
 import subprocess
 import prompts_and_schema
+from subsequent_alligment import normalize_timestamp
 client = genai.Client()
 
 # ----------------------------------------------------------------------------
@@ -47,7 +48,7 @@ GLOBAL_SUMMARY_FORMAT = {
 }
 
 #create a general summary and a local plot summary
-with open("../outputs/plot.json") as f:
+with open("../outputs/plot_2.json") as f:
     plot = json.load(f)
 summary_prompt = f"""
 You are an agent that converts plot details into a compact context packet for fine-grained
@@ -91,10 +92,14 @@ def get_video_duration(file_path):
     info = json.loads(result.stdout)
     total_seconds = float(info["format"]["duration"])
     return total_seconds
-num_seconds = 30*60 #get_video_duration("../inputs/Squeex_raw.webm")
+num_seconds = get_video_duration("../inputs/Squeex_raw.webm")
 SEG_DURATION = 5*60
-num_fine_segs = math.ceil(num_seconds/SEG_DURATION)
-coarse_json_location = "../outputs/coarse_events.json"
+directory = Path("../inputs/chunks_5min")
+
+file_paths = [str(p) for p in directory.iterdir() if p.is_file()]
+num_fine_segs = len(file_paths)
+coarse_json_location = "../outputs/coarse_events_2.json"
+
 with open(coarse_json_location) as f:
     coarse_events = json.load(f)
 
@@ -103,10 +108,9 @@ for i in range(num_fine_segs):
     start = int(i/3) * 900
     end = int(i/3+1) * 900
     local_coarse_events = []
-    for event in coarse_events:
-        minutes, seconds = event["end"].split(":")
-        end_sec = int(minutes) * 60 + int(seconds)
-        if end_sec <= end and end_sec >start:
+    for event in coarse_events["coarse_events"]:
+        end_sec = normalize_timestamp(event["end"])
+        if end_sec is not None and end_sec <= end and end_sec > start:
             local_coarse_events.append(event)
     seg_info["local_coarse_events"] = local_coarse_events
     seg_info["characters"] = plot["key_characters"]

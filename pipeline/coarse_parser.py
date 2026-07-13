@@ -14,7 +14,7 @@ import json
 
 import subprocess
 import prompts_and_schema
-from subsequent_alligment import apply_segment_delta
+from subsequent_alligment import apply_segment_delta, normalize_event_times
 client = genai.Client()
 #TODO need to change the output timestamps so there are (hh:mm:ss)
 def model_json(obj):
@@ -42,6 +42,21 @@ def get_video_duration(file_path):
     hours, remainder = divmod(int(total_seconds), 3600)
     minutes, seconds = divmod(remainder, 60)
     return f"{hours:02d}:{minutes:02d}:{seconds:02d}"
+
+def get_video_duration_seconds(file_path):
+    """Return video duration formatted as HH:MM:SS using ffprobe."""
+    result = subprocess.run(
+        [
+            "ffprobe", "-v", "quiet",
+            "-print_format", "json",
+            "-show_format",
+            file_path,
+        ],
+        capture_output=True, text=True, check=True,
+    )
+    info = json.loads(result.stdout)
+    total_seconds = float(info["format"]["duration"])
+    return total_seconds
 
 original_video = "../inputs/Squeex_raw.webm"
 video_duration = get_video_duration(original_video)
@@ -115,11 +130,18 @@ persistent_info = output_json["persistent_information"]
 coarse_events = list(output_json["significant_events"])
 plotline = persistent_info["narrative_timeline"]["plotline"]
 
+# The model emits timestamps as MM:SS, "123s", or prose; force absolute ints.
+for item in coarse_events + plotline:
+    normalize_event_times(item, 0, 900)
+
 directory = Path("../inputs/chunks_15min")
 
-file_paths = [str(p) for p in directory.iterdir() if p.is_file()]
+file_paths = sorted(
+    [str(p) for p in directory.iterdir() if p.is_file()],
+    key=lambda path: int(Path(path).stem.split("_start_")[1])
+)
 #intial and subsequent video chunks have different prompts
-for i in range(1,2):
+for i in range(1,len(file_paths)):
     subsequent_cache_key = str(Path(file_paths[i]).resolve())
     subsequent_file = None
     if subsequent_cache_key in file_cache:
@@ -140,8 +162,10 @@ for i in range(1,2):
         file_cache[subsequent_cache_key] = subsequent_file.name
         file_cache_path.write_text(file_json(file_cache))
 
-    start = 900 * (i)
-    end = 900 * (i+1)
+    start = 870 * (i)
+    end = 870 * (i+1)
+    if i == len(file_paths) -1: 
+        end = int(get_video_duration_seconds(file_paths[i])) + start
 
     subsequent_prompt = prompts_and_schema.COARSE_SUBSEQUENT_PROMPT.format(
     segement_num=(i+1),
@@ -178,7 +202,7 @@ for i in range(1,2):
     )
     print(delta)
     persistent_info, coarse_events, new_events = apply_segment_delta(
-        persistent_info, coarse_events, delta, i
+        persistent_info, coarse_events, delta, i, seg_start=start, seg_end=end
     )
     
     chunk_record = {
